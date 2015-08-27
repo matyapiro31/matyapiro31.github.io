@@ -1,0 +1,45 @@
+Origin: altrepo.eu
+Label: altrepo.eu debian repository
+Suite: trusty
+Version: 14.04
+Codename: trusty
+Architecture: amd64 armhf i386
+Components: main
+Description: Packages from altrepo.eu projects
+Date: Thu, 27 Aug 2015 09:51:00 UTC
+MD5Sum:
+ c7e53622b2c377bba61e3224723df4c2            13197 main/binary-amd64/Packages
+ e2287e21bb513aa662a92100c23e398a              122 main/binary-amd64/Release
+ 47e84aec26cf831182bfb81b27287250             4754 main/binary-armhf/Packages
+ accd104b96cea2077272d9e8f09e6a62              122 main/binary-armhf/Release
+ 47e84aec26cf831182bfb81b27287250             4754 main/binary-i386/Packages
+ f44c714a5a341929d591c6b47b78df62              121 main/binary-i386/Release
+ 39aed573c33d4e6c5da5017ddaa9a485              123 main/source/Release
+ 10008fc6eea6b458934f0c0af93ecdb3             4143 main/source/Sources
+SHA1:
+ 3c6da0b1456d896c76f3c17d2bc2c51b25192dea            13197 main/binary-amd64/Packages
+ 879653acc7db305a5bb9e6a62b1f20c1253086d8              122 main/binary-amd64/Release
+ 23e99b20026f6e3798da8367aec8850197cdc478             4754 main/binary-armhf/Packages
+ ccb8b03934bb6e973d33bf290bb809eea3a7538d              122 main/binary-armhf/Release
+ 23e99b20026f6e3798da8367aec8850197cdc478             4754 main/binary-i386/Packages
+ 36d4fa2e4f0185bd48be7c32380b972ae8c31170              121 main/binary-i386/Release
+ 51a162f040f436d2ce62e3ad7765c55034b59f71              123 main/source/Release
+ 5c8a980bf2b399da1e417fe4b49b7c009070fbd0             4143 main/source/Sources
+SHA256:
+ e11bdf048b5780b69bd3794819a0307343caa594f173f14789b92b86b58279cb            13197 main/binary-amd64/Packages
+ 1a05bae8673030cf199549c19e5e48c8a3435361bf4fafed97ef2b5d7b37a9e1              122 main/binary-amd64/Release
+ 22b49551829ff4918f238e3eaf34c32b2297876dfc921b3b0e35d21be9add042             4754 main/binary-armhf/Packages
+ 6499cfbeb4c37491a63d370572de9a75d1d61dbe0694c73e251c074fca773c40              122 main/binary-armhf/Release
+ 22b49551829ff4918f238e3eaf34c32b2297876dfc921b3b0e35d21be9add042             4754 main/binary-i386/Packages
+ 4dac66579c8dc3fb88b8e6f3c67d3f1f0b53458b80a30e86309a467f25a4b77c              121 main/binary-i386/Release
+ 02e58df8d58a77cb6b1f59c945ea5aa6c22a217c7b74b15f7f6c24a4ad614559              123 main/source/Release
+ 47581771e1996a83b386e0561fe099c2355e3b73e2c1d496c9c7f54b2bd07ec2             4143 main/source/Sources
+SHA512:
+ c2faccc7161b234252851a66259fc5c8e6d0be340c92341099d74b75768627f1edd04730a8c8caedb517210fcecfe5ddd060f7837b452c0213f3ce68b05823b9            13197 main/binary-amd64/Packages
+ 591c3ccb385d1e2081538df8e37b92feb2c65b5dc0c96a96ef17fe4879f97afc0fd7110a549a20aa7788aa62ef1cc9b60382bde9c0e31c96ceb2a421fe135a34              122 main/binary-amd64/Release
+ bf853cd7adb63d33a831177dc8e387d6e21822a25ad3293877e559a8510c9924b6ee6f2e83840902290fda95541b4052fd63ee740c28dce4c68c3107a270021d             4754 main/binary-armhf/Packages
+ dc0c5d8f765e47f30384256d5cdf205d49455b2c7836605f434b28a2f1b1707411a6bfffd274f2a0a74cba5a31dcc63863811a345a4e16e416f6c877ac962515              122 main/binary-armhf/Release
+ bf853cd7adb63d33a831177dc8e387d6e21822a25ad3293877e559a8510c9924b6ee6f2e83840902290fda95541b4052fd63ee740c28dce4c68c3107a270021d             4754 main/binary-i386/Packages
+ 1d1e0f6294af4fd6319f736a1f5fa950ec9adb38c01f50273f3c8fe618a4ba245efa3ddb9e9491380fe731838315b98a0ae8114495fd1f42de7c2f0b680dac18              121 main/binary-i386/Release
+ 9a70148d980ec69d584a214c123fe4a7110b692cbc2e312338430755b745ca6d06306fa5d32ac35eb5c4b655a6ac377409d2f1e23b5b05d6e6316ee6b60405ff              123 main/source/Release
+ 8ffb628cc7de2dcfd2c16e915dc790b672c2fc0197d8939d85b6914b93fcad4fd79b7806827e38bb66f6c9634f2ce0eecdd8c72573e6cbe65d71c1abeb7103d5             4143 main/source/Sources

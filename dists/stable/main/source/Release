@@ -1,0 +1,6 @@
+Archive: stable
+Origin: altrepo.eu
+Label: altrepo.eu debian repository
+Version: 8.1
+Component: main
+Architecture: source

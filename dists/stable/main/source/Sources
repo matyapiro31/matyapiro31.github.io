@@ -1,0 +1,67 @@
+Package: thrift
+Binary: thrift-compiler, python-thrift, python-thrift-dbg, ruby-thrift, libthrift-java, libthrift-cil, libthrift-perl, libthrift0, libthrift-dev, php5-thrift
+Version: 1.0.0-dev+0debian1~stable
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby1.8-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
+Architecture: any all
+Standards-Version: 3.7.2
+Format: 1.0
+Directory: pool/main/t/thrift
+Files:
+ c81663f94dbc7242b0da433d06d13a13 2514 thrift_1.0.0-dev+0debian1~stable.dsc
+ c3f9794d92184d2188338a529ad47126 14691785 thrift_1.0.0-dev+0debian1~stable.tar.gz
+Homepage: http://thrift.apache.org/
+Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
+Vcs-Git: https://git-wip-us.apache.org/repos/asf/thrift.git
+Package-List:
+ libthrift-cil deb libs extra arch=all
+ libthrift-dev deb libdevel extra arch=any
+ libthrift-java deb libs extra arch=all
+ libthrift-perl deb perl extra arch=all
+ libthrift0 deb devel extra arch=any
+ php5-thrift deb php extra arch=any
+ python-thrift deb python extra arch=any
+ python-thrift-dbg deb python extra arch=any
+ ruby-thrift deb libs extra arch=all
+ thrift-compiler deb devel extra arch=any
+Checksums-Sha1:
+ 4b052c2364d3fe8c573d980e4cb9755dcb0b5c86 2514 thrift_1.0.0-dev+0debian1~stable.dsc
+ c41a1b2232fe3e0c0aeb0b6260d09468718b9305 14691785 thrift_1.0.0-dev+0debian1~stable.tar.gz
+Checksums-Sha256:
+ 18849285222e427a028994b712542afb275c14291eb14081b5d0ce1e8c834067 2514 thrift_1.0.0-dev+0debian1~stable.dsc
+ ca978450e5472d7eb64f38fb636ca95df7b7f073ce20f4cbd223a250f8ad5dd8 14691785 thrift_1.0.0-dev+0debian1~stable.tar.gz
+Checksums-Sha512:
+ 15107aa1fd55c6c25cbb730be3c4755d09ebc3b11dc12d2c2824dc4169df88362871092d91ff644ce4fa3dff49185ec8c815e1fcac395ff0813315494c937ab6 2514 thrift_1.0.0-dev+0debian1~stable.dsc
+ 4f4570c4c64b5bca885ceae2d9a940cf378c33035a09a3e7c8ab750de45cf62d12d43affe86b3566f9d8393cc20187c3ec7fb85ffedcb5bfc0a9f7d645371ef1 14691785 thrift_1.0.0-dev+0debian1~stable.tar.gz
+
+Package: purple-line
+Binary: purple-line, purple-line-dbg
+Version: 0.1-debian1~stable
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Build-Depends: debhelper (>= 9), thrift-compiler, libpurple-dev, libthrift-dev, libglib2.0-dev, python, dh-python, quilt
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/p/purple-line
+Files:
+ 07d44228dddcb8644dc67259bb0ff8a4 1970 purple-line_0.1-debian1~stable.dsc
+ 5ad073deb9de818083ea0031dfd3ac05 277540 purple-line_0.1.orig.tar.xz
+ e6b9552cba475fcea353c10faef64f62 2512 purple-line_0.1-debian1~stable.debian.tar.xz
+Homepage: http://altrepo.eu/git/purple-line/
+Vcs-Git: http://altrepo.eu/git/purple-line.git
+Package-List:
+ purple-line deb contrib/net optional arch=any
+ purple-line-dbg deb contrib/debug extra arch=any
+Checksums-Sha1:
+ 0f66566f8e46e5d56a0da5547832474ac8fbf3a6 1970 purple-line_0.1-debian1~stable.dsc
+ f86de1cbf9eedd06c2f3c2031df0fbc56ddd8087 277540 purple-line_0.1.orig.tar.xz
+ 3a95ac0160607274f91eeb7e94adf203c0a5fa8e 2512 purple-line_0.1-debian1~stable.debian.tar.xz
+Checksums-Sha256:
+ 7faec252347835b231514ba2d99cabf4c989c2721b94bd278106c5a6baf2277e 1970 purple-line_0.1-debian1~stable.dsc
+ 796bb3aa9a0d365128ceabf866d375af6da6f7de27b973e40cf81d925bfb6b45 277540 purple-line_0.1.orig.tar.xz
+ bdbee94f4de23ec1dae942927192938d32ee40eff7ca4d2350c88273318bf949 2512 purple-line_0.1-debian1~stable.debian.tar.xz
+Checksums-Sha512:
+ 580f15640452137e33358a37a3d93bc41d7e8b3fa2e64ce6f9ae9f2ec9caff4448e7ecb047372c9e4ae46c583c48d9f814c9dcf296f1d287e2aff439160eed74 1970 purple-line_0.1-debian1~stable.dsc
+ 7d215d2674db4636687ca536bf98a5cadf1516a1efe7f29dd00124329374496d551bad3fc15d80d35bf46c8ec280275c022934c7f36328f11fd7dcbbc49640d7 277540 purple-line_0.1.orig.tar.xz
+ adfd0a40dfa77194edbfaaf56bf95611d92104d97b551d8ee140a593ba0bd3255b9a4983c795b430f857bb10b4d0f9cee33fbb54e3939f417350cc1f9387c35d 2512 purple-line_0.1-debian1~stable.debian.tar.xz
+

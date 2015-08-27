@@ -1,0 +1,108 @@
+Package: ruby-thrift
+Priority: extra
+Section: libs
+Installed-Size: 367
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~vivid
+Replaces: libthrift-ruby
+Provides: libthrift-ruby
+Depends: ruby | ruby-interpreter
+Breaks: libthrift-ruby
+Filename: pool/main/t/thrift/ruby-thrift_1.0.0-dev+0ubuntu1~vivid_all.deb
+Size: 28450
+MD5sum: 97f8ff82741fb7ac7d77c90308efd186
+SHA1: fbb820057aac58b0482ddc1eed1ea19552692b7e
+SHA256: f0e336381037714e106b58577f9302e743ca698060f59f84d708f03198667da4
+SHA512: f8174200a327d54f4d4c84b1800bf569884d7f2ae7af8dd12d1a878e7db28f15fb0b8c5630f9b9dbf8e2019715b2cc927af0b410092d169b4916b6774bb8a23a
+Description: Ruby bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Ruby bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Ruby
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-cil
+Priority: extra
+Section: libs
+Installed-Size: 107
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~vivid
+Depends: cli-common, libmono-corlib1.0-cil (>= 1.0), libmono-system1.0-cil (>= 1.0), libmono-system-web2.0-cil
+Filename: pool/main/t/thrift/libthrift-cil_1.0.0-dev+0ubuntu1~vivid_all.deb
+Size: 27104
+MD5sum: a871df64afda3f5a89d15789cff52524
+SHA1: 5e815f1152f3611fb6a96ba34c2571a303aad033
+SHA256: 499a12de3fe3ccd9b89c56a8c40f5ca41e71d21c85d87176d497f7dd4ce6f3bb
+SHA512: a6b1eae3d323da5051adcd102fb8cea309b9e28af2086d8934afc9c647e566f75005f00927093c45b7e694246f1b21a12569492209748bec30b7cc71629e5c5c
+Description: CLI bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the CLI bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to C#
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-java
+Priority: extra
+Section: libs
+Installed-Size: 262
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~vivid
+Depends: java-gcj-compat | java1-runtime | java2-runtime
+Filename: pool/main/t/thrift/libthrift-java_1.0.0-dev+0ubuntu1~vivid_all.deb
+Size: 212130
+MD5sum: b1fb73a1488630dc77c29dfbcb143789
+SHA1: 47b360dd6373b366fa851999970d28e8359b650e
+SHA256: 8371c90604da1eaae2eca5bacbc0ec18837a1faa0c39f8797f7ad158e9c90a24
+SHA512: f54896d49b4cef6b41eae11b82d06871c4af7614e4c753f7961b6191d2123de5be784a64c33c1819ffbbe98ccef75065c03adbdf75b83eb693186a35f0e6d67a
+Description: Java bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Java bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Java
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-perl
+Priority: extra
+Section: perl
+Installed-Size: 121
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~vivid
+Depends: perl (>= 5.8.0-7)
+Filename: pool/main/t/thrift/libthrift-perl_1.0.0-dev+0ubuntu1~vivid_all.deb
+Size: 14694
+MD5sum: f4efc7e30789b7401846f0a4747951dd
+SHA1: 73a01cb1aaae6b55600618ac72b5c16e5cd8f0a0
+SHA256: 2ee896f6b14adb2f8f29f84eef237ff9b2676cf71ee3a1b3af8f47152d5109b5
+SHA512: 825fb1d1417e5e0fc8b1b18da8ba8f1bb8784992b2e6eb43be135e2aa94362315da84c690adf0c8b0a7ca1ee0bee5ce859c3b22a003afa4f5654263d848011ab
+Description: Perl bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Perl bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Perl
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+

@@ -1,0 +1,296 @@
+Package: php5-thrift
+Priority: extra
+Section: php
+Installed-Size: 275
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: amd64
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Filename: pool/main/t/thrift/php5-thrift_1.0.0-dev+0ubuntu1~precise_amd64.deb
+Size: 33674
+MD5sum: 03882995ddb8c1eece4fdce08ed03217
+SHA1: a0d5470aa14565bf29b8d88707933c45c00a93dd
+SHA256: 14f0556a85a301c796aa7e7f3f0bc635c4a002ef187f8d0d3beb5bdeeb8012db
+SHA512: 2f120b775f3964844643d5e6bad5acbab9b4d8aea92a2f173455cb0bf8ea7a9ddfee36b21f9d7cd5e8b411a23f20470bdef70c05b1c06184c862311e40829cac
+Description: PHP bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the PHP bindings for Thrift.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-java
+Priority: extra
+Section: libs
+Installed-Size: 262
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: java-gcj-compat | java1-runtime | java2-runtime
+Filename: pool/main/t/thrift/libthrift-java_1.0.0-dev+0ubuntu1~precise_all.deb
+Size: 214498
+MD5sum: a87b0f1665018ba212d9309e91a0c29b
+SHA1: 05c729b972446c909aab65f27982ace67cc90cd9
+SHA256: dc0d00bea59b1f58e755d53d3974a72d55e11e6996828dd78334ea7c88e3733f
+SHA512: a122833bd28a1e9aaaece5e33193237b8a54241d534a49cc5d91dba998cd668e9e677ba8fe225856ce7b0421eaba9f2ab6605ace8b7547fbfa9b4cad0602f9bb
+Description: Java bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Java bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Java
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 3226
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: amd64
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: libthrift0, libglib2.0-dev
+Filename: pool/main/t/thrift/libthrift-dev_1.0.0-dev+0ubuntu1~precise_amd64.deb
+Size: 587716
+MD5sum: d3e6f7803c9780acd5b9267a48065a2f
+SHA1: e2623e1e881e16cf7355089898bac3e57088e6ec
+SHA256: d2a950d81daa41ae2c67d425306b4d07a81cca301887d66b7b844e3fb1020733
+SHA512: e7248a1f4629c2cbe847bee64ddaa32ad1c14483d4dc5d8c8945e6ab293318ae221d5ab7f54af99ae0fb00e42aec5e7d2171a7e23a397d47f3c7389c70e996f8
+Description: Thrift C++ library (development headers)
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the development libraries required for writing C++
+ applications using Thrift.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift0
+Priority: extra
+Section: devel
+Installed-Size: 874
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: amd64
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libqt4-network (>= 4:4.5.3), libqtcore4 (>= 4:4.5.3), libssl1.0.0 (>= 1.0.1), libstdc++6 (>= 4.4.0)
+Filename: pool/main/t/thrift/libthrift0_1.0.0-dev+0ubuntu1~precise_amd64.deb
+Size: 269190
+MD5sum: 02b3ece912b432d902386866e30fc458
+SHA1: 8726dd12b1a9e520ce4b3f036c92b2f23602e91e
+SHA256: ac40add3582ed4b912a2912d12c748a23b9037fa32f9a741c467b0cf2cc96534
+SHA512: 70f6b1d916f370fb668f58d164eb94d09a97da7c502e1aeb0cb9ae9c61dd41cd70d5b849924ea305b9d71dc1414263bb6ddae21c478633c5f97f6bb81540eeab
+Description: Thrift C++ library
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the runtime libraries needed for C++ applications
+ using Thrift.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-perl
+Priority: extra
+Section: perl
+Installed-Size: 121
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: perl (>= 5.8.0-7)
+Filename: pool/main/t/thrift/libthrift-perl_1.0.0-dev+0ubuntu1~precise_all.deb
+Size: 16218
+MD5sum: 2a3c204371339748e45716a83a3f578e
+SHA1: d4842279f4d7c0c80981427c20e41b1d555f9f47
+SHA256: c79e5b4206467f587955672d455a2c2823aa3c9eaf8fff53ad6d0a586205df45
+SHA512: ee8abdc72bce8b82f2554a5dd0c7051de8add8d22cc65d30b405167fd086eadee68d8596c362239167c2752c94f3e5086873162f85b83d78a29d8fc4be378c9a
+Description: Perl bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Perl bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Perl
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: libthrift-cil
+Priority: extra
+Section: libs
+Installed-Size: 107
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: cli-common, libmono-corlib1.0-cil (>= 1.0), libmono-system1.0-cil (>= 1.0), libmono-system-web2.0-cil
+Filename: pool/main/t/thrift/libthrift-cil_1.0.0-dev+0ubuntu1~precise_all.deb
+Size: 32272
+MD5sum: f1f35073b7a4a38ac59d5533c804ea15
+SHA1: 7b6df004d11becfa19bb88a80226e204d28835ea
+SHA256: 182a841e59cfbd4a8d9293df5d8d7e52c2f6f952abc796bfd0f9bd46508e1418
+SHA512: d8a8740fbaa2649230f9c1d34102847f542dbf8c2f81ad03db252d31780c4259f538b2d1bcc62e2c8390524130dd38aec4afeaf433eb1c313b112339bb8da4f3
+Description: CLI bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the CLI bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to C#
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: ruby-thrift
+Priority: extra
+Section: libs
+Installed-Size: 367
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: all
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Replaces: libthrift-ruby
+Provides: libthrift-ruby
+Depends: ruby | ruby-interpreter
+Breaks: libthrift-ruby
+Filename: pool/main/t/thrift/ruby-thrift_1.0.0-dev+0ubuntu1~precise_all.deb
+Size: 57412
+MD5sum: 2bf4807bd3bfeb0d21b12c1d2dca84c8
+SHA1: 4cbe2a50aaf3018d4e386409743fbaa4d46cf278
+SHA256: a31964e77771730540cabaa5c2beb4111bf18ef081afd3c4ec0798e5938895fb
+SHA512: e1b3dd0fc608a2fe3a4a84ff3b2765a82538068d54e80cb15975d41b927632ac17cdd9af44d91112c93218c5a2dac7252cb8e018ca9f6a411f12670b0d151a2c
+Description: Ruby bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Ruby bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Ruby
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: thrift-compiler
+Priority: extra
+Section: devel
+Installed-Size: 3008
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: amd64
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Filename: pool/main/t/thrift/thrift-compiler_1.0.0-dev+0ubuntu1~precise_amd64.deb
+Size: 1209744
+MD5sum: 07f31acd9988198a1f8c9d1bd7595cff
+SHA1: 4ef708ac901fd24ac20d1cd8a14237d5f243c14b
+SHA256: 72722d2cf1039932e2143ebc04be363e77bf5eba322cee2ed26cd306a973c326
+SHA512: f036b4a8053a92d2afb8c86a8989554b7ea9d80798629764524c274db516a5b01db91198a7417cbb20aa6eb08aa1080a7e10e4c5dd2fa867a74883572a3384d9
+Description: Compiler for Thrift definition files
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Thrift compiler that is used for translating
+ from .thrift files (containing the definitions) to the language binding
+ for the supported languages.
+Homepage: http://thrift.apache.org/
+
+Package: python-thrift-dbg
+Priority: extra
+Section: python
+Installed-Size: 394
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: amd64
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: libc6 (>= 2.2.5), python-thrift (= 1.0.0-dev+0ubuntu1~precise), python-all-dbg
+Filename: pool/main/t/thrift/python-thrift-dbg_1.0.0-dev+0ubuntu1~precise_amd64.deb
+Size: 96910
+MD5sum: d00f1e01b143188810ebc6215def33f6
+SHA1: 61fa7c10ba24fef6490e376308c9c0ac9fd41563
+SHA256: fc6c712a4aa8e9d5ba8ecfe0e104b4be6358f1820f2b229fec4d2165b98fa6a7
+SHA512: 373051075a012096964173b627d7ebce1e10d638e67956ffe7705db55409269be34588c6d2a53927e79c05c9becc7ebda9dbb7382bf8251a76a3be49b275fb00
+Description: Python bindings for Thrift (debug version)
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Python bindings for Thrift with debugging symbols.
+ You will need the thrift tool (in the thrift-compiler package) to compile your
+ definition to Python classes, and then the modules in this package will allow
+ you to use those classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: python-thrift
+Priority: extra
+Section: python
+Installed-Size: 407
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Architecture: amd64
+Source: thrift
+Version: 1.0.0-dev+0ubuntu1~precise
+Depends: libc6 (>= 2.2.5)
+Recommends: python-twisted-core
+Filename: pool/main/t/thrift/python-thrift_1.0.0-dev+0ubuntu1~precise_amd64.deb
+Size: 93278
+MD5sum: 84c1dd75efa55e9f9233ce21c57d8630
+SHA1: 24c778477c2a79cb2c4ab06dacf7e741b064a918
+SHA256: e92403bad57eb56b1ce16c1f55ae97e59cdbd0cc12913751a5c1effa6d590825
+SHA512: 9bde5cf5ff8a44e307caa657947d4b9d54058eecbb9670db101f2f8a8e6d7171c00daaa77ed5cda59ce136541c467d202210219250d9fed179924c7c3cf9dbfd
+Description: Python bindings for Thrift
+ Thrift is a software framework for scalable cross-language services
+ development. It combines a software stack with a code generation engine to
+ build services that work efficiently and seamlessly.
+ .
+ This package contains the Python bindings for Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Python
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs.
+Homepage: http://thrift.apache.org/
+
+Package: purple-line-dbg
+Priority: extra
+Section: contrib/debug
+Installed-Size: 3901
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Architecture: amd64
+Source: purple-line
+Version: 0.1-ubuntu1~precise
+Depends: purple-line (= 0.1-ubuntu1~precise)
+Filename: pool/main/p/purple-line/purple-line-dbg_0.1-ubuntu1~precise_amd64.deb
+Size: 883222
+MD5sum: 8044d6524dd2fd98a7cda527a4138ee9
+SHA1: 0d7ccc56a9aa6a7f88e46b66a507e4cc66f2b1c4
+SHA256: 3777cb065261aa9e4f532d8cd5d2ec8d8139ee02834ab347f63510f609d11b0a
+SHA512: 7aa05679efad8aad76ee23c0e493411c9bf0e465c24b8efe22dd54bd9d6fbb3cb5a0f525947c6872ccabd58bc95caa10e5ba8119e1afeac117209f97f6bd3a60
+Description: purple-line (debugging symbols)
+ libpurple (Pidgin, Finch) protocol plugin for LINE.
+ This package includes debug symbols.
+Homepage: http://altrepo.eu/git/purple-line/
+
+Package: purple-line
+Priority: optional
+Section: contrib/net
+Installed-Size: 1589
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Architecture: amd64
+Version: 0.1-ubuntu1~precise
+Provides: purple-line
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libpurple0 (>= 1:2.8.0-1), libstdc++6 (>= 4.6), libthrift0
+Filename: pool/main/p/purple-line/purple-line_0.1-ubuntu1~precise_amd64.deb
+Size: 281778
+MD5sum: b20f05f0a3ca5c5771fd7ba4ff423852
+SHA1: 302ebe2fb3dd1880508cd8dffd8d0c2ca3b748c3
+SHA256: cd9268e64109bb8d8bcfe7d00440c655e1159c6bba2184bddb8c5a28b9a32f91
+SHA512: 7a303ed32861dffb823fc6ba71b794ebe11339281dada96a67bbd7c12af8ad40dfe9c9167c6446ef49406c9b7c300a941db2f6a84a8023a957c21081e19f15c6
+Description: purple-line
+ libpurple (Pidgin, Finch) protocol plugin for LINE.
+ Now, this doesn't work well on Empathy.
+ To know usage, you should read README.md in /usr/share/doc/purple-line.
+Homepage: http://altrepo.eu/git/purple-line/
+
