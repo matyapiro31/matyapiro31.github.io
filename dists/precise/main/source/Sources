@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mo
 Architecture: any all
 Standards-Version: 3.7.2
 Format: 1.0
-Directory: pool/main/t/thrift
+Directory: ./pool/main/t/thrift
 Files:
  8e0cae449c8c84ae341ef5a8777a511a 2432 thrift_1.0.0-dev+0ubuntu1~precise.dsc
  818ceb74064bac4e86bafbb1fc4ade55 17743777 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
@@ -42,7 +42,7 @@ Build-Depends: debhelper (>= 9), thrift-compiler, libpurple-dev, libthrift-dev, 
 Architecture: any
 Standards-Version: 3.9.6
 Format: 3.0 (quilt)
-Directory: pool/main/p/purple-line
+Directory: ./pool/main/p/purple-line
 Files:
  8f67bdb88b5eefd6d857bdd8ad2e5558 1949 purple-line_0.1-ubuntu1~precise.dsc
  b1903fb8f3bbed8b5d62dff444b2ae2f 276484 purple-line_0.1.orig.tar.xz
@@ -62,6 +62,6 @@ Checksums-Sha256:
  ba1696fcba5616e7b5e34b1095d8a8505e30c2bf46f9462fde5daa3ccf6c4a57 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 Checksums-Sha512:
  c4ab70eca2003af255ce974976bf540a609fe6d820d66106b7ad2c35421322952a11abb483d444121037fdab11a7c1379447e2466daa13ab01aa33153bd87939 1949 purple-line_0.1-ubuntu1~precise.dsc
- 6dde350d791e0cd8a4cdadf49bf695411c0114fcbfbd3d585d6495d657f4334cb5381c7bb2a9cd7d8213a34b35bba85d02cde7890ba41db388013f45aa274d0e 276484 purple-line_0.1.orig.tar.xz
+ 8dee56ea1a6135c8f63e4ea3e894ded0e1108a62e7ecaee0bfaac11995fde1aba7469fc0c8006cbae39af196e79dd5eb2d27673e52aa9d4bdfadec1b6fd59eb9 277704 purple-line_0.1.orig.tar.xz
  35d54b445d5acd4c9914bd3a8ced0998763678491e3952eeee898e86b1795fcaa0bb9f0aea5c086205cbb7533acad08ce32560ece21688493757a25d0799600d 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 
