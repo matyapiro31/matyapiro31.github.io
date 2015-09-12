@@ -5,9 +5,9 @@ Codename: jessie
 Architecture: amd64 armhf i386
 Components: main
 Description: Packages from altrepo.eu projects
-Date: Sat, 12 Sep 2015 03:39:17 UTC
+Date: Sat, 12 Sep 2015 05:43:54 UTC
 MD5Sum:
- 98aea3204b721648993065eb04723305             3755 Release
+ 774acc552739b0fba771f492c02de97f             4127 Release
  d54b78e59b6fd9b7e89bd273ea536174            13189 main/binary-amd64/Packages
  1278e1d47cbd0c3ec755a0b200c10519              120 main/binary-amd64/Release
  98f2ff8372d2a5843d7df189783f67a2             5936 main/binary-armhf/Packages
@@ -15,9 +15,9 @@ MD5Sum:
  98f2ff8372d2a5843d7df189783f67a2             5936 main/binary-i386/Packages
  84bcb76ce5852fcd72cf7bcb91b3e0e0              119 main/binary-i386/Release
  9c3a97b20a47f71d3f661ed83861d6fd              121 main/source/Release
- 708bac9306c35f8fe68082dc2d78a65b             4251 main/source/Sources
+ fa737707be6474ebf5ed97b0ecc3b85f             4250 main/source/Sources
 SHA1:
- 583bebbf68676ed0586170e43a78fd41fa5d4ffd             3755 Release
+ 731b90f7bc296f4c25d406717902b8a59e260987             4127 Release
  f6b10d60785603e38694d3d57c96fc412adb7f6f            13189 main/binary-amd64/Packages
  d70a431dbe2f7d802f96aa9423f6bfa9cd2f3b5f              120 main/binary-amd64/Release
  3096498d39f60e38d466acc1c4f5c469d0b8dca7             5936 main/binary-armhf/Packages
@@ -25,9 +25,9 @@ SHA1:
  3096498d39f60e38d466acc1c4f5c469d0b8dca7             5936 main/binary-i386/Packages
  aaef60532e9e633cba9c776e7d8a6d1bd7379c0c              119 main/binary-i386/Release
  1459f926bec63f6dc2deb15ece816cebaa2f5a7b              121 main/source/Release
- 03851035afd6674d194a604c82b8813c72299599             4251 main/source/Sources
+ d06117795688f3941c6ded4f37b81c26bef6ebf0             4250 main/source/Sources
 SHA256:
- c2fff292e85540e6c0d2565c378eaddce9de745e16b1ba68f01acf12b90bf6d9             3755 Release
+ bcd9a08557766feb6bc394e75410f6ae3571f983ae7478e608f79a9cfd47e49d             4127 Release
  0233702e548b486c62da203d75891b0d65c90c267ef4933a2c08f38cce9b1646            13189 main/binary-amd64/Packages
  9489d513fe202f9baacb92ce5001aee43c68fc3ef2e39e2eef8aa7c9f694138b              120 main/binary-amd64/Release
  c5d949f0c87b3a093e088ab1254767980d4b2ee9d9dc5dd457ed4c54acdfaa2c             5936 main/binary-armhf/Packages
@@ -35,9 +35,9 @@ SHA256:
  c5d949f0c87b3a093e088ab1254767980d4b2ee9d9dc5dd457ed4c54acdfaa2c             5936 main/binary-i386/Packages
  712c5f0a70b16c421000fe90ba80af0b1ba93fc54a272679bfa0b05b2a9a4d53              119 main/binary-i386/Release
  a4cc4b01a7e20724889ee420b20ea1206b27bef207754be2fb4b70a1fbe279c1              121 main/source/Release
- bea6671d2106be6d703b41ccac2f63397c7e904739250d3e8dfaf0c6d56b1967             4251 main/source/Sources
+ 6a614f01b8ad1eb47acb9fa89a58b2d3713e6333d3b3282a972c135d89a3dbcd             4250 main/source/Sources
 SHA512:
- b2203e9048f0e00d8e84df719da35aa06fc3c2da81a609834c680795eafd01ecea7f584fee2256e8976c75185f10f2c0ff576717a8df34e02ff527549ebfb3c5             3755 Release
+ 83a891a39ddef924408f85462cf30168dd9d9e14e2f32382550b6cc4cf1d6a2d168925213466b258ebd8d620ed6163fb10c5cc1a91f4253aa91e1a7f9b89e4f5             4127 Release
  6280b9d88089771fbf7aa6433030139cc5bae83addb4ed7d1cdb0eb73293d000ea0db183b1382f50fc61251d9c015708c1b08b73c719e046839aa464fe34f705            13189 main/binary-amd64/Packages
  26cb3508b169a67ec592890fdc3b9ced91f0f5c45ba29352619f9a0dce1e9f32b29d35af435d4afc1a0e5b15f0c27a9e550ddacc60f034a70247357c50d7ed94              120 main/binary-amd64/Release
  76a8815a6818b1cd5af80c8d96befb763f74580e522ae84e4f3f113f50358f223c9996ed7f49eb95ecd8eecd0a4e2246c96f642afdde9b9054bf972104f86766             5936 main/binary-armhf/Packages
@@ -45,4 +45,4 @@ SHA512:
  76a8815a6818b1cd5af80c8d96befb763f74580e522ae84e4f3f113f50358f223c9996ed7f49eb95ecd8eecd0a4e2246c96f642afdde9b9054bf972104f86766             5936 main/binary-i386/Packages
  7c0a33184944499bc3d6b785044c6ec5bbb0066d46cdf137d69fead1bacb2d32fd90df032980d2ce7f76f415a877997d9bb9c7f2d2baaa86935ec1a499e806c7              119 main/binary-i386/Release
  3857dcf058e2114bced20d9b94a157f08d15e7c31838c14de2d7935a6593b868f028f2584ee7741536d1125c66a70ea46b206359ab9297f6f2ed90545ea3ce78              121 main/source/Release
- ba6ac02633f78aad12c7aa208847c1db75c7225f9eff2a457a7d460cc01e7a0076dc7edbb543c8acef717c95e7c1b5b2c4f984502d1b02b2e7d2f4e668651051             4251 main/source/Sources
+ c6381c5a320a67ef387c726663107fff9974963b94590fdf6d96aea6e286e5c5e397c6d66536ccabdd6f5ecc1cbfffec6ce52a35db27ecdcde0f2221a1347767             4250 main/source/Sources
