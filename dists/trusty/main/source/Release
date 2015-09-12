@@ -1,6 +1,0 @@
-Archive: trusty
-Version: 14.04
-Component: main
-Origin: altrepo.eu
-Label: altrepo.eu debian repository
-Architecture: source
