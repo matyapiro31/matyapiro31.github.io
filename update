@@ -1,4 +1,11 @@
 #!/bin/sh
+#Docker IDs.
+PRECISE=0000
+SID=1111
+STABLE=2222
+TRUSTY=3333
+VIVID=4444
+WILY=5555
 git checkout precise
 apt-ftparchive sources .>Sources
 apt-ftparchive packages .>Packages
