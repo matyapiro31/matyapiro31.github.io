@@ -1,11 +1,13 @@
 #!/bin/sh
-#Docker IDs.
+#CodeNames
 PRECISE=0000
 SID=1111
 STABLE=2222
 TRUSTY=3333
 VIVID=4444
 WILY=5555
+PURPLE_LINE_VERSION=0.1
+THRIFT_VERSION=1.0.0-dev
 git checkout precise
 apt-ftparchive sources .>Sources
 apt-ftparchive packages .>Packages
