@@ -1,0 +1,97 @@
+#!/bin/sh
+git checkout precise
+apt-ftparchive sources .>Sources
+apt-ftparchive packages .>Packages
+a=$(sed -e "s/\.\/pool/pool/" Sources)
+echo "$a">Sources
+mv Sources ./dists/*/main/source/Sources
+a=$(sed -e "s/\.\/pool/pool/" Packages)
+echo "$a">Packages
+mv Packages ./dists/*/main/binary-amd64/Packages
+cd dists/*
+release=$(apt-ftparchive release .)
+rhead=$(head -7 Release)
+echo -e "${rhead}"'\n'"$release">Release
+gpg -b -a Release
+mv Release.asc Release.gpg
+cd ../../
+git checkout sid
+apt-ftparchive sources .>Sources
+apt-ftparchive packages .>Packages
+a=$(sed -e "s/\.\/pool/pool/" Sources)
+echo "$a">Sources
+mv Sources ./dists/*/main/source/Sources
+a=$(sed -e "s/\.\/pool/pool/" Packages)
+echo "$a">Packages
+mv Packages ./dists/*/main/binary-amd64/Packages
+cd dists/*
+release=$(apt-ftparchive release .)
+rhead=$(head -7 Release)
+echo -e "${rhead}"'\n'"$release">Release
+gpg -b -a Release
+mv Release.asc Release.gpg
+cd ../../
+git checkout stable
+apt-ftparchive sources .>Sources
+apt-ftparchive packages .>Packages
+a=$(sed -e "s/\.\/pool/pool/" Sources)
+echo "$a">Sources
+mv Sources ./dists/*/main/source/Sources
+a=$(sed -e "s/\.\/pool/pool/" Packages)
+echo "$a">Packages
+mv Packages ./dists/*/main/binary-amd64/Packages
+cd dists/*
+release=$(apt-ftparchive release .)
+rhead=$(head -7 Release)
+echo -e "${rhead}"'\n'"$release">Release
+gpg -b -a Release
+mv Release.asc Release.gpg
+cd ../../
+git checkout trusty
+apt-ftparchive sources .>Sources
+apt-ftparchive packages .>Packages
+a=$(sed -e "s/\.\/pool/pool/" Sources)
+echo "$a">Sources
+mv Sources ./dists/*/main/source/Sources
+a=$(sed -e "s/\.\/pool/pool/" Packages)
+echo "$a">Packages
+mv Packages ./dists/*/main/binary-amd64/Packages
+cd dists/*
+release=$(apt-ftparchive release .)
+rhead=$(head -7 Release)
+echo -e "${rhead}"'\n'"$release">Release
+gpg -b -a Release
+mv Release.asc Release.gpg
+cd ../../
+git checkout vivid
+apt-ftparchive sources .>Sources
+apt-ftparchive packages .>Packages
+a=$(sed -e "s/\.\/pool/pool/" Sources)
+echo "$a">Sources
+mv Sources ./dists/*/main/source/Sources
+a=$(sed -e "s/\.\/pool/pool/" Packages)
+echo "$a">Packages
+mv Packages ./dists/*/main/binary-amd64/Packages
+cd dists/*
+release=$(apt-ftparchive release .)
+rhead=$(head -7 Release)
+echo -e "${rhead}"'\n'"$release">Release
+gpg -b -a Release
+mv Release.asc Release.gpg
+cd ../../
+git checkout wily
+apt-ftparchive sources .>Sources
+apt-ftparchive packages .>Packages
+a=$(sed -e "s/\.\/pool/pool/" Sources)
+echo "$a">Sources
+mv Sources ./dists/*/main/source/Sources
+a=$(sed -e "s/\.\/pool/pool/" Packages)
+echo "$a">Packages
+mv Packages ./dists/*/main/binary-amd64/Packages
+cd dists/*
+release=$(apt-ftparchive release .)
+rhead=$(head -7 Release)
+echo -e "${rhead}"'\n'"$release">Release
+gpg -b -a Release
+mv Release.asc Release.gpg
+cd ../../
