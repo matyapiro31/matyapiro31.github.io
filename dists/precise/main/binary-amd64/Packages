@@ -263,11 +263,11 @@ Source: purple-line
 Version: 0.1-ubuntu1~precise
 Depends: purple-line (= 0.1-ubuntu1~precise)
 Filename: pool/main/p/purple-line/purple-line-dbg_0.1-ubuntu1~precise_amd64.deb
-Size: 883222
-MD5sum: 8044d6524dd2fd98a7cda527a4138ee9
-SHA1: 0d7ccc56a9aa6a7f88e46b66a507e4cc66f2b1c4
-SHA256: 3777cb065261aa9e4f532d8cd5d2ec8d8139ee02834ab347f63510f609d11b0a
-SHA512: 7aa05679efad8aad76ee23c0e493411c9bf0e465c24b8efe22dd54bd9d6fbb3cb5a0f525947c6872ccabd58bc95caa10e5ba8119e1afeac117209f97f6bd3a60
+Size: 883124
+MD5sum: 244c20239e99624935b6828ff5d956b6
+SHA1: 69a88528205e6323db758400e369a33a15a4be88
+SHA256: cb763ee08c27974269fbaa607ca44860f3d99858787188eb66847a6b8571bb52
+SHA512: 90df24638e0be1b17602a159482788275f17d69bdaf40c34c9f2c80c3f18152f03fc4f1ba575a5217004d7ff95e7e008d396984b2955df829857d8644074ab8e
 Description: purple-line (debugging symbols)
  libpurple (Pidgin, Finch) protocol plugin for LINE.
  This package includes debug symbols.
@@ -283,14 +283,13 @@ Version: 0.1-ubuntu1~precise
 Provides: purple-line
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libpurple0 (>= 1:2.8.0-1), libstdc++6 (>= 4.6), libthrift0
 Filename: pool/main/p/purple-line/purple-line_0.1-ubuntu1~precise_amd64.deb
-Size: 281778
-MD5sum: b20f05f0a3ca5c5771fd7ba4ff423852
-SHA1: 302ebe2fb3dd1880508cd8dffd8d0c2ca3b748c3
-SHA256: cd9268e64109bb8d8bcfe7d00440c655e1159c6bba2184bddb8c5a28b9a32f91
-SHA512: 7a303ed32861dffb823fc6ba71b794ebe11339281dada96a67bbd7c12af8ad40dfe9c9167c6446ef49406c9b7c300a941db2f6a84a8023a957c21081e19f15c6
+Size: 280478
+MD5sum: a0d366d22813a9c7434fa6082ef10fb0
+SHA1: 51a0ba581757b6ff4d8eb49b86f8f6a5e6f2991b
+SHA256: d66795d59efe4fb6a58fa36e1172f54159ea2b868231778c1c0975d5fee0e86e
+SHA512: b44d53ceecb4b37454b959fae0edce0151e863e4f34525030dc5f36c93b013db8133096ac80a64ad963a89d54b6d5bc3494c8cb63e227c0af5a21d35cd9e42b1
 Description: purple-line
  libpurple (Pidgin, Finch) protocol plugin for LINE.
  Now, this doesn't work well on Empathy.
  To know usage, you should read README.md in /usr/share/doc/purple-line.
 Homepage: http://altrepo.eu/git/purple-line/
-

@@ -44,23 +44,23 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/purple-line
 Files:
- 0d6929f7b73a428df29a7b78d626b629 1603 purple-line_0.1-ubuntu1~precise.dsc
+ 5fcb0ea68dc0c6320abffba9f0ac3dd9 1082 purple-line_0.1-ubuntu1~precise.dsc
  d43888b4635f87da4f8d949b421ff6a1 277704 purple-line_0.1.orig.tar.xz
- b191085bbf6a2fd676517da35794a025 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
+ 7cdeca042219d3ed2662f5fc02e893ad 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 Homepage: http://altrepo.eu/git/purple-line/
 Vcs-Git: http://altrepo.eu/git/purple-line.git
-Package-List:
+Package-List: 
  purple-line deb contrib/net optional
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1:
- 1bc9e2654fd107107d6b7702c394fc9cc2f833d2 1603 purple-line_0.1-ubuntu1~precise.dsc
+ 81c23ce597fc1efaf19ab768a957aa088c012ddb 1082 purple-line_0.1-ubuntu1~precise.dsc
  f7b5e6edd4d0d501705b8b7b9f61d886ecba44df 277704 purple-line_0.1.orig.tar.xz
- 89f81c9d8b195b5a820193b824fdf1603c29be3a 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
+ b3b92969a51eac7cfffc75ba994dab52916da5b5 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 Checksums-Sha256:
- 185a331b6d3edfba673435eccf47fc2b02d0a684b5e0104c2252efc71397a93f 1603 purple-line_0.1-ubuntu1~precise.dsc
+ 653d994d7ea3a70cf93a30f739d1aaa0046d33bbe309159f0c95412397decddf 1082 purple-line_0.1-ubuntu1~precise.dsc
  d3b07c91a48ad367cf781ce99dd18aebf8e420aefcdee1832fb44eccb75628a7 277704 purple-line_0.1.orig.tar.xz
- ba1696fcba5616e7b5e34b1095d8a8505e30c2bf46f9462fde5daa3ccf6c4a57 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
+ 96775ba1c1015e8b50d7b72c8733664e949b002a52125661a913196518decc49 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 Checksums-Sha512:
- ae137a6cd40b4affc8121de71a9a2dd1492ceae3a530dc05b5ab7474952c09e7f31a4694aeb4c0f83fd7bc4e5f62201bf00d51243b71574d677a730a2afe170e 1603 purple-line_0.1-ubuntu1~precise.dsc
+ c61278e124372b229ebfb8afda795a9c674271450f872e08c663312caff0b2bb77df199c856f8787f38b98147b0fc7849bc3989c5a5929277153ab1313c1fac3 1082 purple-line_0.1-ubuntu1~precise.dsc
  8dee56ea1a6135c8f63e4ea3e894ded0e1108a62e7ecaee0bfaac11995fde1aba7469fc0c8006cbae39af196e79dd5eb2d27673e52aa9d4bdfadec1b6fd59eb9 277704 purple-line_0.1.orig.tar.xz
- 35d54b445d5acd4c9914bd3a8ced0998763678491e3952eeee898e86b1795fcaa0bb9f0aea5c086205cbb7533acad08ce32560ece21688493757a25d0799600d 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
+ 9988d3c50802744a7c4060f3a17e71e4f24f76eb3c30ad7b3fbecf39ee77dd22821c7dc160f5ac4877836fdc5715e8d1bf2cdcb3098a62273350cc14ade96fb4 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz

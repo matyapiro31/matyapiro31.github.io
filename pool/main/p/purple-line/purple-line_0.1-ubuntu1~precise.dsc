@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 3.0 (quilt)
 Source: purple-line
 Binary: purple-line, purple-line-dbg
@@ -16,22 +13,10 @@ Package-List:
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1: 
  f7b5e6edd4d0d501705b8b7b9f61d886ecba44df 277704 purple-line_0.1.orig.tar.xz
- 89f81c9d8b195b5a820193b824fdf1603c29be3a 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
+ b3b92969a51eac7cfffc75ba994dab52916da5b5 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 Checksums-Sha256: 
  d3b07c91a48ad367cf781ce99dd18aebf8e420aefcdee1832fb44eccb75628a7 277704 purple-line_0.1.orig.tar.xz
- ba1696fcba5616e7b5e34b1095d8a8505e30c2bf46f9462fde5daa3ccf6c4a57 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
+ 96775ba1c1015e8b50d7b72c8733664e949b002a52125661a913196518decc49 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz
 Files: 
  d43888b4635f87da4f8d949b421ff6a1 277704 purple-line_0.1.orig.tar.xz
- b191085bbf6a2fd676517da35794a025 2584 purple-line_0.1-ubuntu1~precise.debian.tar.gz
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-
-iQEcBAEBAgAGBQJV87ZDAAoJEHoMIndj9+C7nJIIAInCm+GuiFpc8KeLf0D+FqnU
-mDNkEMNLdJ5srbIEnqzR+gIODQDlZfP5kJSg1vrJrO/TqDXSt63VGQB9Qy1LmjYX
-oSfOqlKhcDL4jIhCf85NCYupivQK1/o+gmqq2uT+SoXSeRjXhuqN2rByPsWBD3ko
-2CJCSwQqQ6EzGwKYhkztRW639btWljzpHq6kUiAd17e66cSZmBtx87tIj2RgGsrQ
-ji8RTCH9AckJHXgPBR96aeeAb+jvycTM6VPo8CcicxIRXHQXNEle/B3QhF/O0p5w
-SqWkJqx+IKwJ621YAp9k58hhc3sfwLzrn1mL+IQqsihwmtnNDyKsoBnNDVYPPiU=
-=OsRj
------END PGP SIGNATURE-----
+ 7cdeca042219d3ed2662f5fc02e893ad 2512 purple-line_0.1-ubuntu1~precise.debian.tar.gz
