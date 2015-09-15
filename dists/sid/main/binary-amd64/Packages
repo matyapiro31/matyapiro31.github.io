@@ -264,11 +264,11 @@ Version: 0.1-debian1~sid
 Provides: purple-line
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libpurple0 (>= 2.8.0), libstdc++6 (>= 5.2), libthrift0
 Filename: pool/main/p/purple-line/purple-line_0.1-debian1~sid_amd64.deb
-Size: 289420
-MD5sum: aa3fb5b0236995af9c2575dc0f314019
-SHA1: ec09a56a421436e8f06fc3ddfa21556da3334855
-SHA256: d67227b1f164e2d03e9d04cc44b65cd1962a15f05924ae261ccb084a3128b3c3
-SHA512: 465e2a1ad3e303b48328233ccfcf049747742c7562b33f3d9463edbc9ae713b11eec1eee9ed2f9b3cbb4033a6f5a13b5c9f756d37ab20ab1b60ebc76c08cb9f8
+Size: 288382
+MD5sum: 9b474ba84949b03cd2da3283dd9e22f4
+SHA1: 0985cf5a663483a90ede7dda901456a70f94445b
+SHA256: eeddfc78b51aaf18fe8d4342dcbee9e1cdf928a64bc0392ee0ff3ead55094d45
+SHA512: 72d34d631571118787a4563ffb51f7ea40bafe623b7f4d12724683a30bb2084d4fdf4a7bdefaf597694056cf8f8f640373ad55a68c88d15371a40f0cd634ced4
 Description: purple-line
  libpurple (Pidgin, Finch) protocol plugin for LINE.
  Now, this doesn't work well on Empathy.
@@ -285,13 +285,12 @@ Source: purple-line
 Version: 0.1-debian1~sid
 Depends: purple-line (= 0.1-debian1~sid)
 Filename: pool/main/p/purple-line/purple-line-dbg_0.1-debian1~sid_amd64.deb
-Size: 901034
-MD5sum: d327b9f1872dd994ad2cdb16134d7bd8
-SHA1: 79e3405363892fc407702e4f1314e0e3c20bc540
-SHA256: 84a7425aa24c20b1144b632143f21f3c7f6bcaf89d07227e0c24dcc139899744
-SHA512: 3d892bbb3d7c9fdcea7c51b445f727b509e05fabdd8663d96a6549581cadb4cabb95e5bb792af26fd93bca9a3881296a1ef4b2622d2a4fe3d11c9b2ee1907b54
+Size: 901540
+MD5sum: c96ac57f8d92f38213a52636bd60a532
+SHA1: 04602c0a8fc35ac43604aa5d62b4c8f3b1d3c333
+SHA256: 18c059ff8c7763e5a20790eb6c7671fd6501b43e24c7de3ec531afc1a9441271
+SHA512: 5ca24d678ee0c4841e68a9aa8277f0486909ce6219a5610271a7366ff488fecddb1424d09aa8768003deecfb971dfe5a9b0809cd33924cbc174dc44bb33d19eb
 Description: purple-line (debugging symbols)
  libpurple (Pidgin, Finch) protocol plugin for LINE.
  This package includes debug symbols.
 Homepage: http://altrepo.eu/git/purple-line/
-
