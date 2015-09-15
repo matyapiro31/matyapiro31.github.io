@@ -1,10 +1,11 @@
--e Origin: altrepo.eu
+Origin: altrepo.eu
 Label: altrepo.eu debian repository
 Suite: wily
 Version: 15.10
 Codename: wily
 Architecture: amd64 armhf i386
 Components: main
+Description: Packages from altrepo.eu projects
 Date: Tue, 15 Sep 2015 09:32:47 UTC
 MD5Sum:
  f97cf3e4426fe19abf7cc58d4c299293             4138 Release

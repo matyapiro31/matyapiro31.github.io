@@ -1,10 +1,11 @@
--e -e Origin: altrepo.eu
+Origin: altrepo.eu
 Label: altrepo.eu debian repository
 Suite: stable
 Codename: jessie
 Architecture: amd64 armhf i386
 Components: main
 Description: Packages from altrepo.eu projects
+
 Date: Tue, 15 Sep 2015 03:08:58 UTC
 MD5Sum:
  1d32eacade50be4848be37141eb64d31             4130 Release

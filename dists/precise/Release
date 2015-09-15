@@ -1,10 +1,11 @@
--e -e -e -e -e -e -e -e Origin: altrepo.eu
+Origin: altrepo.eu
 Label: altrepo.eu debian repository
 Suite: precise
 Version: 12.04
 Codename: precise
 Architecture: amd64 armhf i386
 Components: main
+Description: Packages from altrepo.eu projects
 Date: Tue, 15 Sep 2015 03:03:22 UTC
 MD5Sum:
  811e29126e3ee05f8ed4f1d7d5df0980             4118 Release

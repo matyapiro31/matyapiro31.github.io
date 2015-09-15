@@ -1,10 +1,11 @@
--e -e Origin: altrepo.eu
+Origin: altrepo.eu
 Label: altrepo.eu debian repository
 Suite: trusty
 Version: 14.04
 Codename: trusty
 Architecture: amd64 armhf i386
 Components: main
+Description: Packages from altrepo.eu projects
 Date: Tue, 15 Sep 2015 00:42:48 UTC
 MD5Sum:
  48b62d16824b0f92f36f347e527a23b8             4098 Release

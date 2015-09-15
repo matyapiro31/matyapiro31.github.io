@@ -1,10 +1,11 @@
--e -e Origin: altrepo.eu
+Origin: altrepo.eu
 Label: altrepo.eu debian repository
 Suite: unstable
 Codename: sid
 Architecture: amd64 armhf i386
 Components: main
 Description: Packages from altrepo.eu projects
+
 Date: Tue, 15 Sep 2015 02:59:08 UTC
 MD5Sum:
  d53d0ab722d4762fb18ee9b5b0388534             4129 Release
