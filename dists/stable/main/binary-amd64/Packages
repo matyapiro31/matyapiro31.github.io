@@ -264,11 +264,11 @@ Source: purple-line
 Version: 0.1-debian1~stable
 Depends: purple-line (= 0.1-debian1~stable)
 Filename: pool/main/p/purple-line/purple-line-dbg_0.1-debian1~stable_amd64.deb
-Size: 854472
-MD5sum: 03f60bfe91d3bc4c6ffa029cc7ef3208
-SHA1: 07176fda59bd93e66659e7db0a4dfd710a9d7654
-SHA256: 8f8d6ca978993fab8b1a70277a4f2de8df6217a61eb8a058034318d52a8eb88b
-SHA512: 808dd433f2facbe28ff4acca8e9faf1daf5f4c0ad769b881fca82e3a53b1b82c788a0d5e404c9c7a01751da35b6f0f7e237570031a2455ea02e1c0d197601dbc
+Size: 854078
+MD5sum: e6af038ce81bc7dc2ffc4fb5656fd491
+SHA1: e72e07888366cf22a448caf87d2d707f2f104ab0
+SHA256: e8b2d904281d031547df386914aed8564d5b23c2e2c1f814086f612d85efe384
+SHA512: c0138009811b711a526103599f8b3822bc807fd6952f611b5ab67e286c0678b1f47b5a218ef4be05fc62f6d2930e8adb2208834e33efbb5f2c1e965ad84e1b2c
 Description: purple-line (debugging symbols)
  libpurple (Pidgin, Finch) protocol plugin for LINE.
  This package includes debug symbols.
@@ -284,11 +284,11 @@ Version: 0.1-debian1~stable
 Provides: purple-line
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libpurple0 (>= 2.8.0), libstdc++6 (>= 4.6), libthrift0
 Filename: pool/main/p/purple-line/purple-line_0.1-debian1~stable_amd64.deb
-Size: 280126
-MD5sum: 16e4c85113190eef7bfb1ce21b73a483
-SHA1: 48d1c5b1090d2bbd633a44a645568ad51098a9dd
-SHA256: 65b14453a8a336f7505196b309cf96bdbcbe2c4ca4a59fce2da53530c519509a
-SHA512: 71396c0ade014c12717b485b8480bf96fffb3b21d59c94618979722d0c99298a18b6fbb9c4351cf2fd8038d67c8de3b64e1a151aedc3d24ed36b24c89aca281b
+Size: 279678
+MD5sum: eaecf1846b6f337d3e08d64dee5af81f
+SHA1: 11d0a17a01e1e65764a0b8ab90b8261e355ab007
+SHA256: 33d8870ebcc153e4e90ab1e7e628cf13b9a5b3ead9a663e9056f1299863aed01
+SHA512: 0ed61c9772c8d3b28bdb045634b7dccddd975ef60ef9e7579d9bbf99461f39f31cd5376b41021a29b9c0c5030d05dee7d89cb6948f9608a5d8943c69edd0e108
 Description: purple-line
  libpurple (Pidgin, Finch) protocol plugin for LINE.
  Now, this doesn't work well on Empathy.
