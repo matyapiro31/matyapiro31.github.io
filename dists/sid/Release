@@ -1,13 +1,13 @@
--e -e Origin: altrepo.eu
+Origin: altrepo.eu
 Label: altrepo.eu debian repository
 Suite: unstable
+Version: 9.0
 Codename: sid
 Architecture: amd64 armhf i386
 Components: main
 Description: Packages from altrepo.eu projects
-Date: Tue, 15 Sep 2015 02:59:08 UTC
+Date: Thu, 17 Sep 2015 03:24:22 UTC
 MD5Sum:
- d53d0ab722d4762fb18ee9b5b0388534             4129 Release
  62b2ba1a01be25d70c4fe1e7c21ba3a4            13108 main/binary-amd64/Packages
  3e82de7b3ecb62d6f907a77b92ee85ac              109 main/binary-amd64/Release
  622b0db31f6c64e06deffe7bb1cc2ceb             4728 main/binary-armhf/Packages
@@ -15,9 +15,8 @@ MD5Sum:
  622b0db31f6c64e06deffe7bb1cc2ceb             4728 main/binary-i386/Packages
  5a108d1ae1adc539e18aa8c8d0f393fe              108 main/binary-i386/Release
  cfef173f6f1d49f19dc94133681fc1cd              110 main/source/Release
- 48b5803d6d06f0ee75536b5da4f144b4             4196 main/source/Sources
+ 48f6275368b0cb078fc1a31fdaea5228             4196 main/source/Sources
 SHA1:
- 531e4aef2174115772f280582a32a8e869e313f9             4129 Release
  02eae7ec7bab9dc426480c6638eb1b68233ffdd9            13108 main/binary-amd64/Packages
  6af3581e10689fba09b6eadcea255b6122d91887              109 main/binary-amd64/Release
  4991e173b111a5ed95f92ea363b60ef695ea319c             4728 main/binary-armhf/Packages
@@ -25,9 +24,8 @@ SHA1:
  4991e173b111a5ed95f92ea363b60ef695ea319c             4728 main/binary-i386/Packages
  dad662784e8ab19626e4a8a35e022e76120e9f77              108 main/binary-i386/Release
  62a2b30813854d6c33d812e409273fce5223cf01              110 main/source/Release
- bdfe839700e82746d224c522a01fe74027dc3b9b             4196 main/source/Sources
+ 9e802f42d9f78830d30ab1dc5db37895b91897f9             4196 main/source/Sources
 SHA256:
- 868a5a972b68839a78192ed3f7d4c7fb9f2effd1c0db66c3b82d0a6793f13149             4129 Release
  0d2c07c8b1f8d334251d467db839a66cf64f9c085e2a15468fbd37ad82757504            13108 main/binary-amd64/Packages
  cec51a6c4248ecf74db822f5028493619af792744d097b95b235d7e31fbc8133              109 main/binary-amd64/Release
  fe103d6e05de5314c3ba189b6036bbe840bb8e2d195776c700350d1028933f22             4728 main/binary-armhf/Packages
@@ -35,9 +33,8 @@ SHA256:
  fe103d6e05de5314c3ba189b6036bbe840bb8e2d195776c700350d1028933f22             4728 main/binary-i386/Packages
  773006fd79c5f0db3d51141dec7f175fc31957d396781e10d43248466c6cfd15              108 main/binary-i386/Release
  aa4aa31f86817f8d0609ef5f43d1ba43498c88822ebc16de81c97f0eabdc88fb              110 main/source/Release
- 4ab5fef8cfbe6c537b96cf69f1e79ace72ee89863b96b39718c7c4d3e221a500             4196 main/source/Sources
+ b89b8d49bbec5bf88ff14e2b057326049f90257d84a33979f8e4c2417ba7d015             4196 main/source/Sources
 SHA512:
- 8de1468b6b42c253df17756e51cd653231fa678c7f33bf923115e9c3efb9823841c2d777c00dab20cb98f7bb7732611d9c6177347a574e4ec0bc90c13bc53421             4129 Release
  b473f26461d5cfdaf0f2e9f53837b6d8409206718af016fde36d35f818cb358f6ad88ae5824cdd4e8210a73486dbf81b9227538955965bed9d79c2a6c6feccaf            13108 main/binary-amd64/Packages
  a9d1eacdcf7cb48b9f8d3677ff456b4c057f1721c077acade563b3a0adaabbdd00cafa23e2f94e8d8137778046f0c8a2fbc60ebcebf121daaf2c8ef26e1988a6              109 main/binary-amd64/Release
  5fc5cf6f29d084238fa1ae04a0345c99ce7ec9722f71bb6508e0f9d13a69075007e9013d478b72ba0d058203c686db99d94212cdbdf61e3cf6a6e5a10581692c             4728 main/binary-armhf/Packages
@@ -45,4 +42,4 @@ SHA512:
  5fc5cf6f29d084238fa1ae04a0345c99ce7ec9722f71bb6508e0f9d13a69075007e9013d478b72ba0d058203c686db99d94212cdbdf61e3cf6a6e5a10581692c             4728 main/binary-i386/Packages
  a58100b8155f8c26a7d6c30f2630a5acc1360f3f61693c1ca962c80286938c6c952e12f8d44c078a6e158ab7a082911c662d4106d0ee3d6decedd92b22ee476d              108 main/binary-i386/Release
  4cd88ee5b7a876fb4887cbf5cdf6723d8ec58814f16b4dac6ebe601d939468ef9a79022204d380717643919cadf74bbbda2b7c54a6a56e489a826b32a8cadd33              110 main/source/Release
- dae2043bf5f1217806536c98e642250983648827690a4983af2b1c070f6cca3d95a1dcc1b401a860dce065bacc3af0d2a00a919f363b6931a05dc0365aaa61ff             4196 main/source/Sources
+ c4cc6532c86f4eeacafead832a1852de40c13d1948d0fcd52d05a9f704a9d8f233c41416e8746d7fdade8b3d7bd39fb09e6f7863ce24335118311a46abf3c49a             4196 main/source/Sources
