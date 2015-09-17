@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Format: 1.0
 Directory: pool/main/t/thrift
 Files:
- ad1e2a94df562ff1a6302f72f54b8706 2428 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
+ 11054ecaa1f7adf0b1a0792f5a42337b 2082 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
  49e5e8727e4df639dee02b895e132009 14698571 thrift_1.0.0-dev+0ubuntu1~trusty.tar.gz
 Homepage: http://thrift.apache.org/
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
@@ -25,13 +25,13 @@ Package-List:
  ruby-thrift deb libs extra
  thrift-compiler deb devel extra
 Checksums-Sha1:
- 7e3fb4c298dbc02f9ab9aa63fb321e912c9a6d40 2428 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
+ a391213f3562f583bcad79cf455366a640305859 2082 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
  7512f52da9e6f6fcb6599c3e2a313a2cf1135e12 14698571 thrift_1.0.0-dev+0ubuntu1~trusty.tar.gz
 Checksums-Sha256:
- fb02deee949fe18555ece430cb0a21dd7ba247dafa18d7371d2fa5fdf0e67eae 2428 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
+ 99b263f7f0dfe386607a1c01f8e355e1b12d470da588402a435c6f4a31cd4351 2082 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
  b4c79bc62ffafa3d082818c0496864ee78d44bfcf79ce521e5be5772a8360aae 14698571 thrift_1.0.0-dev+0ubuntu1~trusty.tar.gz
 Checksums-Sha512:
- 15440b0e04add50c692a5629d720af43ea2cea16bc874ee77daa4a9d5a9031f0be9f1b5f8372d8738910d30c8a499253f39b52fb6c8cda80aa9e6cff58ef0bbe 2428 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
+ 5e7d2e959588b7e03576f58c3ac85190722ad3b4154e6374717b7ebb7b3770e214a312e033ed916cae36010133e4462402a46b85994a543b2ef4da1c3dabdca6 2082 thrift_1.0.0-dev+0ubuntu1~trusty.dsc
  c3996a975ce31aa0377ec01dfd1caedddee032fe2156d12050c24d4761f500d6687c2bd250524e53a8d824afbaa81907c65ca8628ce0044fb675d6cf37daea0c 14698571 thrift_1.0.0-dev+0ubuntu1~trusty.tar.gz
 
 Package: purple-line
@@ -44,7 +44,7 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/purple-line
 Files:
- 12be05dd5a7976df866c359327f8af27 1610 purple-line_0.1-ubuntu1~trusty.dsc
+ da81e6cbd1dd30bc3e2ab4a5c7ca2419 1610 purple-line_0.1-ubuntu1~trusty.dsc
  d43888b4635f87da4f8d949b421ff6a1 277704 purple-line_0.1.orig.tar.xz
  d1e99ea9f9452d7a99dae4f74bbd3388 2530 purple-line_0.1-ubuntu1~trusty.debian.tar.gz
 Homepage: http://altrepo.eu/git/purple-line/
@@ -53,14 +53,14 @@ Package-List:
  purple-line deb contrib/net optional
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1:
- 72948760f0f6a579ce0bfb026a9fc91c96a0b6e8 1610 purple-line_0.1-ubuntu1~trusty.dsc
+ 6ce3d4147c7bcd20754a7e0b9c2dc56742e9f750 1610 purple-line_0.1-ubuntu1~trusty.dsc
  f7b5e6edd4d0d501705b8b7b9f61d886ecba44df 277704 purple-line_0.1.orig.tar.xz
  2c127bfc21e76b8d764b58330f20828ef091fc44 2530 purple-line_0.1-ubuntu1~trusty.debian.tar.gz
 Checksums-Sha256:
- d56d398113313a90d4f49adaa12a26d1475a5215149e0c2e5fdcf11a5feef445 1610 purple-line_0.1-ubuntu1~trusty.dsc
+ 2569a20487eca752424495a69964feeacebbf7d9129a62759835083ece81f7c2 1610 purple-line_0.1-ubuntu1~trusty.dsc
  d3b07c91a48ad367cf781ce99dd18aebf8e420aefcdee1832fb44eccb75628a7 277704 purple-line_0.1.orig.tar.xz
  49317e3c55f9fce1f646aaac07a7e57cf76ef75c99bf5c4d8faf5418b89e5406 2530 purple-line_0.1-ubuntu1~trusty.debian.tar.gz
 Checksums-Sha512:
- dbfb2ca44e5023cbe00e738b4e1554a2fdf2447303cde0eb7da086aa032b6b6666be1a532aa1468b69ccfb0d97905728dce39c230f36063e6b15132d3d47f498 1610 purple-line_0.1-ubuntu1~trusty.dsc
+ 32203057e1f232644373e2453e9e27fff4553a5ab355c6f01d294c86030f1ed7072559cb2b67464b23215afe9a0811cca7f45f30b892ac9cdb7e8a5e3258b176 1610 purple-line_0.1-ubuntu1~trusty.dsc
  8dee56ea1a6135c8f63e4ea3e894ded0e1108a62e7ecaee0bfaac11995fde1aba7469fc0c8006cbae39af196e79dd5eb2d27673e52aa9d4bdfadec1b6fd59eb9 277704 purple-line_0.1.orig.tar.xz
  af10f830903d7b6f41f34cfbdfe94139190825f1638652586401b983c96315c06b315771a84f7efece666c8a81c50d0e9cfc28242d1edd5027d6fa85c182cf54 2530 purple-line_0.1-ubuntu1~trusty.debian.tar.gz
