@@ -9,6 +9,8 @@ WILY=5555
 PURPLE_LINE_VERSION=0.1
 THRIFT_VERSION=1.0.0-dev
 git checkout $1
+command=$(echo $2)
+$command &&
 yes n|debsign ./pool/main/*/*/*.dsc
 apt-ftparchive sources .>Sources
 apt-ftparchive packages .>Packages
@@ -19,9 +21,10 @@ a=$(sed -e "s/\.\/pool/pool/" Packages)
 echo "$a">Packages
 mv Packages ./dists/*/main/binary-amd64/Packages
 cd dists/*
-release=$(apt-ftparchive release .)
 rhead=$(head -8 Release)
-echo -e "${rhead}""\n""$release">Release
+rm -rf Release
+release=$(apt-ftparchive release .)
+echo "${rhead}""\n""$release">Release
 gpg -b -a Release
 mv Release.asc Release.gpg
 cd ../../

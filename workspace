@@ -1,0 +1,9 @@
+#!/bin/bash
+#Create a workspace for distribution.
+git-new-workdir . ../precise precise
+git-new-workdir . ../sid sid
+git-new-workdir . ../stable stable
+git-new-workdir . ../trusty trusty
+git-new-workdir . ../vivid
+git-new-workdir . ../wily
+git-new-workdir . ../master master

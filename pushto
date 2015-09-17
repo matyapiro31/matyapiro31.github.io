@@ -1,0 +1,15 @@
+#!/bin/bash
+cd ../precise
+git push mirror precise
+cd ../sid
+git push mirror sid
+cd ../stable
+git push mirror stable
+cd ../trusty
+git push mirror trusty
+cd ../vivid
+git push mirror vivid
+cd ../wily
+git push mirror wily
+cd ../master
+git push mirror master
