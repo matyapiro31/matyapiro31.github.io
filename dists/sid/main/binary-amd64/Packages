@@ -257,40 +257,52 @@ Homepage: http://thrift.apache.org/
 Package: purple-line
 Priority: optional
 Section: contrib/net
-Installed-Size: 1687
+Installed-Size: 1721
 Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
-Version: 0.1-debian1~sid
+Version: 0.1-0debian2~sid
 Provides: purple-line
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libpurple0 (>= 2.8.0), libstdc++6 (>= 5.2), libthrift0
-Filename: pool/main/p/purple-line/purple-line_0.1-debian1~sid_amd64.deb
-Size: 288382
-MD5sum: 9b474ba84949b03cd2da3283dd9e22f4
-SHA1: 0985cf5a663483a90ede7dda901456a70f94445b
-SHA256: eeddfc78b51aaf18fe8d4342dcbee9e1cdf928a64bc0392ee0ff3ead55094d45
-SHA512: 72d34d631571118787a4563ffb51f7ea40bafe623b7f4d12724683a30bb2084d4fdf4a7bdefaf597694056cf8f8f640373ad55a68c88d15371a40f0cd634ced4
-Description: purple-line
- libpurple (Pidgin, Finch) protocol plugin for LINE.
- Now, this doesn't work well on Empathy.
- To know usage, you should read README.md in /usr/share/doc/purple-line.
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgcrypt20 (>= 1.6.1), libglib2.0-0 (>= 2.30.0), libgpg-error0 (>= 1.14), libpurple0 (>= 2.8.0), libstdc++6 (>= 5.2), libthrift0, libgcrypt11, libgpg-error
+Filename: pool/main/p/purple-line/purple-line_0.1-0debian2~sid_amd64.deb
+Size: 291732
+MD5sum: 1a58940e10bed6ef40cdb20e7394cbf1
+SHA1: d5b54666f98e91cc71c5ed179667c07d1c5e7abe
+SHA256: ba3013eee479702b7241a29fd61b682bc13f9f03b806ddc156df1757eb07fbaa
+SHA512: d0af7833923094ed5397e60f83dd92a02a31adc5516261fdabca715687481b7b3dae7871621c9a5a88492ba1741ede28131a5b2aacf70cf74b7adece0ebe23bf
+Description: libpurple (Pidgin, Finch) protocol plugin for LINE
+ Supported Application:Pidgin Finch
+ Unsuppoted Application:Empathy
+ This plugin provides most features of LINE,
+ but some of them are not yet implemented now.
+ For example,buddy list configuration, account icon modification,
+ to get message is read or not,VoIP receiving/calling.
+ If you want to know more details of this plugin,
+ please visit http://altrepo.eu/git/purple-line/
 Homepage: http://altrepo.eu/git/purple-line/
 
 Package: purple-line-dbg
 Priority: extra
 Section: contrib/debug
-Installed-Size: 4353
+Installed-Size: 4388
 Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: purple-line
-Version: 0.1-debian1~sid
-Depends: purple-line (= 0.1-debian1~sid)
-Filename: pool/main/p/purple-line/purple-line-dbg_0.1-debian1~sid_amd64.deb
-Size: 901540
-MD5sum: c96ac57f8d92f38213a52636bd60a532
-SHA1: 04602c0a8fc35ac43604aa5d62b4c8f3b1d3c333
-SHA256: 18c059ff8c7763e5a20790eb6c7671fd6501b43e24c7de3ec531afc1a9441271
-SHA512: 5ca24d678ee0c4841e68a9aa8277f0486909ce6219a5610271a7366ff488fecddb1424d09aa8768003deecfb971dfe5a9b0809cd33924cbc174dc44bb33d19eb
-Description: purple-line (debugging symbols)
- libpurple (Pidgin, Finch) protocol plugin for LINE.
+Version: 0.1-0debian2~sid
+Depends: purple-line (= 0.1-0debian2~sid)
+Filename: pool/main/p/purple-line/purple-line-dbg_0.1-0debian2~sid_amd64.deb
+Size: 910864
+MD5sum: b74c4cc7b680eaa3b1c5af7574376121
+SHA1: 1356afee10c3daeda6c85907e9c9924e1e49444d
+SHA256: d306a628fe222a513e9374deec4fb4ba5d4408c351a1119bd7267deb0d58a9d9
+SHA512: 40b9474e37c151c88ae5e77bf7726274d9d3f3a1ef4970705343d829ec729d1dfb0eb244791133181d0df351cc312ba94209f68a9737ee3477e3c1e09ce92fae
+Description: libpurple (Pidgin, Finch) protocol plugin for LINE
+ Supported Application:Pidgin Finch
+ Unsuppoted Application:Empathy
+ This plugin provides most features of LINE,
+ but some of them are not yet implemented now.
+ For example,buddy list configuration, account icon modification,
+ to get message is read or not,VoIP receiving/calling.
+ If you want to know more details of this plugin,
+ please visit http://altrepo.eu/git/purple-line/
  This package includes debug symbols.
 Homepage: http://altrepo.eu/git/purple-line/
