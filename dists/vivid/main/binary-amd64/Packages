@@ -254,43 +254,55 @@ Description: Python bindings for Thrift (debug version)
  you to use those classes in your programs.
 Homepage: http://thrift.apache.org/
 
-Package: purple-line-dbg
-Priority: extra
-Section: contrib/debug
-Installed-Size: 3855
-Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
-Architecture: amd64
-Source: purple-line
-Version: 0.1-ubuntu1~vivid
-Depends: purple-line (= 0.1-ubuntu1~vivid)
-Filename: pool/main/p/purple-line/purple-line-dbg_0.1-ubuntu1~vivid_amd64.deb
-Size: 858066
-MD5sum: 3a45a5a8249c525705adc6fea5946ced
-SHA1: 75f082aded55cd313af58d7d3e6641afb7c9189a
-SHA256: a566e0f70e2513cf099be59d5f46419e1370ec7d4e19c72c4502f1ce4b75d31a
-SHA512: bb0bfb172f57ee14166e804fb07dbf567eef0ebf3596e40ceb5867e2d820a51638cfaf3d35bdf77203ea2e9a5f0f8cd6d8053946380f5008e2e3a6287e992a1a
-Description: purple-line (debugging symbols)
- libpurple (Pidgin, Finch) protocol plugin for LINE.
- This package includes debug symbols.
-Homepage: http://altrepo.eu/git/purple-line/
-
 Package: purple-line
 Priority: optional
 Section: contrib/net
-Installed-Size: 1635
+Installed-Size: 1676
 Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
-Version: 0.1-ubuntu1~vivid
+Version: 0.1-0ubuntu2~vivid
 Provides: purple-line
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libpurple0 (>= 1:2.8.0), libstdc++6 (>= 4.6), libthrift0
-Filename: pool/main/p/purple-line/purple-line_0.1-ubuntu1~vivid_amd64.deb
-Size: 285576
-MD5sum: 601e52bd81e6304cb7d182a80c939226
-SHA1: ee142fbb6322a6dc22bd8879e050f717d9ff8aaf
-SHA256: 4b4797c92b9270be73496367714591292906015336a1b13e4c0fdaeb0b2ba7b6
-SHA512: 7d21a62aaf942fbbfc5739a4d362cad32fa325b1afb0c587d6359845fa05dd663c9fe83988694db98453a0a49381388bc035b9a6c3a87fc18d47a685b24b25a2
-Description: purple-line
- libpurple (Pidgin, Finch) protocol plugin for LINE.
- Now, this doesn't work well on Empathy.
- To know usage, you should read README.md in /usr/share/doc/purple-line.
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgcrypt20 (>= 1.6.1), libglib2.0-0 (>= 2.30.0), libgpg-error0 (>= 1.14), libpurple0 (>= 1:2.8.0), libstdc++6 (>= 4.6), libthrift0, libgcrypt11, libgpg-error
+Filename: pool/main/p/purple-line/purple-line_0.1-0ubuntu2~vivid_amd64.deb
+Size: 290738
+MD5sum: 7e22638a894a06cb9a93bbc428b1fdea
+SHA1: 47171cc2c3708ccf53e0ad582e63dfcc56a0332e
+SHA256: 9b1b62c826828173a89bf870e7adc1d91b937cb0b61cc3cd94a15d2239c1360f
+SHA512: ba8376276093d9728c7cfa511c68bd1ddef3fe17cc734cd252e3aff8aa7d1e525293d658cdf4c35e6356a1fdbb6f07daa5bb9a6211a5368aa4fe8bc988960bcd
+Description: libpurple (Pidgin, Finch) protocol plugin for LINE
+ Supported Application:Pidgin Finch
+ Unsuppoted Application:Empathy
+ This plugin provides most features of LINE,
+ but some of them are not yet implemented now.
+ For example,buddy list configuration, account icon modification,
+ to get message is read or not,VoIP receiving/calling.
+ If you want to know more details of this plugin,
+ please visit http://altrepo.eu/git/purple-line/
+Homepage: http://altrepo.eu/git/purple-line/
+
+Package: purple-line-dbg
+Priority: extra
+Section: contrib/debug
+Installed-Size: 3889
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Architecture: amd64
+Source: purple-line
+Version: 0.1-0ubuntu2~vivid
+Depends: purple-line (= 0.1-0ubuntu2~vivid)
+Filename: pool/main/p/purple-line/purple-line-dbg_0.1-0ubuntu2~vivid_amd64.deb
+Size: 866872
+MD5sum: fe21190534e374e0e5fa26fa69926aeb
+SHA1: 2968348dd9180ff9d933eedb89e88ab70c7b9d8c
+SHA256: 8dfd4e2da46edd4059f623e317fa68368ef3532432bc927c4d438c5d850019a2
+SHA512: b9f2f84d30ff213f5ccf6504425974871ac1877f52ca60f532c3403559b9bddb999c424f2c2c51a1b3f0764eb4c9fa1f1ae434ccbd36eb43bb652f45267f1a31
+Description: libpurple (Pidgin, Finch) protocol plugin for LINE
+ Supported Application:Pidgin Finch
+ Unsuppoted Application:Empathy
+ This plugin provides most features of LINE,
+ but some of them are not yet implemented now.
+ For example,buddy list configuration, account icon modification,
+ to get message is read or not,VoIP receiving/calling.
+ If you want to know more details of this plugin,
+ please visit http://altrepo.eu/git/purple-line/
+ This package includes debug symbols.
 Homepage: http://altrepo.eu/git/purple-line/
