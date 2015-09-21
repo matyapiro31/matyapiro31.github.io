@@ -1,179 +1,182 @@
 #!/bin/sh
-root=/home/akira/ドキュメント/project/work/master
+#createhtml: create html for accessing via web browser.
+#$1: url to get from.
+root=$(dirname $0)/../master
+url=$1
 cd $root
 dir=.
 cd $dir
-curl http://debian.altrepo.eu/ -o index.html
+curl $1 -o index.html
 cd $root
 dir=./dists
 cd $dir
-curl http://debian.altrepo.eu/dists/ -o index.html
+curl $1dists/ -o index.html
 cd $root
 dir=./dists/wily
 cd $dir
-curl http://debian.altrepo.eu/dists/wily/ -o index.html
+curl $1dists/wily/ -o index.html
 cd $root
 dir=./dists/wily/main
 cd $dir
-curl http://debian.altrepo.eu/dists/wily/main/ -o index.html
+curl $1dists/wily/main/ -o index.html
 cd $root
 dir=./dists/wily/main/source
 cd $dir
-curl http://debian.altrepo.eu/dists/wily/main/source/ -o index.html
+curl $1dists/wily/main/source/ -o index.html
 cd $root
 dir=./dists/wily/main/binary-amd64
 cd $dir
-curl http://debian.altrepo.eu/dists/wily/main/binary-amd64/ -o index.html
+curl $1dists/wily/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/wily/main/binary-armhf
 cd $dir
-curl http://debian.altrepo.eu/dists/wily/main/binary-armhf/ -o index.html
+curl $1dists/wily/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/wily/main/binary-i386
 cd $dir
-curl http://debian.altrepo.eu/dists/wily/main/binary-i386/ -o index.html
+curl $1dists/wily/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/sid
 cd $dir
-curl http://debian.altrepo.eu/dists/sid/ -o index.html
+curl $1dists/sid/ -o index.html
 cd $root
 dir=./dists/sid/main
 cd $dir
-curl http://debian.altrepo.eu/dists/sid/main/ -o index.html
+curl $1dists/sid/main/ -o index.html
 cd $root
 dir=./dists/sid/main/source
 cd $dir
-curl http://debian.altrepo.eu/dists/sid/main/source/ -o index.html
+curl $1dists/sid/main/source/ -o index.html
 cd $root
 dir=./dists/sid/main/binary-amd64
 cd $dir
-curl http://debian.altrepo.eu/dists/sid/main/binary-amd64/ -o index.html
+curl $1dists/sid/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/sid/main/binary-armhf
 cd $dir
-curl http://debian.altrepo.eu/dists/sid/main/binary-armhf/ -o index.html
+curl $1dists/sid/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/sid/main/binary-i386
 cd $dir
-curl http://debian.altrepo.eu/dists/sid/main/binary-i386/ -o index.html
+curl $1dists/sid/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/trusty
 cd $dir
-curl http://debian.altrepo.eu/dists/trusty/ -o index.html
+curl $1dists/trusty/ -o index.html
 cd $root
 dir=./dists/trusty/main
 cd $dir
-curl http://debian.altrepo.eu/dists/trusty/main/ -o index.html
+curl $1dists/trusty/main/ -o index.html
 cd $root
 dir=./dists/trusty/main/source
 cd $dir
-curl http://debian.altrepo.eu/dists/trusty/main/source/ -o index.html
+curl $1dists/trusty/main/source/ -o index.html
 cd $root
 dir=./dists/trusty/main/binary-amd64
 cd $dir
-curl http://debian.altrepo.eu/dists/trusty/main/binary-amd64/ -o index.html
+curl $1dists/trusty/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/trusty/main/binary-armhf
 cd $dir
-curl http://debian.altrepo.eu/dists/trusty/main/binary-armhf/ -o index.html
+curl $1dists/trusty/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/trusty/main/binary-i386
 cd $dir
-curl http://debian.altrepo.eu/dists/trusty/main/binary-i386/ -o index.html
+curl $1dists/trusty/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/precise
 cd $dir
-curl http://debian.altrepo.eu/dists/precise/ -o index.html
+curl $1dists/precise/ -o index.html
 cd $root
 dir=./dists/precise/main
 cd $dir
-curl http://debian.altrepo.eu/dists/precise/main/ -o index.html
+curl $1dists/precise/main/ -o index.html
 cd $root
 dir=./dists/precise/main/source
 cd $dir
-curl http://debian.altrepo.eu/dists/precise/main/source/ -o index.html
+curl $1dists/precise/main/source/ -o index.html
 cd $root
 dir=./dists/precise/main/binary-amd64
 cd $dir
-curl http://debian.altrepo.eu/dists/precise/main/binary-amd64/ -o index.html
+curl $1dists/precise/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/precise/main/binary-armhf
 cd $dir
-curl http://debian.altrepo.eu/dists/precise/man/binary-armhf/ -o index.html
+curl $1dists/precise/man/binary-armhf/ -o index.html
 cd $root
 dir=./dists/precise/main/binary-i386
 cd $dir
-curl http://debian.altrepo.eu/dists/precise/main/binary-i386/ -o index.html
+curl $1dists/precise/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/stable
 cd $dir
-curl http://debian.altrepo.eu/dists/stable/ -o index.html
+curl $1dists/stable/ -o index.html
 cd $root
 dir=./dists/stable/main
 cd $dir
-curl http://debian.altrepo.eu/dists/stable/main/ -o index.html
+curl $1dists/stable/main/ -o index.html
 cd $root
 dir=./dists/stable/main/source
 cd $dir
-curl http://debian.altrepo.eu/dists/stable/main/source/ -o index.html
+curl $1dists/stable/main/source/ -o index.html
 cd $root
 dir=./dists/stable/main/binary-amd64
 cd $dir
-curl http://debian.altrepo.eu/dists/stable/main/binary-amd64/ -o index.html
+curl $1dists/stable/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/stable/main/binary-armhf
 cd $dir
-curl http://debian.altrepo.eu/dists/stable/main/binary-armhf/ -o index.html
+curl $1dists/stable/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/stable/main/binary-i386
 cd $dir
-curl http://debian.altrepo.eu/dists/stable/main/binary-i386/ -o index.html
+curl $1dists/stable/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/vivid
 cd $dir
-curl http://debian.altrepo.eu/dists/vivid/ -o index.html
+curl $1dists/vivid/ -o index.html
 cd $root
 dir=./dists/vivid/main
 cd $dir
-curl http://debian.altrepo.eu/dists/vivid/main/ -o index.html
+curl $1dists/vivid/main/ -o index.html
 cd $root
 dir=./dists/vivid/main/source
 cd $dir
-curl http://debian.altrepo.eu/dists/vivid/main/source/ -o index.html
+curl $1dists/vivid/main/source/ -o index.html
 cd $root
 dir=./dists/vivid/main/binary-amd64
 cd $dir
-curl http://debian.altrepo.eu/dists/vivid/main/binary-amd64/ -o index.html
+curl $1dists/vivid/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/vivid/main/binary-armhf
 cd $dir
-curl http://debian.altrepo.eu/dists/vivid/main/binary-armhf/ -o index.html
+curl $1dists/vivid/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/vivid/main/binary-i386
 cd $dir
-curl http://debian.altrepo.eu/dists/vivid/main/binary-i386/ -o index.html
+curl $1dists/vivid/main/binary-i386/ -o index.html
 cd $root
 dir=./pool
 cd $dir
-curl http://debian.altrepo.eu/pool/ -o index.html
+curl $1pool/ -o index.html
 cd $root
 dir=./pool/main
 cd $dir
-curl http://debian.altrepo.eu/pool/main/ -o index.html
+curl $1pool/main/ -o index.html
 cd $root
 dir=./pool/main/t
 cd $dir
-curl http://debian.altrepo.eu/pool/main/t/ -o index.html
+curl $1pool/main/t/ -o index.html
 cd $root
 dir=./pool/main/t/thrift
 cd $dir
-curl http://debian.altrepo.eu/pool/main/t/thrift/ -o index.html
+curl $1pool/main/t/thrift/ -o index.html
 cd $root
 dir=./pool/main/p
 cd $dir
-curl http://debian.altrepo.eu/pool/main/p/ -o index.html
+curl $1pool/main/p/ -o index.html
 cd $root
 dir=./pool/main/p/purple-line
 cd $dir
-curl http://debian.altrepo.eu/pool/main/p/purple-line/ -o index.html
+curl $1pool/main/p/purple-line/ -o index.html
 

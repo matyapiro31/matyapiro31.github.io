@@ -1,0 +1,17 @@
+#!/bin/bash
+#importer: import files from host to docker.
+#$1: code name.
+#$2: ubuntu or debian.
+#$3: purple-line version.
+if [ $(groups|grep docker -|wc -l) != 1 ];then
+exit
+fi
+rm -rf /tmp/purple-line
+restore=$(pwd)
+cd /tmp
+git clone http://altrepo.eu/git/purple-line.git
+tar Jcvf purple-line_$3.orig.tar.xz purple-line
+cd "$restore"
+sudo cp /tmp/purple-line_$3.orig.tar.xz /mnt
+sudo cp $(dirname $0)/build9dc /mnt
+docker run -v /mnt:/mnt -it up2date_$1 /bin/bash -c "/mnt/build9dc $1 $2 $3"
