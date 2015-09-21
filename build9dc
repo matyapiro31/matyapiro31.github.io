@@ -3,6 +3,7 @@
 #$1: code name.
 #$2: ubuntu or debian.
 #$3: purple-line version.
+#$4: command to exec.
 #in docker and dist=ubuntu
 rm -rf /purple-line
 rm -rf /thrift-1.0.0
@@ -23,6 +24,10 @@ mv /purple-line/debian/changelog.1 /purple-line/debian/changelog
 #Change at thrift 1.0.0
 sed -e "s/thrift (1.0.0-dev) stable/thrift (1.0.0-dev+0ubuntu1~$1) $1/g" /thrift-1.0.0/debian/changelog>/thrift-1.0.0/debian/changelog.1
 mv /thrift-1.0.0/debian/changelog.1 /thrift-1.0.0/debian/changelog
+#Finished preparation.
+#additional prepare command.
+$4
+#Start building.
 cd thrift-1.0.0/
 debuild -us -uc
 cd ../
