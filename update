@@ -1,4 +1,5 @@
 #!/bin/sh
+#update: update debian repository.
 #$1: code name.
 #$2: command to exec.
 git checkout $1

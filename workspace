@@ -1,5 +1,5 @@
 #!/bin/bash
-#Create a workspace for distribution.
+#workspace: Create a workspace for distribution.
 git-new-workdir . ../precise precise
 git-new-workdir . ../sid sid
 git-new-workdir . ../stable stable

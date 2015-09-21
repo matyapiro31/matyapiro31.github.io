@@ -1,4 +1,5 @@
 #!/bin/bash
+#pushto: push to remote git repository.
 cd ../precise
 git push mirror precise
 cd ../sid
