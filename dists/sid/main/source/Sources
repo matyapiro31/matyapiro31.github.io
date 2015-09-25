@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Format: 1.0
 Directory: pool/main/t/thrift
 Files:
- a5daa064468641a6936c08710aa7063c 2153 thrift_1.0.0-dev+0debian1~sid.dsc
+ db58d0e4e34c7ab9c7391732ff6d4ef2 2153 thrift_1.0.0-dev+0debian1~sid.dsc
  a2aee64879db579830d70df933b3c06f 12397746 thrift_1.0.0-dev+0debian1~sid.tar.gz
 Homepage: http://thrift.apache.org/
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
@@ -25,13 +25,13 @@ Package-List:
  ruby-thrift deb libs extra arch=all
  thrift-compiler deb devel extra arch=any
 Checksums-Sha1:
- bbe9568109b65b66512ae5d98c664273d9a97344 2153 thrift_1.0.0-dev+0debian1~sid.dsc
+ 1907be39281cdfc3b888bb7401edea3a13c89682 2153 thrift_1.0.0-dev+0debian1~sid.dsc
  136777b5153028b6c5a7a0c052edf18a8127712e 12397746 thrift_1.0.0-dev+0debian1~sid.tar.gz
 Checksums-Sha256:
- b38a7b925a4ea11dbac74a414b6249c76f171cbef9934d58fa1e7bb5153d5659 2153 thrift_1.0.0-dev+0debian1~sid.dsc
+ db0702f86fb742fef9c7684b684cd97baa11dae8031d3f89d6c6a775359ff7fe 2153 thrift_1.0.0-dev+0debian1~sid.dsc
  af78eb8642e4a48a79e408b0058e8f6d1158838a2f2bc4a27005667d9dd37251 12397746 thrift_1.0.0-dev+0debian1~sid.tar.gz
 Checksums-Sha512:
- 343849d68b797986dbd13d5bfe818aee3322d9e86e5c737aeaaaa871ea12ed6dd1f3454a2178a1a50d60ae97400eecc16730c13bdc56d1412b337886870ce9c2 2153 thrift_1.0.0-dev+0debian1~sid.dsc
+ c7ab9003644da7444cfedf188d63b745219a427f4946051184fb151657aac6d14cd925bb9e8f2cd0e59a09c55480103c1a2d8d63ff812eece12c2678d3b7e3a2 2153 thrift_1.0.0-dev+0debian1~sid.dsc
  965eadd694ac3128e1a56f6a63e3581be002c1323aa5b711bfc43f6a4301cbdd4cf02c9eaef85d367ca5e86a8753d7565267f1206e462267237932ef05c9ead4 12397746 thrift_1.0.0-dev+0debian1~sid.tar.gz
 
 Package: purple-line
@@ -44,7 +44,7 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/purple-line
 Files:
- db9dad8b4ea99778273ba30f9d2d0dbe 1661 purple-line_0.1.1-debian2~sid.dsc
+ 63e62a7eee6caf47083760f52ea553c6 1661 purple-line_0.1.1-debian2~sid.dsc
  2ca343b7da96d19ff69f7af662671a1b 286336 purple-line_0.1.1.orig.tar.xz
  eaaf939325b931f7606c17999214b274 2708 purple-line_0.1.1-debian2~sid.debian.tar.xz
 Homepage: http://altrepo.eu/git/purple-line/
@@ -53,14 +53,14 @@ Package-List:
  purple-line deb contrib/net optional arch=any
  purple-line-dbg deb contrib/debug extra arch=any
 Checksums-Sha1:
- 8e47bda03266d8f0975b699b2ff6f4c5f8c9f54e 1661 purple-line_0.1.1-debian2~sid.dsc
+ d7289fa966faf67d20a73a4b7465bb52aa74d265 1661 purple-line_0.1.1-debian2~sid.dsc
  ba39da56a6593fa11b09e3ce16f522c1f640b35e 286336 purple-line_0.1.1.orig.tar.xz
  a0a18b8c367daa8afe31b8363e58eba9b6e125ed 2708 purple-line_0.1.1-debian2~sid.debian.tar.xz
 Checksums-Sha256:
- d4811087e8fe049e14dfc940d8f8583bf6f8db62dae5080d41b95b06e331c90f 1661 purple-line_0.1.1-debian2~sid.dsc
+ ea1cba9832eac07d6fab5bd9b3ea8d7d2f450d0b33fa3301571bebdfb086102c 1661 purple-line_0.1.1-debian2~sid.dsc
  7ceb9960fc1fb432e831a683c2b8ef43678be7aa1791d888c047c78db3ac25ee 286336 purple-line_0.1.1.orig.tar.xz
  47da89cd2ee624e2f115f9691fd5372c85acac407eb7459470d9796e874cc57d 2708 purple-line_0.1.1-debian2~sid.debian.tar.xz
 Checksums-Sha512:
- c7969454a250cba5a5e81388381f4f7b25c328cd8591ab769136d552d574ad97c47f18e6839f3b5602a0d4c21458edcd916db5abc69580ca549f8dc89c13b886 1661 purple-line_0.1.1-debian2~sid.dsc
+ b0901e752f25bd1e795bf74b99e87f75f4fdcb71a353bc09fb134af954376d4ea5aca0a4bb1bbca4d929f7fbbe29c0982e5819ce0d8d23a76bb23b5b0694e0ae 1661 purple-line_0.1.1-debian2~sid.dsc
  6ff1dce41e857622b8d73570983612a906213e27aa80fc31a8aea10e394fdeea19ec8d481c780edf00939947428fed5465102e75f52c6befe004f8491111e7cb 286336 purple-line_0.1.1.orig.tar.xz
  d1e821003d3da2b173c5a79676d9e15db2f6f58f9fb20973c687248cae083857b01c27f7a5cd3b7c89217c68e1454702506b3349fdabf6834893419dfba6a0c5 2708 purple-line_0.1.1-debian2~sid.debian.tar.xz
