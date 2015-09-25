@@ -3,21 +3,35 @@
 #$1: code name.
 #$2: ubuntu or debian.
 #$3: purple-line version.
-#$4: command to exec in docker.
+#$4: command to exec additionally before docker.
+#$5: command to exec in docker.
+#$6: command to exec additionally after docker.
 if [ $(groups|grep docker -|wc -l) != 1 ];then
-echo "Couldn't run docker.Abort.">&2
+ echo "Couldn't run docker.Abort.">&2
 exit
 fi
 rm -rf /tmp/purple-line
 restore=$(pwd)
 cd /tmp
 if [ -e purple-line_$3.orig.tar.xz ];then
-echo "Already file exists.skipping."
+ echo "Already file exists.skipping."
 else
 git clone http://altrepo.eu/git/purple-line.git
 tar Jcvf purple-line_$3.orig.tar.xz purple-line
 fi
 cd "$restore"
-sudo cp /tmp/purple-line_$3.orig.tar.xz /mnt
-sudo cp $(dirname $0)/build9dc /mnt
-docker run -v /mnt:/mnt -it up2date_$1 /bin/bash -c "/mnt/build9dc $1 $2 $3 $4"
+
+sudo mount -o bind ../$1 /mnt
+cp /tmp/purple-line_$3.orig.tar.xz /mnt/pool/main/p/purple-line
+cp $(dirname $0)/build9dc /mnt
+cp $(dirname $0)/exporter /mnt
+printf "purple-line\npurple-line-dbg">/mnt/purple-line.list
+printf "libthrift0\nlibthrift-cil\nlibthrift-dev\nlibthrift-java\nlibthrift-perl\nphp5-thrift\npython-thrift\npython-thrift-dbg\nruby-thrift\nthrift-compiler">/mnt/thrift.list
+$4
+docker run -v /mnt:/mnt -it up2date_$1 /bin/bash -c "/mnt/build9dc $1 $2 $3 \"$5\"&&/mnt/exporter purple-line /mnt/purple-line.list 0.1.1 -${2}2 ~$1 amd64 quilt&&/mnt/exporter thrift /mnt/thrift.list 1.0.0 -dev+0${2}1 ~$1 amd64 native"
+rm -rf /mnt/build9dc
+rm -rf /mnt/exporter
+rm -rf /mnt/purple-line.list
+rm -rf /mnt/thrift.list
+$6
+sudo umount /mnt

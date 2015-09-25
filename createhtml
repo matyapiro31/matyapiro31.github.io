@@ -6,177 +6,177 @@ url=$1
 cd $root
 dir=.
 cd $dir
-curl $1 -o index.html
+curl ${url} -o index.html
 cd $root
 dir=./dists
 cd $dir
-curl $1dists/ -o index.html
+curl ${url}dists/ -o index.html
 cd $root
 dir=./dists/wily
 cd $dir
-curl $1dists/wily/ -o index.html
+curl ${url}dists/wily/ -o index.html
 cd $root
 dir=./dists/wily/main
 cd $dir
-curl $1dists/wily/main/ -o index.html
+curl ${url}dists/wily/main/ -o index.html
 cd $root
 dir=./dists/wily/main/source
 cd $dir
-curl $1dists/wily/main/source/ -o index.html
+curl ${url}dists/wily/main/source/ -o index.html
 cd $root
 dir=./dists/wily/main/binary-amd64
 cd $dir
-curl $1dists/wily/main/binary-amd64/ -o index.html
+curl ${url}dists/wily/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/wily/main/binary-armhf
 cd $dir
-curl $1dists/wily/main/binary-armhf/ -o index.html
+curl ${url}dists/wily/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/wily/main/binary-i386
 cd $dir
-curl $1dists/wily/main/binary-i386/ -o index.html
+curl ${url}dists/wily/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/sid
 cd $dir
-curl $1dists/sid/ -o index.html
+curl ${url}dists/sid/ -o index.html
 cd $root
 dir=./dists/sid/main
 cd $dir
-curl $1dists/sid/main/ -o index.html
+curl ${url}dists/sid/main/ -o index.html
 cd $root
 dir=./dists/sid/main/source
 cd $dir
-curl $1dists/sid/main/source/ -o index.html
+curl ${url}dists/sid/main/source/ -o index.html
 cd $root
 dir=./dists/sid/main/binary-amd64
 cd $dir
-curl $1dists/sid/main/binary-amd64/ -o index.html
+curl ${url}dists/sid/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/sid/main/binary-armhf
 cd $dir
-curl $1dists/sid/main/binary-armhf/ -o index.html
+curl ${url}dists/sid/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/sid/main/binary-i386
 cd $dir
-curl $1dists/sid/main/binary-i386/ -o index.html
+curl ${url}dists/sid/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/trusty
 cd $dir
-curl $1dists/trusty/ -o index.html
+curl ${url}dists/trusty/ -o index.html
 cd $root
 dir=./dists/trusty/main
 cd $dir
-curl $1dists/trusty/main/ -o index.html
+curl ${url}dists/trusty/main/ -o index.html
 cd $root
 dir=./dists/trusty/main/source
 cd $dir
-curl $1dists/trusty/main/source/ -o index.html
+curl ${url}dists/trusty/main/source/ -o index.html
 cd $root
 dir=./dists/trusty/main/binary-amd64
 cd $dir
-curl $1dists/trusty/main/binary-amd64/ -o index.html
+curl ${url}dists/trusty/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/trusty/main/binary-armhf
 cd $dir
-curl $1dists/trusty/main/binary-armhf/ -o index.html
+curl ${url}dists/trusty/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/trusty/main/binary-i386
 cd $dir
-curl $1dists/trusty/main/binary-i386/ -o index.html
+curl ${url}dists/trusty/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/precise
 cd $dir
-curl $1dists/precise/ -o index.html
+curl ${url}dists/precise/ -o index.html
 cd $root
 dir=./dists/precise/main
 cd $dir
-curl $1dists/precise/main/ -o index.html
+curl ${url}dists/precise/main/ -o index.html
 cd $root
 dir=./dists/precise/main/source
 cd $dir
-curl $1dists/precise/main/source/ -o index.html
+curl ${url}dists/precise/main/source/ -o index.html
 cd $root
 dir=./dists/precise/main/binary-amd64
 cd $dir
-curl $1dists/precise/main/binary-amd64/ -o index.html
+curl ${url}dists/precise/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/precise/main/binary-armhf
 cd $dir
-curl $1dists/precise/man/binary-armhf/ -o index.html
+curl ${url}dists/precise/man/binary-armhf/ -o index.html
 cd $root
 dir=./dists/precise/main/binary-i386
 cd $dir
-curl $1dists/precise/main/binary-i386/ -o index.html
+curl ${url}dists/precise/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/stable
 cd $dir
-curl $1dists/stable/ -o index.html
+curl ${url}dists/stable/ -o index.html
 cd $root
 dir=./dists/stable/main
 cd $dir
-curl $1dists/stable/main/ -o index.html
+curl ${url}dists/stable/main/ -o index.html
 cd $root
 dir=./dists/stable/main/source
 cd $dir
-curl $1dists/stable/main/source/ -o index.html
+curl ${url}dists/stable/main/source/ -o index.html
 cd $root
 dir=./dists/stable/main/binary-amd64
 cd $dir
-curl $1dists/stable/main/binary-amd64/ -o index.html
+curl ${url}dists/stable/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/stable/main/binary-armhf
 cd $dir
-curl $1dists/stable/main/binary-armhf/ -o index.html
+curl ${url}dists/stable/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/stable/main/binary-i386
 cd $dir
-curl $1dists/stable/main/binary-i386/ -o index.html
+curl ${url}dists/stable/main/binary-i386/ -o index.html
 cd $root
 dir=./dists/vivid
 cd $dir
-curl $1dists/vivid/ -o index.html
+curl ${url}dists/vivid/ -o index.html
 cd $root
 dir=./dists/vivid/main
 cd $dir
-curl $1dists/vivid/main/ -o index.html
+curl ${url}dists/vivid/main/ -o index.html
 cd $root
 dir=./dists/vivid/main/source
 cd $dir
-curl $1dists/vivid/main/source/ -o index.html
+curl ${url}dists/vivid/main/source/ -o index.html
 cd $root
 dir=./dists/vivid/main/binary-amd64
 cd $dir
-curl $1dists/vivid/main/binary-amd64/ -o index.html
+curl ${url}dists/vivid/main/binary-amd64/ -o index.html
 cd $root
 dir=./dists/vivid/main/binary-armhf
 cd $dir
-curl $1dists/vivid/main/binary-armhf/ -o index.html
+curl ${url}dists/vivid/main/binary-armhf/ -o index.html
 cd $root
 dir=./dists/vivid/main/binary-i386
 cd $dir
-curl $1dists/vivid/main/binary-i386/ -o index.html
+curl ${url}dists/vivid/main/binary-i386/ -o index.html
 cd $root
 dir=./pool
 cd $dir
-curl $1pool/ -o index.html
+curl ${url}pool/ -o index.html
 cd $root
 dir=./pool/main
 cd $dir
-curl $1pool/main/ -o index.html
+curl ${url}pool/main/ -o index.html
 cd $root
 dir=./pool/main/t
 cd $dir
-curl $1pool/main/t/ -o index.html
+curl ${url}pool/main/t/ -o index.html
 cd $root
 dir=./pool/main/t/thrift
 cd $dir
-curl $1pool/main/t/thrift/ -o index.html
+curl ${url}pool/main/t/thrift/ -o index.html
 cd $root
 dir=./pool/main/p
 cd $dir
-curl $1pool/main/p/ -o index.html
+curl ${url}pool/main/p/ -o index.html
 cd $root
 dir=./pool/main/p/purple-line
 cd $dir
-curl $1pool/main/p/purple-line/ -o index.html
+curl ${url}pool/main/p/purple-line/ -o index.html
 

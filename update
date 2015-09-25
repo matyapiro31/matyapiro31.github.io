@@ -18,7 +18,7 @@ cd dists/*
 rhead=$(head -8 Release)
 rm -rf Release
 release=$(apt-ftparchive release .)
-echo "${rhead}""\n""$release">Release
+printf "${rhead}\n$release\n">Release
 gpg -b -a Release
 mv Release.asc Release.gpg
 cd ../../

@@ -1,0 +1,9 @@
+/*
+parse: parses script file and provides option system for them.
+#$1: command to exec.
+#$..: options and argument for the command $1.
+*/
+int main(int argc,char **argv) {
+    
+    return 0;
+}

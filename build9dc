@@ -10,9 +10,9 @@ rm -rf /thrift-1.0.0
 git clone http://altrepo.eu/git/purple-line.git
 git clone https://git-wip-us.apache.org/repos/asf/thrift.git thrift-1.0.0
 #symbolic link from /mnt to /
-ln -s /mnt/purple-line_$3.orig.tar.xz purple-line_$3.orig.tar.xz
+ln -s /mnt/pool/main/p/purple-line/purple-line_$3.orig.tar.xz purple-line_$3.orig.tar.xz
 #Keep the first release in changelog
-#Replace from purple-line (0.1-ubuntu1) vivid; urgency=low topurple-line (0.1-ubuntu1~$1) $1; urgency=low
+#Replace from purple-line (0.1-ubuntu1) vivid; urgency=low to purple-line (0.1-ubuntu1~$1) $1; urgency=low
 sed -e "s/)/\~$1)/g" /purple-line/debian/changelog>/purple-line/debian/changelog.1
 mv /purple-line/debian/changelog.1 /purple-line/debian/changelog
 sed -e "s/vivid/$1/g" /purple-line/debian/changelog>/purple-line/debian/changelog.1
@@ -22,21 +22,29 @@ mv /purple-line/debian/changelog.1 /purple-line/debian/changelog
 sed -e "s/0.0-${2}1~$1) trusty/0.0-ubuntu1) trusty/g" /purple-line/debian/changelog>/purple-line/debian/changelog.1
 mv /purple-line/debian/changelog.1 /purple-line/debian/changelog
 #Change at thrift 1.0.0
-sed -e "s/thrift (1.0.0-dev) stable/thrift (1.0.0-dev+0ubuntu1~$1) $1/g" /thrift-1.0.0/debian/changelog>/thrift-1.0.0/debian/changelog.1
+sed -e "s/thrift (1.0.0-dev) stable/thrift (1.0.0-dev+0${2}1~$1) $1/g" /thrift-1.0.0/debian/changelog>/thrift-1.0.0/debian/changelog.1
 mv /thrift-1.0.0/debian/changelog.1 /thrift-1.0.0/debian/changelog
 #Finished preparation.
 #additional prepare command.
-$4
+echo $4
+bash -c "$4"
 #Start building.
-cd thrift-1.0.0/
-debuild -us -uc
-cd ../
-dpkg -i libthrift0*.deb libthrift-dev*.deb
+Source=thrift
+printf "You can skip building: %s [y/n]?\n" $Source
+read -t 10 ANS
+case $ANS in 
+ "y"|"Y"|"yes"|"Yes"|"YES") echo "Skipping...";;
+ * ) echo "Start building thrift..."
+ cd thrift-1.0.0/
+ debuild -us -uc
+ cd ../
+ dpkg -i libthrift0*.deb libthrift-dev*.deb;;
+esac
 cd purple-line/
 debuild -us -uc
 cd ../
 #Show files from new.
 ls -lta|grep "deb\|dsc\|gz\|xz"|head -12
 #Call bash prompt and wait for command
-/bin/bash
-
+#For debugging
+#/bin/bash

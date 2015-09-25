@@ -1,0 +1,32 @@
+#!/bin/bash
+#exporter: export from docker container.
+#$1: source name.
+#$2: text file include package name.
+#$3: original version.
+#$4: distributional version.
+#$5: code name.
+#$6: architecure.
+#$7: debian package type.
+#in docker container.
+if [ $7 = "quilt" ];then
+ cp ${1}_${3}${4}${5}.debian.tar.?z /mnt/pool/main/${1:0:1}/${1}/
+ cp ${1}_${3}.orig.tar.?z /mnt/pool/main/${1:0:1}/${1}/
+elif [ $7 = "native" ];then
+ cp ${1}_${3}${4}${5}.tar.?z /mnt/pool/main/${1:0:1}/${1}/
+fi
+cp ${1}_${3}${4}${5}.dsc /mnt/pool/main/${1:0:1}/${1}/
+line=$(expr $(cat $2|wc -l) + 1)
+num=0
+while [ -e /tmp/exporter_tmp.$num ];do
+ num=$(expr $num + 1)
+done
+cp $2 /tmp/exporter_tmp.$num
+while [ ! $line = 0 ];do
+ if [ -e $(tail -$line /tmp/exporter_tmp.$num|head -1)_${3}${4}${5}_${6}.deb ];then
+  cp $(tail -$line /tmp/exporter_tmp.$num|head -1)_${3}${4}${5}_${6}.deb /mnt/pool/main/${1:0:1}/${1}/
+ else
+  cp $(tail -$line /tmp/exporter_tmp.$num|head -1)_${3}${4}${5}_all.deb /mnt/pool/main/${1:0:1}/${1}/
+ fi
+ line=$(expr $line - 1)
+done
+chmod a+rw /mnt/pool/main/${1:0:1}/${1}/*
