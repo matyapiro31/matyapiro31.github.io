@@ -1,3 +1,4 @@
+#!/bin/bash
 #Build
 #precise
 ../tools/importer \
@@ -53,4 +54,12 @@ ubuntu \
 "cd thrift-1.0.0&&patch -p1 < /mnt/0001-change-build-dep.patch&&cd /" \
 "rm -rf /mnt/0001-change-build-dep.patch" \
 
-
+update precise
+update sid
+update stable
+update trusty
+update vivid
+update wily
+installer purple-line
+installer thrift
+pushto

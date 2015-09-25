@@ -1,7 +1,6 @@
 #!/bin/bash
 #installer: installe distrubition workspace to master.
 #$1: program to install.
-$(dirname $0)/workspace
 rm -rf ../master/pool/main/${1:0:1}/$1/*.dsc ../master/pool/main/${1:0:1}/$1/*.deb ../master/pool/main/${1:0:1}/$1/*.gz ../master/pool/main/${1:0:1}/$1/*.xz
 cp -r ../precise/dists ../master/
 cp -r ../precise/pool ../master/

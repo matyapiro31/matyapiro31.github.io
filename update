@@ -2,7 +2,8 @@
 #update: update debian repository.
 #$1: code name.
 #$2: command to exec.
-git checkout $1
+restore=$(pwd)
+cd ../$1
 command=$(echo $2)
 $command
 yes n|debsign ./pool/main/*/*/*.dsc
@@ -24,3 +25,4 @@ mv Release.asc Release.gpg
 cd ../../
 git add --all
 git commit -a
+cd "restore"
