@@ -2,14 +2,14 @@ Package: thrift
 Binary: thrift-compiler, python-thrift, python-thrift-dbg, ruby-thrift, libthrift-java, libthrift-cil, libthrift-perl, libthrift0, libthrift-dev, php5-thrift
 Version: 1.0.0-dev+0ubuntu1~vivid
 Maintainer: Thrift Developer's <dev@thrift.apache.org>
-Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby1.8-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
+Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
 Architecture: any all
 Standards-Version: 3.7.2
 Format: 1.0
 Directory: pool/main/t/thrift
 Files:
- 835c55e6eb6156b5b0d4072465b09013 2164 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
- d36b59ce7cea6cf048eddd3dd1e94450 89609582 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ fe0b64fd661770be69a3daef7bf9f522 2161 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
+ 022d70cd256602434a086d4329f0a41f 12427161 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 Homepage: http://thrift.apache.org/
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
 Vcs-Git: https://git-wip-us.apache.org/repos/asf/thrift.git
@@ -25,18 +25,18 @@ Package-List:
  ruby-thrift deb libs extra arch=all
  thrift-compiler deb devel extra arch=any
 Checksums-Sha1:
- 4b86a7b9b06edaf780d2c0afb998586921faa41d 2164 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
- 747bd50578e658a745f9eda508e04058f537b54c 89609582 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ 81295c889afc612b125e6cc30691f435f86331d3 2161 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
+ e326eda88ad4080e811037ab5fe5e06d6cfe57ce 12427161 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 Checksums-Sha256:
- 772f710bde82e54a21194d8c96b0e47247fee36cd1009ef9135b59a0d256fe7d 2164 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
- 4a340bca1753a48d995b967c18c55e7b3a05045f1b20521852f26044e5d9a912 89609582 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ 8416016bfd4c6a817840fab71760312180425a4e2eba01d31eb253b6f2091689 2161 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
+ c88ec8a0db50e5039506ab552920297d2a26508ea4c2c6f74e1fbe6578fb4092 12427161 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 Checksums-Sha512:
- f98d47805392fa3a4bec8b2959bd741655ed37d0e044325bfb95bbca8a3990a19affccc7d336d74491a070fa12f291d27daa6daf5d1535ed6d789aa171c43d33 2164 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
- 7010ebfda1d0dab8cbbd87ff0001c9d0c5592509fdae884bf83bcb0c4122af6a3045de99ee16b9ce7f98722e11ee790ffa6de667ca4d4a1075823c08365f0263 89609582 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ 12b845f7a66b3b7c60f62b7da33fca07c60a3c9c276746a5d7389bb796ca64baefe73678a66948be9ed7cc8c4bd79c0d5b053ed1db0085bb2e3e66ee76b21229 2161 thrift_1.0.0-dev+0ubuntu1~vivid.dsc
+ 2e8271cf9fa082d69ad337bb7f6167708de9a7a3944993962137c6067ee06139a0e82cc58572b3479a5239e686378d2ba575f7ec4e2bd4207de27e7ca3bf399d 12427161 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 
 Package: purple-line
 Binary: purple-line, purple-line-dbg
-Version: 0.1-0ubuntu2~vivid
+Version: 0.1.1-ubuntu2~vivid
 Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Build-Depends: debhelper (>= 9), thrift-compiler, libpurple-dev, libthrift-dev, libgcrypt11-dev, libgpg-error-dev, libglib2.0-dev, python, dh-python, quilt
 Architecture: any
@@ -44,23 +44,23 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/purple-line
 Files:
- c4a63ee74bd7dc6a53ccb76ad67b5eef 1659 purple-line_0.1-0ubuntu2~vivid.dsc
- 79bcd651a0bf85261b538bef39417ea1 289940 purple-line_0.1.orig.tar.xz
- dd93cb7674e9bb07a2e673820aea7352 2692 purple-line_0.1-0ubuntu2~vivid.debian.tar.xz
+ 1dcd6d6fb5474dfe24bf8e19b1d47370 1669 purple-line_0.1.1-ubuntu2~vivid.dsc
+ 2ca343b7da96d19ff69f7af662671a1b 286336 purple-line_0.1.1.orig.tar.xz
+ 7a829a905195be96aca9bc6f63ad5876 2704 purple-line_0.1.1-ubuntu2~vivid.debian.tar.xz
 Homepage: http://altrepo.eu/git/purple-line/
 Vcs-Git: http://altrepo.eu/git/purple-line.git
 Package-List:
  purple-line deb contrib/net optional arch=any
  purple-line-dbg deb contrib/debug extra arch=any
 Checksums-Sha1:
- 6141bdba9982a11f09815d61398e5bda63c263a8 1659 purple-line_0.1-0ubuntu2~vivid.dsc
- 24fe8540278b809d443bd3157d38167ada666c75 289940 purple-line_0.1.orig.tar.xz
- 6765c00f7d254c447e1787ad0cfc984582d9f818 2692 purple-line_0.1-0ubuntu2~vivid.debian.tar.xz
+ 394a682390e02cc3e195c8eefa39688d7e3c1136 1669 purple-line_0.1.1-ubuntu2~vivid.dsc
+ ba39da56a6593fa11b09e3ce16f522c1f640b35e 286336 purple-line_0.1.1.orig.tar.xz
+ 574e724d3cb3fc6105bd864204103f1a3c438f74 2704 purple-line_0.1.1-ubuntu2~vivid.debian.tar.xz
 Checksums-Sha256:
- 8c54c6663ba9f3e3430a25ffeea41580f78d9a8a8c0044466509eea3f5ce4526 1659 purple-line_0.1-0ubuntu2~vivid.dsc
- 2101c9b4c21c5950ea60c3f65cc994b4e3cfe379130046cb25b91caebb085631 289940 purple-line_0.1.orig.tar.xz
- 289f65374ae55b0ffb2f07955f3aec378e75f87aebdff596256c04eb581833e9 2692 purple-line_0.1-0ubuntu2~vivid.debian.tar.xz
+ 8097c050561ab709702d884b17ffdb9818c0361d257704f30743d8a29857d48f 1669 purple-line_0.1.1-ubuntu2~vivid.dsc
+ 7ceb9960fc1fb432e831a683c2b8ef43678be7aa1791d888c047c78db3ac25ee 286336 purple-line_0.1.1.orig.tar.xz
+ caa099fc838f6a7c5b8215333bd09177e3fc521a32103cf77f0a4f4cb18c257d 2704 purple-line_0.1.1-ubuntu2~vivid.debian.tar.xz
 Checksums-Sha512:
- 40c643398bf660e23f1da2b7b23ffb7f63890aa28827d25c0f48c9e48c7bbfe519756dcb26dc1bf5a693fc90cc3fea16fc42d860ae0bf83ed6fb372365a3fc4e 1659 purple-line_0.1-0ubuntu2~vivid.dsc
- b45c58dfdce4a00871d7afa5a176906c35e5f5afc655956f1d83180bc0108c56adea8f40fb37f8a371999b0b3a1354658ee321180ccf29ec40a993f01afd7557 289940 purple-line_0.1.orig.tar.xz
- 9998bf48288903385c89dda40160949b94d96f665a62cea35074833ccb2891b962be17d624dac0de66dc09ecc88dea9937e11ba25d0642e325082437a7994049 2692 purple-line_0.1-0ubuntu2~vivid.debian.tar.xz
+ 8ffb4802d19de4942b6154dd0c1967b7e3d7bb2988118c26d96bd8e24c34aab98bbc2774a710ac8b5dfd71b7aa37b23185d146ae841b1ae2c45eceae8817d2a6 1669 purple-line_0.1.1-ubuntu2~vivid.dsc
+ 6ff1dce41e857622b8d73570983612a906213e27aa80fc31a8aea10e394fdeea19ec8d481c780edf00939947428fed5465102e75f52c6befe004f8491111e7cb 286336 purple-line_0.1.1.orig.tar.xz
+ 8966b08ee954c83fab124415083a54da9af90f0e9a89b4a2c2a3bf386a5816ea7a1b4affbfce7d000cad01a4da40815273e64a5a6b742e4246ddcce5b1143f3c 2704 purple-line_0.1.1-ubuntu2~vivid.debian.tar.xz
