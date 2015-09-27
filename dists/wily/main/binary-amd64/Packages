@@ -1,3 +1,21 @@
+Package: libgcrypt11
+Priority: optional
+Section: libs
+Installed-Size: 32
+Maintainer: Akira Nakagawa <akira_nakagawa@ubuntu.com>
+Architecture: all
+Version: 1.5.4-3+really1.6.3-2ubuntu1
+Provides: libgcrypt11
+Depends: libgcrypt20
+Filename: pool/main/libg/libgcrypt11/libgcrypt11_1.5.4-3+really1.6.3-2ubuntu1_all.deb
+Size: 4350
+MD5sum: cd8a44e1562ace722e1aacf8bed7a5a9
+SHA1: 5e0c9e40962f58437233984dca9d48681ff5921f
+SHA256: bc8b79cd7151d7f87fe8c56e4f7ae5f0e85cd70e54256721115117212d12793d
+SHA512: c28d1f22187f8ac7bb717c95bdcb59e5a76bee6e414c73f02440bfabc6c40120f67dea7b264a57caae7015b6988994a6f820f64ffae6250bebe8e9c61d6d6d5d
+Description: trasitional package
+ This provides libgcrypt20 for alternative libgcrypt11.
+
 Package: libthrift0
 Priority: extra
 Section: devel
