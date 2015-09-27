@@ -6,7 +6,7 @@ Codename: trusty
 Architecture: amd64 armhf i386
 Components: main
 Description: Packages from altrepo.eu projects
-Date: Fri, 25 Sep 2015 20:11:25 UTC
+Date: Fri, 25 Sep 2015 20:53:55 UTC
 MD5Sum:
  813094c325d1d81cadca696f79f29c1b            13853 main/binary-amd64/Packages
  e2287e21bb513aa662a92100c23e398a              122 main/binary-amd64/Release
@@ -15,7 +15,7 @@ MD5Sum:
  47e84aec26cf831182bfb81b27287250             4754 main/binary-i386/Packages
  f44c714a5a341929d591c6b47b78df62              121 main/binary-i386/Release
  39aed573c33d4e6c5da5017ddaa9a485              123 main/source/Release
- 5f6648034460b6004d5fd0b8fcf8252a             4200 main/source/Sources
+ e691b64ce787cb1cbfc4a98f92f59b6a             4200 main/source/Sources
 SHA1:
  15f86d1f51ce5f072c8b1a5e7ab5600a2e1daa66            13853 main/binary-amd64/Packages
  879653acc7db305a5bb9e6a62b1f20c1253086d8              122 main/binary-amd64/Release
@@ -24,7 +24,7 @@ SHA1:
  23e99b20026f6e3798da8367aec8850197cdc478             4754 main/binary-i386/Packages
  36d4fa2e4f0185bd48be7c32380b972ae8c31170              121 main/binary-i386/Release
  51a162f040f436d2ce62e3ad7765c55034b59f71              123 main/source/Release
- 27f7ae80f5a1d575cda3887382a257ef08daf6a9             4200 main/source/Sources
+ c7f4c5c858ac16e9672bb79f29de4f0991a4bb51             4200 main/source/Sources
 SHA256:
  17050be71ca10e2f71fc298dcc11efea1f8cef3accea3e0726ae06bc777a9e7b            13853 main/binary-amd64/Packages
  1a05bae8673030cf199549c19e5e48c8a3435361bf4fafed97ef2b5d7b37a9e1              122 main/binary-amd64/Release
@@ -33,7 +33,7 @@ SHA256:
  22b49551829ff4918f238e3eaf34c32b2297876dfc921b3b0e35d21be9add042             4754 main/binary-i386/Packages
  4dac66579c8dc3fb88b8e6f3c67d3f1f0b53458b80a30e86309a467f25a4b77c              121 main/binary-i386/Release
  02e58df8d58a77cb6b1f59c945ea5aa6c22a217c7b74b15f7f6c24a4ad614559              123 main/source/Release
- 4fa2cbc73e504285bbc5dc0f13c3c64dabbb7744248364684d43e8bc21262e1c             4200 main/source/Sources
+ cf4cb5b3aecc1634a08f246c4ee9cce7876385f9acb3bb7f9eef390902771dc7             4200 main/source/Sources
 SHA512:
  76c86833f01d43455845a6193fe69a8ea82b444e824b0f6ae241566a7750c95fa9ae1da477711f21bd90ff93f7d2af4366ece2a3ee7b9eebf3d1150b2cb3be48            13853 main/binary-amd64/Packages
  591c3ccb385d1e2081538df8e37b92feb2c65b5dc0c96a96ef17fe4879f97afc0fd7110a549a20aa7788aa62ef1cc9b60382bde9c0e31c96ceb2a421fe135a34              122 main/binary-amd64/Release
@@ -42,4 +42,4 @@ SHA512:
  bf853cd7adb63d33a831177dc8e387d6e21822a25ad3293877e559a8510c9924b6ee6f2e83840902290fda95541b4052fd63ee740c28dce4c68c3107a270021d             4754 main/binary-i386/Packages
  1d1e0f6294af4fd6319f736a1f5fa950ec9adb38c01f50273f3c8fe618a4ba245efa3ddb9e9491380fe731838315b98a0ae8114495fd1f42de7c2f0b680dac18              121 main/binary-i386/Release
  9a70148d980ec69d584a214c123fe4a7110b692cbc2e312338430755b745ca6d06306fa5d32ac35eb5c4b655a6ac377409d2f1e23b5b05d6e6316ee6b60405ff              123 main/source/Release
- 33e3fdb58e225d30cb646b2a7fcda6321a30f89fa447842555455bfa5a670fc50c32a50738d3c86dc3847764c327cf683549e2170c92d15d91264f637d9ef9b6             4200 main/source/Sources
+ fff054c072e23d266800a5824eb3c89159fa463ba6a5a7601e4797090bcc4e7ed2d6e41a1ba2eeba91f65f2e031e597b8c9b278fb3facc28716d826305173e86             4200 main/source/Sources

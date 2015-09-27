@@ -6,7 +6,7 @@ Codename: precise
 Architecture: amd64 armhf i386
 Components: main
 Description: Packages from altrepo.eu projects
-Date: Fri, 25 Sep 2015 20:11:21 UTC
+Date: Fri, 25 Sep 2015 20:53:09 UTC
 MD5Sum:
  80ab21dd50c7bda13018424d6bd9fb7d            13811 main/binary-amd64/Packages
  3d11fd1e3dddebb1132d523627d2a26e              123 main/binary-amd64/Release
@@ -15,7 +15,7 @@ MD5Sum:
  ecf64de71bd7b7db470b842ea8463bcb             4762 main/binary-i386/Packages
  eb08994625612f3be13862f6176c67d4              122 main/binary-i386/Release
  93205bd86bc4faa952013107f07efa1c              124 main/source/Release
- c07e8e60b3ff6838995f0c6a89619f44             4202 main/source/Sources
+ 6d980d2be61172ac2e40b166bb3bde99             4202 main/source/Sources
 SHA1:
  967089bd4bbbf8e876dc7f54dd34387c97d9d7ed            13811 main/binary-amd64/Packages
  55744ad4fb93b72a5968958b515ea0eda64eb08a              123 main/binary-amd64/Release
@@ -24,7 +24,7 @@ SHA1:
  596c918c2a6af48d1c189c244700612e79c8310a             4762 main/binary-i386/Packages
  e608c7ef8d3d34860d8b5613e68ff7cda89ee334              122 main/binary-i386/Release
  c18c7678995a46689eb767c28f84a4ee7c701aa4              124 main/source/Release
- d06c2183e7e8aa49155f2a33cd45385fb719019b             4202 main/source/Sources
+ 03f39cb84b4ca36cac897f0340eb0fb0d5237c28             4202 main/source/Sources
 SHA256:
  d86732131f425af86ceef9d7e59c9be642315cdc4e6f2c27741edb539e7b35f6            13811 main/binary-amd64/Packages
  9f279ae35e59bc9001fa53e61171cab5580c432214d402dad7ff58f56111b66c              123 main/binary-amd64/Release
@@ -33,7 +33,7 @@ SHA256:
  e1c48ef6d45a3691dc2922be2e4eeb8efc8dd014cda1a4a6a569a5e145e94481             4762 main/binary-i386/Packages
  8cb8f67ed063d9cea9d0cf1314a407da3990e68aae89b4aaf679183ec97e4f78              122 main/binary-i386/Release
  aa3b4b485f27c767ea7f766119e1cd09d9e2599ef7dbcc467283a1ed5dd5035a              124 main/source/Release
- b18e7b5f0336d18f5ad2754ea04eb351d62b932466c4226c935838e2e9b956be             4202 main/source/Sources
+ c2dd70424bb9518e596100a2a7e10174be1475ca1204b38939e03ee1bae8a0a3             4202 main/source/Sources
 SHA512:
  492c93ed21be032c06a97d20b4f5c13dbfb029104a82a61bb7544ecd6c7efd58a8960dbf0debdf9de7ab52ecbbe050369e505e47f75f387350ca2358ae7f96fa            13811 main/binary-amd64/Packages
  be17f487964b19bab3b97a95bb0fa14b1a3406c945966e25ab4c979495a13f774e97ac68ae4ccde8c78f71b5e5ae98a86167d9b9a9cac2361d63806feef5a6fb              123 main/binary-amd64/Release
@@ -42,4 +42,4 @@ SHA512:
  9543d24d8e86fc65c4a1f4fbb3ec9d5ef2e5968d7f3e81cce1f077f33d42b99e4ee2e7f901dad2b1d72551a1d75c05d1466946dc96ded7816810fa2237b13a01             4762 main/binary-i386/Packages
  b85757e417c8c49caabe455dcc542d9a6176dc935b5da6fb522d2cd862035468ae726eebe688036ba5534ce08fdf957c9c25fd51dc12133721126bfb67b72c06              122 main/binary-i386/Release
  c0f3fff6a840b32681bad4868764a06ef5e3e9354d94077cf313391663f9c24b1c0b1a9b3e13410c47c7a5f204fe05a0294c2b266304fa30e29ac1399a0771ee              124 main/source/Release
- 175b6e8bc3fc49648a5576fbe9295a9996525d4b92e4361d06509e6d6fd169c797e8ba468d601321d2b8178654681c84b4dc79deb380ab81c71945e01e643a05             4202 main/source/Sources
+ cf9c222313b138f01bbb1077797c1156c5784923852ee82c199e813e71fb8c507e855982b5553bb690cbb3a02a50e6b0ee10c70718266b54729ce3e2a8c97c2b             4202 main/source/Sources
