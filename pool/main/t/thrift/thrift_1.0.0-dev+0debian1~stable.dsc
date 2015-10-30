@@ -24,20 +24,20 @@ Package-List:
  ruby-thrift deb libs extra arch=all
  thrift-compiler deb devel extra arch=any
 Checksums-Sha1:
- 30b7f5fb9bb28abf81e9cad619ff3106eef2122d 12404593 thrift_1.0.0-dev+0debian1~stable.tar.gz
+ bd9689b642cbbdb3f2401354bb1915653c09ad67 12669227 thrift_1.0.0-dev+0debian1~stable.tar.gz
 Checksums-Sha256:
- 083d07ad6aa9643ac1e1366ddde333ace5a008aec04085a27d9109d7ece1efdb 12404593 thrift_1.0.0-dev+0debian1~stable.tar.gz
+ 9a62db0298c229db2a5285d33d1ded068b831933e3fb278a84a504f09a97c8ec 12669227 thrift_1.0.0-dev+0debian1~stable.tar.gz
 Files:
- 27f94b7f708b85c213b564dfb9573b23 12404593 thrift_1.0.0-dev+0debian1~stable.tar.gz
+ 106a2b2372617b88432b864e462b55dc 12669227 thrift_1.0.0-dev+0debian1~stable.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWB0llAAoJEHoMIndj9+C7IEMIAK50/N/k+rTtZ25dFDiNPdly
-Nt4Sz8B5HP8Fw9o9sx/B139uA8QVtTPQgzV0bPzYfdb5IRR0r5wc8z63APp2Si8X
-4tdk6roM4k3FnewXi2AIBzVtZjQD5Xk7Sj9ep82nj5Z6PZv2QU6CCzufaKDWqekN
-qYa1jltzmfnH9njZ/spvAO61lrHScalj+vLHhVeslUi7wOVqtmWZcnJnW8HqRBL2
-qW89NxcLEsYTnxAVTHzyCKP9tFsMv9E2a1qxk1LpXUfkH4UcUZsfH6Vcy132spCu
-+mVO2lYkPuA1G3w7ZZRi0NCOhsE8KmHWiWYWr/YqYTfWPvMg9ur6SgOhCtkY8FU=
-=KcAr
+iQEcBAEBAgAGBQJWM+nJAAoJEHoMIndj9+C778YH/RUj2jEyDVbLCt7uX/nEL0Fq
+oX17zpg/ZHz5KqV9FRXdbK81zsrcmRtixHGObmIpPCoa8nvRcFoW5YSvZnAu5wN+
+53uY2gpdyaSUOWfjkM8CsLl26r9zXzLVjKn85bH+qeUCBGFPmckzbWcysYTZNddE
+wHrb9jiB6zeMXHgVS/WlZ8GBPSk9c05FtteE4o9OJk/7oalyCsS0IS9WrF4qcD0A
+i+hSMyCetOqcaFcO+Olyfyu54YeYcybokECeXcV1bZNs/xJWV6J1vnYJkmnGmPBt
+z0i2GsP8vA2i4JUiqG1eWqSSnSuQduK5oXGxwKXE9isDlk3GJpruEOxu2t+8fF0=
+=PKJw
 -----END PGP SIGNATURE-----
