@@ -2,16 +2,16 @@ Package: php5-thrift
 Priority: extra
 Section: php
 Installed-Size: 275
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Filename: pool/main/t/thrift/php5-thrift_1.0.0-dev+0ubuntu1~precise_amd64.deb
-Size: 33670
-MD5sum: 20be1f5a8d3bcab55352bd6b5a1cd23f
-SHA1: 40e0834dc3e2c5dca6bde30053d70d81ca343388
-SHA256: c3a0b9c3cd4180526e74ebf3ab115675e18a98efdfae6d107b9216334b2e045e
-SHA512: df78a4fbc3c812ecbb448bdfb1ba67687a7b208822033bed091a903adb44495d44e7ff01f77239360ce8068d11ad8c36d2d0481a0451b09ab86cfe912fd6ccea
+Size: 33686
+MD5sum: 77688c4870b9c9f37ef02db852c7d521
+SHA1: 67ce80a573e21bc897c58323d7e7ead4f75227af
+SHA256: 24b780814065008526ce33cd3c8af70e86fd78792f6affd82a2122cea48f93b1
+SHA512: 251b90f54d77a1cf8e84717189dcf212abde1668d5944704d0a9001a64bd796b13b69d061f30782bee66ec0c3ad95dbe0666124194767b04a6dce942efc96dcd
 Description: PHP bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -23,18 +23,18 @@ Homepage: http://thrift.apache.org/
 Package: libthrift-java
 Priority: extra
 Section: libs
-Installed-Size: 263
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 262
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: all
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: java-gcj-compat | java1-runtime | java2-runtime
 Filename: pool/main/t/thrift/libthrift-java_1.0.0-dev+0ubuntu1~precise_all.deb
-Size: 214822
-MD5sum: 0592d3de6585496f7ced6fd5dd9b29cc
-SHA1: 08a7f6168d408d50e4226a59f96613986c367fa8
-SHA256: 422b322bf9b3088abbea013994fd7133c03ecc3dee1af439948cf6e3d072085e
-SHA512: 986a4df01db51f9cb7c7aab2da5d656c0d3bbb3661645686b28ba8f9d6ecb03e5ed4bf228ee8b36a3ad8033c11d3e12f7df1c582f666ca74115afd2eadf27807
+Size: 214510
+MD5sum: 5442db05db1327e9a144dafb388b2e12
+SHA1: 1b0cfb51e861f819bdcfd8ea24e483af98e030ca
+SHA256: c5376ea7d3508c9b4f2ec058a70c51340438604a3ddc9855a7fde3732c230045
+SHA512: b1ac64f7aed567b1ce0cd3a0bee07c31ffe32b8203bf7ac426ed354c6567aa6600508fba2d12592a40929d1ecbedd84e4f5fadbdd8889fe62b9df78b16d71da0
 Description: Java bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -50,17 +50,17 @@ Package: libthrift-dev
 Priority: extra
 Section: libdevel
 Installed-Size: 3226
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: libthrift0, libglib2.0-dev
 Filename: pool/main/t/thrift/libthrift-dev_1.0.0-dev+0ubuntu1~precise_amd64.deb
-Size: 587676
-MD5sum: b4b3dba3df9989843c4f3908f594499b
-SHA1: ea2dd42d21880467b6fbd5b3422ad5e6f2860aa0
-SHA256: ec1337caceaeb6e20c87edfc4983ea52d2cda9df4541ea93e231c4ef128e4f57
-SHA512: 74233969e5c88913f10ee4fc3eceb6c70c57587e4b9013e81f4a7a2c1139e1ad73f4afb74416bab16da25f76fa46f42b25da656de5bff7bf3f27d0a3db6f90c9
+Size: 587724
+MD5sum: 43eba98f8b187ec9d46ad850d4928dbd
+SHA1: 929ed7072543906215b4938d5b8407954485c6fb
+SHA256: 4bda0604b7ec04dc2f8f31afa29335243767e960f31545c4abeb40ac9b10a395
+SHA512: 33ce69b5e2b878404febcdf1f2d2bf7744cc527c27d0c6ae0cdfbf1c06b9715e51a70b311628da3872e404d7f3fca034d58df9039d4e6f97efce02ef656bfe19
 Description: Thrift C++ library (development headers)
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -74,17 +74,17 @@ Package: libthrift0
 Priority: extra
 Section: devel
 Installed-Size: 874
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libqt4-network (>= 4:4.5.3), libqtcore4 (>= 4:4.5.3), libssl1.0.0 (>= 1.0.1), libstdc++6 (>= 4.4.0)
 Filename: pool/main/t/thrift/libthrift0_1.0.0-dev+0ubuntu1~precise_amd64.deb
-Size: 269120
-MD5sum: ab7812c099b8a318936bb4e393d4fec9
-SHA1: 6fb2cfa4597b2ca69cfd721b022ce8f8eeeba806
-SHA256: ed490447230ed57469e8979ded8dc5b62a5c64c2da30b289e2186e3341a3d0ad
-SHA512: d776ec072f0699f0f493eaef1b32ea023bdd372263472712c2182be4e4cdaa29cc2408dfc7d25e84281247fa8b00c746f942a4d16fe86365303191e079c7fad2
+Size: 269194
+MD5sum: 3557b8ce4fb9b290fef20bd4e27ba8b7
+SHA1: 2bbcd09f6aa578ad7c9a880842469a5da1274665
+SHA256: 8d91d1f83c1ba323ace36af50e1ccbe4907b0ef8d15c26e7acead679505d84ab
+SHA512: f9708910ca89a45d30964dda54c59b151861776a9101b879e6e8f605d53c6a0d12bc005e8b4fcc0982f523fdf6a14183d8f0d4860099f7108c918e9594e55c58
 Description: Thrift C++ library
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -98,17 +98,17 @@ Package: libthrift-perl
 Priority: extra
 Section: perl
 Installed-Size: 121
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: all
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: perl (>= 5.8.0-7)
 Filename: pool/main/t/thrift/libthrift-perl_1.0.0-dev+0ubuntu1~precise_all.deb
-Size: 16218
-MD5sum: 2686e5077c7f454f9ca7d1e4d671bfec
-SHA1: fc60c7d8ee45239cae48a0172ea82add85bebf3d
-SHA256: a64f20dc6d13baeda01d820faecf987bd3b369e2755f664fac4163ab084f51b2
-SHA512: a30eb767ba3af5fc38087112ae62c4ad1d4acb8416c238e890d8d53c579c74a89e4a4a39bdb24cb1cb718262cf3a8675c47aba3744610ecae461da53da7989dd
+Size: 16230
+MD5sum: 4e27f8bcbcb15f9106044dc8a34bb3aa
+SHA1: 3ec820208fd298146586aae8312247bbfd505159
+SHA256: d948677e04cf1bdc311084c9c99f1033a33bcfa3420bf73a1e730ba75c6b15be
+SHA512: e32c1e858fbddb6d41be764b868fdac5dda7817951817098456d7a530f5bdc6fbcf0e212a2bc5595736bcff64cae48f79f368b59ebacf248cadaedd8bc7fe142
 Description: Perl bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -124,17 +124,17 @@ Package: libthrift-cil
 Priority: extra
 Section: libs
 Installed-Size: 107
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: all
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: cli-common, libmono-corlib1.0-cil (>= 1.0), libmono-system1.0-cil (>= 1.0), libmono-system-web2.0-cil
 Filename: pool/main/t/thrift/libthrift-cil_1.0.0-dev+0ubuntu1~precise_all.deb
-Size: 32272
-MD5sum: 087799a8e4adf071f1294a081ab84bb9
-SHA1: 1dd1ca259c053d35b255bfba5dc53629ab24a721
-SHA256: 4aa4171c969788fcc4456001de1c580950596b158e5f5f5b5de6875672ba012f
-SHA512: 2fbe0fc36ce98ecc1b743c91d97916793acfb5fe5c3b2a4b62b4eb69b50be466bb39fe46d94b8dd459bd9a48e0b6f5e34ce66752c05d39368241a867a810f266
+Size: 32284
+MD5sum: 711a27b16d0f7f6e00f7de8ff1830d81
+SHA1: 1cd6369669b7912c9079a63ea285d1ce2920333c
+SHA256: 938d7e0ab2d3464823534bf6bfd6ca5783489d60b3b06ccd7fa87325844877cd
+SHA512: 10ecab612ff2017976f85b89d5e7adabe9f5fac4c8a8ee74580d6798e9798e1a38fb63526db4a8d9b091e4e6f7b8ca8c8b1f6448938d68f3880057ec5a080da3
 Description: CLI bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -149,8 +149,8 @@ Homepage: http://thrift.apache.org/
 Package: ruby-thrift
 Priority: extra
 Section: libs
-Installed-Size: 368
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 367
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: all
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
@@ -159,11 +159,11 @@ Provides: libthrift-ruby
 Depends: ruby | ruby-interpreter
 Breaks: libthrift-ruby
 Filename: pool/main/t/thrift/ruby-thrift_1.0.0-dev+0ubuntu1~precise_all.deb
-Size: 57534
-MD5sum: 67c604d33732389dc359c2fe3cbbfe2b
-SHA1: 6895889cc3f4ce89b95457a5716cfb32b5841529
-SHA256: 9673d3711ffa79b5ea495c8cbedc47a57db9b40b7da81de49f4523a374633923
-SHA512: 8cc16ea0789d6f2ee9f9a2273ecef62b882369eac79da53610b45f9d0d44a98a6741a550a83913d6fb933e9be6a02f6cf7104055e40d0df87959d0a4e44127d2
+Size: 57432
+MD5sum: 35ab6909e160d64d8023aad9eb1bd65c
+SHA1: 552096655bf81ef76922ec54cfe38050aef9724f
+SHA256: ee54262ba21b9309cdb9a96134232e371cab6f5540b2ffdd5855afcaab685f38
+SHA512: f8f4e44f671c0a59e0b33eda5a0bd7c28ebb677ebf9996b551ec3abcc21701424c5b5eada5111a1450e9d42914512fd576233073cbd8f3da5318d7654316c039
 Description: Ruby bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -178,18 +178,18 @@ Homepage: http://thrift.apache.org/
 Package: thrift-compiler
 Priority: extra
 Section: devel
-Installed-Size: 3012
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Installed-Size: 3008
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
 Filename: pool/main/t/thrift/thrift-compiler_1.0.0-dev+0ubuntu1~precise_amd64.deb
-Size: 1210316
-MD5sum: b5c3424a2bb474edd3cb5c344bac6e38
-SHA1: 70122059e8f73c3eecc96864b275675bd627b3b4
-SHA256: 7e1baad0922c42cef6c9fad9df234ee83bea7e3b84e20aa8bcad21252038608f
-SHA512: 96d56e46dc38969293a781d7d6a4d9da4e0ed53deacd76a91c13268335d84b4d5dae4d1c64dffac3cd4a5c6e6d5130a293a06a094c1e5d5e4725d24f5fd084b3
+Size: 1209742
+MD5sum: 6f6db4d0768d2ce303cae84bf6f6ca17
+SHA1: b79e2deff3cc135bbae57b30d0c92820dec66997
+SHA256: 2b50a17df3aa5e1faf89a87b43905e8a0874a778fd320b165c2eed5c91f32504
+SHA512: b1ed1666ef7e8916fc787121e8abfe15c1f6b06ac47343449eceaed8e95f131aa435d70020da65cfed2370c1dd447bfea48f9dbb3a321acb6547d6db67cf088d
 Description: Compiler for Thrift definition files
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -204,17 +204,17 @@ Package: python-thrift-dbg
 Priority: extra
 Section: python
 Installed-Size: 394
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: libc6 (>= 2.2.5), python-thrift (= 1.0.0-dev+0ubuntu1~precise), python-all-dbg
 Filename: pool/main/t/thrift/python-thrift-dbg_1.0.0-dev+0ubuntu1~precise_amd64.deb
-Size: 96908
-MD5sum: 19db42d14d9ca6fb73ed74613d72d056
-SHA1: c502be55d71300b14cf5afc9c94bf854c614c255
-SHA256: ec895c925d6a322aa045078cf57fc6a4b1b0f6ef61d7fd713788b50cb9df77a2
-SHA512: 5e1ba5bc35eab81f1bee393c9b11be3ab8e58a72bcfd4c376ea76612d694598cb827d800be1363fc8b38a837223fb1d111252f4017ad2e201b900e966e8b300e
+Size: 96918
+MD5sum: 34a01cbb456c3ff55226937eae981bda
+SHA1: b8cce9f29dd87de647b3adb64e0bbb05b38e50ee
+SHA256: 03636b1a493d8a37b734611a7e9cb37918a90ef80236ae05ecc8df22eee3278a
+SHA512: 95971eaeacaddade28e2be1fa1b1c50715982027b4250bccfaad1051f7402be8a33a61352425a2742858e46a77821d2a4fd602059283670db3f08e1346d056cb
 Description: Python bindings for Thrift (debug version)
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -230,18 +230,18 @@ Package: python-thrift
 Priority: extra
 Section: python
 Installed-Size: 407
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: thrift
 Version: 1.0.0-dev+0ubuntu1~precise
 Depends: libc6 (>= 2.2.5)
 Recommends: python-twisted-core
 Filename: pool/main/t/thrift/python-thrift_1.0.0-dev+0ubuntu1~precise_amd64.deb
-Size: 93236
-MD5sum: fcab875ec3f6f9232fbb58b6ceffba83
-SHA1: 040c285f18a06117449dd32cb45a0803846cc5a3
-SHA256: d26573a3a69146a4a24e00a7eda6e21a86bb21a0bcb86939697379ae1b226881
-SHA512: cc0423307ab401dbc19554201fd87c6b4eac87d2810caf3d9c3bcc98635fcb12d2f6ce3185da6ab7bdd54ca14cc9b8f80c6bcc68f534a5fc959adcf76228644a
+Size: 93280
+MD5sum: 56daf7ec46d99ec8efa97e4dd90a7284
+SHA1: 03fe855ad034ec304d8fc4544fa8a08ce76e251c
+SHA256: 297822abf12e85bc31b08dd71b21a5645d30853de62878ca238a127f32fde0a9
+SHA512: a7e8dc55b56947f131f49606fc2c68dee218a027c2f0e9aa386f3efac29302ac4feabf0d1261984d5d9d5384c60b5075683d8c8ce072f3ed12dc20ab23c7ccdb
 Description: Python bindings for Thrift
  Thrift is a software framework for scalable cross-language services
  development. It combines a software stack with a code generation engine to
@@ -263,11 +263,37 @@ Version: 0.1.1-ubuntu2~precise
 Provides: purple-line
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.30.0), libgpg-error0 (>= 1.10), libpurple0 (>= 1:2.8.0-1), libstdc++6 (>= 4.6), libthrift0
 Filename: pool/main/p/purple-line/purple-line_0.1.1-ubuntu2~precise_amd64.deb
-Size: 288088
-MD5sum: 7e1108240ad2479807e8254fc7593209
-SHA1: 04596fffb55ab2b7e3e60f95ed2f8769a85c3314
-SHA256: 4f1be4dd22e90730a9f71a579692b50b6b5a6ab415a3151b074a1402bde60011
-SHA512: ed93fb0847d13f49743f8406c65d6cb7a768b2a82771d286a4aee21d2038701277c6837c45cc35bf48c55d548cc6575468738f02117024c8f3a01153294267dc
+Size: 286814
+MD5sum: eac4a8bc2c293f54105b041bf4a59bc2
+SHA1: 48b1746702c94a30d515c865ff999891e8f85d85
+SHA256: 87da438d9798f0f7c8b09e4b55edad3106ef273e8b65b411f42a85dec53c245f
+SHA512: 2a24a866a6920a0eb13c328149303106c58b3ef4e877a153cdabdb4e75fdec97baaad1f2b19020e52127f9258377380f3c82bd9e964fad3a3bc588fb23f6bb30
+Description: libpurple (Pidgin, Finch) protocol plugin for LINE
+ Supported Application:Pidgin Finch
+ Unsuppoted Application:Empathy
+ This plugin provides most features of LINE,
+ but some of them are not yet implemented now.
+ For example,buddy list configuration, account icon modification,
+ to get message is read or not,VoIP receiving/calling.
+ If you want to know more details of this plugin,
+ please visit http://altrepo.eu/git/purple-line/
+Homepage: http://altrepo.eu/git/purple-line/
+
+Package: purple-line
+Priority: optional
+Section: contrib/net
+Installed-Size: 1624
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Architecture: amd64
+Version: 0.1.2-ubuntu2~precise
+Provides: purple-line
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.30.0), libgpg-error0 (>= 1.10), libpurple0 (>= 1:2.8.0-1), libstdc++6 (>= 4.6), libthrift0
+Filename: pool/main/p/purple-line/purple-line_0.1.2-ubuntu2~precise_amd64.deb
+Size: 286544
+MD5sum: 9bb2d4594aca0c61829d6d6fe4870306
+SHA1: d7bbbc0e24cfd1b74b5a5b1a005b7bfad8e334ab
+SHA256: b2be7518ce63c261a5da81c771c6906175016533d45da13b6d07ad2b01f207f8
+SHA512: 3efa4b3548d4fd9e0f1dee8e3a34aa5964982c191dbff6c6e4baaefc4d940d61c775b788333f1100f92993454948a8aa7e0b8652bb85d856deda1392e2fed212
 Description: libpurple (Pidgin, Finch) protocol plugin for LINE
  Supported Application:Pidgin Finch
  Unsuppoted Application:Empathy
@@ -286,14 +312,41 @@ Installed-Size: 3934
 Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Architecture: amd64
 Source: purple-line
+Version: 0.1.2-ubuntu2~precise
+Depends: purple-line (= 0.1.2-ubuntu2~precise)
+Filename: pool/main/p/purple-line/purple-line-dbg_0.1.2-ubuntu2~precise_amd64.deb
+Size: 890990
+MD5sum: 86ca57d74aefe3992ec254b7608085bd
+SHA1: 6fc337a22cb885e0a6d9c55c60573bcb011e331c
+SHA256: db5301f0c8b07f0785eea9790ccc90a9c12047b2320900a788bc9e02ad5c5788
+SHA512: 361a3f628b27eb11fe8e73a3a125a07464c522c79630dde0bbe9c2762d4be3de19857cddd689b73332f0b80fba6ce2b5414dfbd30ed25d5fd754d6fbf77c3960
+Description: libpurple (Pidgin, Finch) protocol plugin for LINE
+ Supported Application:Pidgin Finch
+ Unsuppoted Application:Empathy
+ This plugin provides most features of LINE,
+ but some of them are not yet implemented now.
+ For example,buddy list configuration, account icon modification,
+ to get message is read or not,VoIP receiving/calling.
+ If you want to know more details of this plugin,
+ please visit http://altrepo.eu/git/purple-line/
+ This package includes debug symbols.
+Homepage: http://altrepo.eu/git/purple-line/
+
+Package: purple-line-dbg
+Priority: extra
+Section: contrib/debug
+Installed-Size: 3934
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Architecture: amd64
+Source: purple-line
 Version: 0.1.1-ubuntu2~precise
 Depends: purple-line (= 0.1.1-ubuntu2~precise)
 Filename: pool/main/p/purple-line/purple-line-dbg_0.1.1-ubuntu2~precise_amd64.deb
-Size: 890930
-MD5sum: 072ef4279317c7a4150ab217b93833aa
-SHA1: 38ed76176890db141f5ce587252f7033fb62cb20
-SHA256: 5e813ab4e8feec4ae9f1e354cdb1c1ec07c8db88bdb180926cba078d0800d06f
-SHA512: dc0c8a437bd385bcd205d41bbe1df0a7fce7a6cf58b564ff5dd7256a3b026cf157038eb032885b3812ece237efa28d6026a6ec293b262a90b021624bd026a65a
+Size: 891298
+MD5sum: 0dca344bd735456fce7dfcc73a9b131a
+SHA1: 181e685c60738371af9a58a0b5e8ff4486be5d1c
+SHA256: a0fa3987c0e878989e1ed86bb87c0a7fc403e470f0cde8f2482d2396e75b0405
+SHA512: 8962964903c31df64e4b3b6a144d10b945b04840e5eb4503afe8f16b4c752163432003a87e15e6b13a1b27d12c8f6a8864f88b71d77015619ccc51176d027aae
 Description: libpurple (Pidgin, Finch) protocol plugin for LINE
  Supported Application:Pidgin Finch
  Unsuppoted Application:Empathy
