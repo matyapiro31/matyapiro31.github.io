@@ -15,23 +15,23 @@ Package-List:
  purple-line deb contrib/net optional arch=any
  purple-line-dbg deb contrib/debug extra arch=any
 Checksums-Sha1:
- ba39da56a6593fa11b09e3ce16f522c1f640b35e 286336 purple-line_0.1.1.orig.tar.xz
- fc52d9e38ed03aa4ed0e20c8b691494479a737db 2708 purple-line_0.1.1-debian2~stable.debian.tar.xz
+ c747f5c6601f140bb14584ee790bd498cb5740bb 291556 purple-line_0.1.1.orig.tar.xz
+ 1cd09511580021f81c3233f82c8145dbfa584c45 2712 purple-line_0.1.1-debian2~stable.debian.tar.xz
 Checksums-Sha256:
- 7ceb9960fc1fb432e831a683c2b8ef43678be7aa1791d888c047c78db3ac25ee 286336 purple-line_0.1.1.orig.tar.xz
- ddd360b3c2128baba8e3f1ef780566dc04bb4c40e2cfd060faea0d2150d55c19 2708 purple-line_0.1.1-debian2~stable.debian.tar.xz
+ 7be4623a99939f3fb8a9234ed3e6887817f615ad98ca6bcd0dd8e54e87924e85 291556 purple-line_0.1.1.orig.tar.xz
+ 4fcf501ddaf23bc941cf42f6f438daf0f88531a6c818b33a55a9c5b3e77442fe 2712 purple-line_0.1.1-debian2~stable.debian.tar.xz
 Files:
- 2ca343b7da96d19ff69f7af662671a1b 286336 purple-line_0.1.1.orig.tar.xz
- 50d10f37c2a3aa7a723ea3d669e52369 2708 purple-line_0.1.1-debian2~stable.debian.tar.xz
+ bef4462540a6089dd95af64ea152aba5 291556 purple-line_0.1.1.orig.tar.xz
+ 46dcf4c0285fd8f53da5735a0aa0c3c3 2712 purple-line_0.1.1-debian2~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEbBAEBAgAGBQJWB0llAAoJEHoMIndj9+C7h74H+McBxQH2xV3IxrO4jXUijKmC
-FDh1lW8vB1U6opJL3WqDqsEEvRMsWXYz+eI/tE48ZJXcIozdXlKOojmM8hvcFDxW
-6lCBM6NPsl2GnwES/vOtjrIZvW59lv+15CR6xaHnntPZK+f6Yaa1YTHvBnUjAMSX
-235HvUsZqDL71ijP6ZQ1+hL+tFxBuPBJaD9XXB/AEiAlx2Q9O9ZYBcX3QKPh0+DV
-SDSVYvVn14a8/z5JjeMh9ouxwIgRQDVIMQ1pkUYnunv4BmjDRwFHEOKy3dOXeHDT
-hmgXB2H9zCDdNYKIEUB3F82+GIWDP9xcwt1Lp2K16E6JvnnosJBu/MS3H3zq/Q==
-=GC6F
+iQEcBAEBAgAGBQJWM+nJAAoJEHoMIndj9+C7/6YIAM2jDX6sLmGeKe21EGOt4fSL
+YLgF82A8GiFX4B5fPgIBEaCUi+MAGzVR/3QhmqmYpWD1caL0BM/L+cYWcskvWtTs
+FaE3K3s36aCk19ixV/nDG5lgZcNsPcm3YdKF2yXCE5q45N/C10mSSbojehMa/xTL
+PLDatrJIECskacs17HVqzw96BkHrawia0d0Hd1u9HSlYcWcIuFuz94V38U11BqFQ
+e7Jh46CasjRUQ8XBkXMth8jcXKE/qNYn+REBwPSmKi72aPSkyFKIVoMxCgJqsovF
+05SI7kFCVZa4zewVh5wXWGdIsi979dcVG27iYVImM4Y4RALijFmromZeuqIW3AI=
+=JBr7
 -----END PGP SIGNATURE-----

@@ -15,23 +15,23 @@ Package-List:
  purple-line deb contrib/net optional
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1: 
- ba39da56a6593fa11b09e3ce16f522c1f640b35e 286336 purple-line_0.1.1.orig.tar.xz
- c02631fc26808f73372205ada0b6c60ae8800bb3 2734 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
+ e381267547b26a864455cbd09e73e302558e6f09 290104 purple-line_0.1.1.orig.tar.xz
+ 6339392e18eae92ac8561a1fca82a2eff5db8808 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 Checksums-Sha256: 
- 7ceb9960fc1fb432e831a683c2b8ef43678be7aa1791d888c047c78db3ac25ee 286336 purple-line_0.1.1.orig.tar.xz
- 79895663a97cebfe5d80737b28cf45e76c023ea074013195bc784102fb7b9018 2734 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
+ f8dc645c8b84acee63cac835392493d087e5b14223c5a1b6e27f95e21115227c 290104 purple-line_0.1.1.orig.tar.xz
+ 97ad9e0126f2bc591ec1c90b93ca13d434e8f94b33217bfa39b0aa8073ef58c1 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 Files: 
- 2ca343b7da96d19ff69f7af662671a1b 286336 purple-line_0.1.1.orig.tar.xz
- 13d8b91b21c08ac672e1c2d5f5fcb8b4 2734 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
+ 50cbfd009182185a92c2e813812d8426 290104 purple-line_0.1.1.orig.tar.xz
+ 46363f8c7ba6f867184c00dad421ffa4 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWBbQ0AAoJEHoMIndj9+C7R94H/2TDuIXqjXywzsz94kWV9K32
-rC+mwzGpx42P8NYxnqMAjfgsgbo1cAnb402Xs7P24BsVJ0mejxizdR4eDyeyJft9
-8EVIBkMa9n1DGUxhvlqPh2v8G2D75IP/LkjWzCzspLsOK4btsC3OqnguI6qjUDCf
-rbIgvtAChgk9udge4ar4dxEi6gU3CHai8Bzhc9zJ5nQf8wDgnuaApeNsSONtlX2A
-KVMzv5/71LTv4XAiT1B5Sohx8KPq0pX5ZMLSgmssRRtDisaVRBKjODpj6ntm4nJo
-Z6rka/wWfAuHW7BFT6Im7hoB8jIX+W65I1cobXSAcHPPTLrz+9JHIw5vz9Thsc0=
-=LyIZ
+iQEcBAEBAgAGBQJWM+mkAAoJEHoMIndj9+C7lNIIAL93Tt33P4qSf6plutHROWxy
+yXbFWFutCPGqkx53rqQrpZx+tNrdQfQoG0uixaTu3IZalyJRL9FdleIpWZJmD4bB
+td1XC3423tfL7HilKIp725jGSq/k3omba5hBMxgCe4Z6vSsIw1wdkcbvF13uxUhL
+Er8AnpI0zDF1gjUhlMIxqOTTgwjKIIpdon3/84E6tDyXiqUj9BofBgavzEn2fs+G
+rOTv5aaJpelWejUiL9bhi3AimD11P8zzTCFx/dQZUKJN5A458ReK3aRqLRJiPcC8
+iSLfbgFUU9BTr5cVqj/WpsaoFLKltbM7dldX7qPSNvn9CL2JQXL1YWjicK6eTEw=
+=V7OT
 -----END PGP SIGNATURE-----
