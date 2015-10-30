@@ -6,7 +6,7 @@ Source: thrift
 Binary: thrift-compiler, python-thrift, python-thrift-dbg, ruby-thrift, libthrift-java, libthrift-cil, libthrift-perl, libthrift0, libthrift-dev, php5-thrift
 Architecture: any all
 Version: 1.0.0-dev+0ubuntu1~precise
-Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
 Homepage: http://thrift.apache.org/
 Standards-Version: 3.7.2
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
@@ -24,20 +24,20 @@ Package-List:
  ruby-thrift deb libs extra
  thrift-compiler deb devel extra
 Checksums-Sha1: 
- 9af9c9e5e16a7410c05c04af2f63b8190a272dfd 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ 612f28cfc4b80889072607bca03d1a30da439b8d 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Checksums-Sha256: 
- d8fba870daebc2d7e2e947ceeab27f80f33dcb51f55bd7349bbb15af2b4b5d17 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ d0da3ae6b0d695c28b0a133f00a95553dd883bd58bf05fbd593a203050e80d25 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Files: 
- e8db0a4a15706638bb00d9c61dc23998 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ 607c35ec7c7857e23d71895a743e2702 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWM+mkAAoJEHoMIndj9+C7Q9MH/Aid21FVNhVePK4BWVgViJWh
-4MFWN7DkfrX02xjWjtcuETF/aF2Wg7ftVHzetwdr5FJ3Wb2BjNakbVP0r0eR91sH
-Ro4mbg9DvYHYRdE+FYBMSdd7zxrQv5udvdAoFr1E1Vxy1ycNkxKhWdURgp8tf873
-OLlkWUHf/Fjgx9ZwJSy6tyowIM709cDn3xiRYmxsxOsZGGvTSIixdI2wiUJufgRq
-IDsw+isk1BeT8WN53srNxaStwc4H+SolAfhMHE5rvX6Ghc0gplT/4/1dAd+0axAM
-k+1M3c8WRKBnclHJgifJFVhVxQA1kFJ/cdJIA55LErQ0+leY0xFJ5cQMI5R1Ixs=
-=AlIj
+iQEcBAEBAgAGBQJWM/4hAAoJEHoMIndj9+C7LuIH/1Hy3jhebNy4Wl2epASBdVTH
+pW61LWjKEdSOLnjvovf4ilgn5ygER/lQECfGu/Zx2IBYWPF60lQlflWA9iDcTNf4
+fVXmP7n7XXamX1Cy9Dfzsl8ofd6cznuXTCNk+pFXGtwPYGoK+NAiQF4Q2jtV4ahE
+MY0ghh596HhVSbTlDx22PgsB2h/vxGNSYAysg/aFHpYMhRWT0UfOXMw0egZzE7Au
+ujEUHAWUfBfhKKz2N4wEHKTv/osyoZJXbc1guX1kpWvtNGjNHc832OYPwqWU8Ii2
+vphqQR8xfdz4NAfGOs+3ypBSY9fsg12qSebClD/jH+6TOh/IaWGdq1nhfsmoRz8=
+=Usgy
 -----END PGP SIGNATURE-----

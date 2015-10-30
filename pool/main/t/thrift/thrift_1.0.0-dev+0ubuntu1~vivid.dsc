@@ -6,12 +6,12 @@ Source: thrift
 Binary: thrift-compiler, python-thrift, python-thrift-dbg, ruby-thrift, libthrift-java, libthrift-cil, libthrift-perl, libthrift0, libthrift-dev, php5-thrift
 Architecture: any all
 Version: 1.0.0-dev+0ubuntu1~vivid
-Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
+Maintainer: Thrift Developer's <dev@thrift.apache.org>
 Homepage: http://thrift.apache.org/
 Standards-Version: 3.7.2
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
 Vcs-Git: https://git-wip-us.apache.org/repos/asf/thrift.git
-Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby1.8-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
+Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
 Package-List:
  libthrift-cil deb libs extra arch=all
  libthrift-dev deb libdevel extra arch=any
@@ -24,20 +24,20 @@ Package-List:
  ruby-thrift deb libs extra arch=all
  thrift-compiler deb devel extra arch=any
 Checksums-Sha1:
- 7636026203fc15d31328c81e0abd24bc06e342d1 89608945 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ 13083e249928dc5a78736c038e12e32adc68928a 12716795 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 Checksums-Sha256:
- 2edfce213f23ad07bfd554e4f0ac08e787aba359c835be9b96f535fcf680e7ea 89608945 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ ac350aad7037ca2acdc7a49211c61444c3c650ae749e1fbc24cf894687a812be 12716795 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 Files:
- df6f635f404fef69e56eda259b217d5e 89608945 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
+ 596f5a02074d82ccd7405807a9d8fa45 12716795 thrift_1.0.0-dev+0ubuntu1~vivid.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWM+nUAAoJEHoMIndj9+C7+KEH/iUujpYW8kCszq8u7RSAyLin
-9GANHk7osL+UW/kMPw1hT1Ln3qFFgc94n/2wHQxXsE5m1tBAnYklRc5kPEMX+scb
-weFx16AIVsK4a0f57NOSG/KDvsdb8IZUnH0LWRDTsLZgt5D+HyN3+Zc0f1qzwXUY
-5oEX6TNQHWNnxyhr05StndqpeXJSm/RkPDoW+kH5QBjSDrXq/YILGRkv8JmbMgSo
-a3bKt2BBkyB3XQFE6bw+LfxMfBnBHS9yx8p5j1+g0FlU8Qs40AgChtjH/cUfXllA
-Naa4bRc8dDd/bQRN2WVtB3tZC69WrmVbBHamCu3ljZF54pGPqr8gzQDcJd3qjdE=
-=ZXvK
+iQEcBAEBAgAGBQJWNAMgAAoJEHoMIndj9+C79lQH/0PYgCKPvVb1orhoahxeFgyb
+J5SrJkCbyFB7HiV+PH/we49IZNDTMw4o5OxCUkxqE009C9yQsguXaXlsUlEwxgHv
+tx73sR+EKOom/VI8qeFy8W19UtavdH+ORPKgfS3hsEfQ6zYrECEfTVX0PSuu92jj
+ldBhDioDvULKfDwEW02g5NGPvyOPazZk8TrHoxkvs2KU7QOih0HFKxs5acJsHgFF
+JBSGO0h/jqFagNhI60JEZTk+ydX4wT4NH4tsHrX8SrqM275gEpHegX8JGgZ3HVB9
+fl+k5xaAkVycGCEqPQx0LBjCTqTuRwuow797ItXpOkTUQ7wI197ZplB/qqFz3jM=
+=uJ8t
 -----END PGP SIGNATURE-----
