@@ -1,0 +1,24 @@
+#!/bin/bash
+#container: create,run and manage docker container for Ubuntu and Debian.
+#$1: sub command.
+#$2: ubuntu or debian.
+#$3: code name.
+#$4: path for docker file executable.
+if [ $1 = check ];then
+  echo "Checking if docker exists..."
+  if [ -e $(which docker) ];then
+#Check docker command is a docker.io.
+    if [ `file $(which docker.io)|grep "link" -|wc -l` ];then
+      echo "$(which docker.io) is symlink of $(which docker)"
+    elif [ `file $(which docker)|grep "link*docker.io" -|wc -l` ];then
+      echo "$(which docker) is symlink of $(which docker.io)"
+    else
+      alias docker="$3"
+    fi
+#Check if no alias is set.
+  elif [ -e $(which docker.io) ];then
+    alias docker="docker.io"
+  else
+    alias docker="$3"
+  fi
+fi

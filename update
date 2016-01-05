@@ -2,7 +2,6 @@
 #update: update debian repository.
 #$1: code name.
 #$2: command to exec.
-#$3: git commit message file.
 restore=$(pwd)
 cd ../$1
 command=$(echo $2)
@@ -25,5 +24,5 @@ gpg -b -a Release
 mv Release.asc Release.gpg
 cd ../../
 git add --all
-git commit -a -F $3
-cd "restore"
+git commit -a
+cd $restore

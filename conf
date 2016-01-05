@@ -1,0 +1,31 @@
+#!/bin/bash
+code_name=("precise" "sid" "stable" "trusty" "vivid" "wily")
+number_of_code_names=6
+os=("ubuntu" "debian" "debian" "ubuntu" "ubuntu" "ubuntu")
+main_url="http://debian.altrepo.eu/"
+mirror_url="http://debina.surlinter.net/"
+main_git="git@altrepo.eu:git/debian.altrepo.eu.git"
+mirror_git="git@github.com:matyapiro31/matyapiro31.github.io.git"
+additional_build_command=""
+patch_dir="$PROJECT/patches"
+number_of_package=2
+source_name=("purple-line" "thrift")
+source_dir=("purple-line" "thrift-1.0.0")
+source_version=("0.1.2" "1.0.0-dev")
+source_type=("quilt" "native")
+source_patch_1_1=("0001-patch-for-precise.patch" "" "" "" "" "")
+number_of_patches_1=1
+source_patch_2_1=("" "0001-change-build-dep.patch" "0001-change-build-dep.patch" "0001-change-build-dep.patch" "0001-change-build-dep.patch" "0001-change-build-dep.patch")
+number_of_patches_2=1
+provide_source=("yes" "yes")
+git_url=("http://http://altrepo.eu/git/purple-line.git" "https://git-wip-us.apache.org/repos/asf/thrift.git")
+architecture=("amd64" "armel" "armhf" "i386")
+package_list_1=("purple-line" "purple-line-dbg")
+package_list_2=("libthrift0" "libthrift-cil" "libthrift-dev" "libthrift-java" "libthrift-perl" "php5-thrift" "python-thrift" "python-thrift-dbg" "ruby-thrift" "thrift-compiler")
+package_version_1=("0.1.3-ubuntu2~precise" "0.1.3-debian2~sid" "0.1.3-debian2~stable" "0.1.3-ubuntu2~trusty" "0.1.3-ubuntu2~vivid" "0.1.3-ubuntu2~wily")
+package_version_2=("1.0.0-dev+0ubuntu1~precese" "1.0.0-dev+0debian1~sid" "1.0.0-dev+0debian1~stable" "1.0.0-dev+0ubuntu1~trusty" "1.0.0-dev+0ubuntu1~vivid" "1.0.0-dev+0ubuntu1~wily")
+local_build_dep_1=("libthrift0" "libthrift-dev")
+local_build_dep_2=("")
+test_type="full"
+test="yes"
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+#countstr: count up the number of string in a command output.
+#$1: command to exec.
+#$2: string to search.
+$1|grep $2 -|wc -l

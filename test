@@ -1,0 +1,39 @@
+#!/bin/bash
+#test: test in docker.
+#$1: list of packages.
+#$2: ubuntu or debian.
+#$3: code name.
+#$4: full or partial test.
+#$5: additional test to exec in docker.
+if [ $(groups|grep docker -|wc -l) != 1 ];then
+ echo "Couldn't run docker.Abort.">&2
+exit
+fi
+if [ $4 = "partial" ];then
+ docker run -it up2date_$3 /bin/bash -c "echo -e  \"\
+-----BEGIN PGP PUBLIC KEY BLOCK-----\nVersion: GnuPG v1\n\nmQINBFXazY8BEADK5Kb0ufHr8thvbmSjVetWYfCdklxeLw4ceybv3nGPQnmXc/rS\nI0UXAvGk/neIRlupksdLB4vT7XjCmTzmxBuiMSrKceDQMUtjC+15EehQuo9AnsqM\n2e+3wO0400Tni/s+OSSJvYYVuI0hKxW41cYVVbA1AbHp218rGIdq2ei63/DOsQGz\nNKiLGvHrMjTnBTDbXSmT91DwebdN+AuUv1qwqOSnlzgj1zKdlK2UsnB7MLG+9tf9\nTK5B1EwyRLoO0p6bsqMcIZvJ/8KJyr9chY7CnUU/qIPMZJAbsQlkPaXPlGBHuvOe\nUAk50o3pCkgHKhwl76/CIFT6wFX7it7LlOm9WAlK8cX+3tnp2wEJ+3kOf+2dWTn7\niy1V4VgmmHOgpXP443GTxNIosoe3XNEUxF/OVasSRJyJpNla9Bg4qjvXgvePiclP\nkGBy5OZU8SV8nO8GvjzHLCDS3r5Bx7ugoYwmGQyBsq+YwjB4mDkScC28KpalktBz\nmjID3siq/kEqJoEW+g9pch7NXe/kQqbab7fr1jP+/HCn4Xb4QQhrWJ4Osl/znFQj\nJpOlgQakgkSUDawdjfrCuQrmqap7DglyLHnXqKM2d5+ApMTw7gy6Fzu+CrnBw6gw\nUdcZ3Q45JWPTZ9I85JAgvid6aPQxQ0tX5CxqWDDsk9TPoQG31gvlhn8peQARAQAB\ntBVhbHRyZXBvLmV1IGRldmVsb3BlcnOJAjgEEwECACIFAlXbDHUCGwMGCwkIBwMC\nBhUIAgkKCwQWAgMBAh4BAheAAAoJEFmI2Y2iwWSGXEsQAK8Q49X0ZXfal3u5yx7u\n5GeeAcuxMDMCOp8vgpZie7FrMKEoRoeAZR1w6Mu5xeRBMphhLLwUgA437eZVN/UW\nlZnPwzdj5Guq6ijcnplLUdm8wKeaHOgWBmLn8PtOi7HAPv2Tl4EH66SWp0mGPC8X\nu1OohQaUEbgoWauprM6Y1oLGh3bWUGKCXlmvgvpOdeixUgYudKPWVB4UcSn7JpHt\nenUhaW17OoTsB+9VepFUWdYkBY42pqoRIB/Ul9NkAOBTr/Jo/OV1/75n60jQaLUe\ncvCAxmS3rhychd9PVu4hB2y8XoSq1Z3xL7EqH4aMaI/8uBKUNRr3sLtSBwO/h/kM\n6WSoUxFxZiEW5nmyxE+xHg2brKaUkCRs7eV2jnjkgmBQVJOcJLIjeEd9WKOYv5gx\nvANPObNKdI/jMj6MvHJnWTPEkPfT+8N7DgNWf+UD1oMt2stbHZ/UUEf8kea6LN2q\nd1hfqtpheMpQJ67L8iBZ1yYFuGzuAo2UN1YoJLTuGh/ANA1mKe0rnabtFCz66tf2\ng8OWzXS7j8/225IZ5WTvViI/o0Twz2+J3ctqGq0cFlYwOEk9ji64RVa6n9miPSfH\nO+VsWRh2A+WNUjJd/A4gG2CYeBmHQ/Gr+Hwq31PtOlNw2+zYoBVOxiQtA3EL+NDO\n+bGJ6xs7nCh7toBd/BQOkAir\n=6Q3Z\n-----END PGP PUBLIC KEY BLOCK----- \
+\" \
+|apt-key add - && \
+printf \"%s\\ndeb http://debian.surlinter.net $3 main\\ndeb-src http://debian.surlinter.net $3 main\\n\" \"\$(cat /etc/apt/sources.list)\">/etc/apt/sources.list && \
+apt-get update && \
+rm -rf /var/cache/apt/archives/* &&\
+apt-get install -y --reinstall $1 && \
+apt-get source $1 && \
+$5 /
+"
+elif [ $4 = "full" ];then
+ docker run -it $2:$3 /bin/bash -c "echo -e  \"\
+-----BEGIN PGP PUBLIC KEY BLOCK-----\nVersion: GnuPG v1\n\nmQINBFXazY8BEADK5Kb0ufHr8thvbmSjVetWYfCdklxeLw4ceybv3nGPQnmXc/rS\nI0UXAvGk/neIRlupksdLB4vT7XjCmTzmxBuiMSrKceDQMUtjC+15EehQuo9AnsqM\n2e+3wO0400Tni/s+OSSJvYYVuI0hKxW41cYVVbA1AbHp218rGIdq2ei63/DOsQGz\nNKiLGvHrMjTnBTDbXSmT91DwebdN+AuUv1qwqOSnlzgj1zKdlK2UsnB7MLG+9tf9\nTK5B1EwyRLoO0p6bsqMcIZvJ/8KJyr9chY7CnUU/qIPMZJAbsQlkPaXPlGBHuvOe\nUAk50o3pCkgHKhwl76/CIFT6wFX7it7LlOm9WAlK8cX+3tnp2wEJ+3kOf+2dWTn7\niy1V4VgmmHOgpXP443GTxNIosoe3XNEUxF/OVasSRJyJpNla9Bg4qjvXgvePiclP\nkGBy5OZU8SV8nO8GvjzHLCDS3r5Bx7ugoYwmGQyBsq+YwjB4mDkScC28KpalktBz\nmjID3siq/kEqJoEW+g9pch7NXe/kQqbab7fr1jP+/HCn4Xb4QQhrWJ4Osl/znFQj\nJpOlgQakgkSUDawdjfrCuQrmqap7DglyLHnXqKM2d5+ApMTw7gy6Fzu+CrnBw6gw\nUdcZ3Q45JWPTZ9I85JAgvid6aPQxQ0tX5CxqWDDsk9TPoQG31gvlhn8peQARAQAB\ntBVhbHRyZXBvLmV1IGRldmVsb3BlcnOJAjgEEwECACIFAlXbDHUCGwMGCwkIBwMC\nBhUIAgkKCwQWAgMBAh4BAheAAAoJEFmI2Y2iwWSGXEsQAK8Q49X0ZXfal3u5yx7u\n5GeeAcuxMDMCOp8vgpZie7FrMKEoRoeAZR1w6Mu5xeRBMphhLLwUgA437eZVN/UW\nlZnPwzdj5Guq6ijcnplLUdm8wKeaHOgWBmLn8PtOi7HAPv2Tl4EH66SWp0mGPC8X\nu1OohQaUEbgoWauprM6Y1oLGh3bWUGKCXlmvgvpOdeixUgYudKPWVB4UcSn7JpHt\nenUhaW17OoTsB+9VepFUWdYkBY42pqoRIB/Ul9NkAOBTr/Jo/OV1/75n60jQaLUe\ncvCAxmS3rhychd9PVu4hB2y8XoSq1Z3xL7EqH4aMaI/8uBKUNRr3sLtSBwO/h/kM\n6WSoUxFxZiEW5nmyxE+xHg2brKaUkCRs7eV2jnjkgmBQVJOcJLIjeEd9WKOYv5gx\nvANPObNKdI/jMj6MvHJnWTPEkPfT+8N7DgNWf+UD1oMt2stbHZ/UUEf8kea6LN2q\nd1hfqtpheMpQJ67L8iBZ1yYFuGzuAo2UN1YoJLTuGh/ANA1mKe0rnabtFCz66tf2\ng8OWzXS7j8/225IZ5WTvViI/o0Twz2+J3ctqGq0cFlYwOEk9ji64RVa6n9miPSfH\nO+VsWRh2A+WNUjJd/A4gG2CYeBmHQ/Gr+Hwq31PtOlNw2+zYoBVOxiQtA3EL+NDO\n+bGJ6xs7nCh7toBd/BQOkAir\n=6Q3Z\n-----END PGP PUBLIC KEY BLOCK----- \
+\" \
+|apt-key add - && \
+printf \"%s\\ndeb http://debian.surlinter.net $3 main\\ndeb-src http://debian.surlinter.net $3 main\\n\" \"\$(cat /etc/apt/sources.list)\">/etc/apt/sources.list && \
+apt-get update && \
+apt-get upgrade -y && \
+apt-get install -y $1 dpkg-dev && \
+apt-get source $1 && \
+$5 /
+"
+else
+ echo "Incorrect test type selected.Abort."
+ exit
+fi

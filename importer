@@ -28,7 +28,7 @@ cp $(dirname $0)/exporter /mnt
 printf "purple-line\npurple-line-dbg">/mnt/purple-line.list
 printf "libthrift0\nlibthrift-cil\nlibthrift-dev\nlibthrift-java\nlibthrift-perl\nphp5-thrift\npython-thrift\npython-thrift-dbg\nruby-thrift\nthrift-compiler">/mnt/thrift.list
 $4
-docker run -v /mnt:/mnt -it up2date_$1 /bin/bash -c "/mnt/build9dc $1 $2 $3 \"$5\"&&/mnt/exporter purple-line /mnt/purple-line.list 0.1.1 -${2}2 ~$1 amd64 quilt&&/mnt/exporter thrift /mnt/thrift.list 1.0.0 -dev+0${2}1 ~$1 amd64 native"
+docker run -v /mnt:/mnt -it up2date_$1 /bin/bash -c "/mnt/build9dc $1 $2 $3 \"$5\"&&/mnt/exporter purple-line /mnt/purple-line.list ${3} -${2}2 ~$1 amd64 quilt&&/mnt/exporter thrift /mnt/thrift.list 1.0.0 -dev+0${2}1 ~$1 amd64 native"
 rm -rf /mnt/build9dc
 rm -rf /mnt/exporter
 rm -rf /mnt/purple-line.list

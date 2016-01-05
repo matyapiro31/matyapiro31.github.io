@@ -1,7 +1,13 @@
 #!/bin/bash
 #installer: installe distrubition workspace to master.
 #$1: program to install.
-rm -rf ../master/pool/main/${1:0:1}/$1/*.dsc ../master/pool/main/${1:0:1}/$1/*.deb ../master/pool/main/${1:0:1}/$1/*.gz ../master/pool/main/${1:0:1}/$1/*.xz
+
+if [ ${1:0:3} = "lib" ];then
+ rm -rf ../master/pool/main/${1:0:4}/$1/*.dsc ../master/pool/main/${1:0:4}/$1/*.deb ../master/pool/main/${1:0:4}/$1/*.gz ../master/pool/main/${1:0:1}/$1/*.xz
+else
+ rm -rf ../master/pool/main/${1:0:1}/$1/*.dsc ../master/pool/main/${1:0:1}/$1/*.deb ../master/pool/main/${1:0:1}/$1/*.gz ../master/pool/main/${1:0:1}/$1/*.xz
+fi
+
 cp -r ../precise/dists ../master/
 cp -r ../precise/pool ../master/
 cp -r ../sid/dists ../master/
