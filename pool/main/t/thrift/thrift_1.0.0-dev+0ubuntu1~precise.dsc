@@ -6,7 +6,7 @@ Source: thrift
 Binary: thrift-compiler, python-thrift, python-thrift-dbg, ruby-thrift, libthrift-java, libthrift-cil, libthrift-perl, libthrift0, libthrift-dev, php5-thrift
 Architecture: any all
 Version: 1.0.0-dev+0ubuntu1~precise
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Homepage: http://thrift.apache.org/
 Standards-Version: 3.7.2
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
@@ -24,20 +24,20 @@ Package-List:
  ruby-thrift deb libs extra
  thrift-compiler deb devel extra
 Checksums-Sha1: 
- 612f28cfc4b80889072607bca03d1a30da439b8d 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ 9af9c9e5e16a7410c05c04af2f63b8190a272dfd 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Checksums-Sha256: 
- d0da3ae6b0d695c28b0a133f00a95553dd883bd58bf05fbd593a203050e80d25 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ d8fba870daebc2d7e2e947ceeab27f80f33dcb51f55bd7349bbb15af2b4b5d17 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Files: 
- 607c35ec7c7857e23d71895a743e2702 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ e8db0a4a15706638bb00d9c61dc23998 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWM/4hAAoJEHoMIndj9+C7LuIH/1Hy3jhebNy4Wl2epASBdVTH
-pW61LWjKEdSOLnjvovf4ilgn5ygER/lQECfGu/Zx2IBYWPF60lQlflWA9iDcTNf4
-fVXmP7n7XXamX1Cy9Dfzsl8ofd6cznuXTCNk+pFXGtwPYGoK+NAiQF4Q2jtV4ahE
-MY0ghh596HhVSbTlDx22PgsB2h/vxGNSYAysg/aFHpYMhRWT0UfOXMw0egZzE7Au
-ujEUHAWUfBfhKKz2N4wEHKTv/osyoZJXbc1guX1kpWvtNGjNHc832OYPwqWU8Ii2
-vphqQR8xfdz4NAfGOs+3ypBSY9fsg12qSebClD/jH+6TOh/IaWGdq1nhfsmoRz8=
-=Usgy
+iQEcBAEBAgAGBQJWjJAiAAoJEHoMIndj9+C7+iMIAI/t6QjeN8dqq2t94u2u1xgj
+vGZL54HUnGdBShpimOqhbqcbU/7gV6Qw1wJbph+S5d8R/AUeT747GFJTh7HXkbA9
+RejLVbtCj7Tui9DZZATnr/lSnlBrY5wqaA+Xzlirqd9qhl6EoGwPwYYaUh+wBAVF
+c7C7Db8Hz0HXG1OW1zxSuBa/S0YXrXRRkTfvyUkRlkF0gIczPqzlFCweqmqybBP4
+woDVh4/y5YMC7CTdFKnUSLU0myID4u6nnXSVoca3x3QUCGiGqtMkK1srAsukrdd5
+DTycIbTYDpVDa1dX0wz/2LoJehXJs3xDNeD4TAJOcWeIsUJDNdWQirV2+TRkCr0=
+=f/1M
 -----END PGP SIGNATURE-----
