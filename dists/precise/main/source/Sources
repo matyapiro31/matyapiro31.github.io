@@ -1,15 +1,15 @@
 Package: thrift
 Binary: thrift-compiler, python-thrift, python-thrift-dbg, ruby-thrift, libthrift-java, libthrift-cil, libthrift-perl, libthrift0, libthrift-dev, php5-thrift
 Version: 1.0.0-dev+0ubuntu1~precise
-Maintainer: Thrift Developer's <dev@thrift.apache.org>
+Maintainer: Matti Virkkunen <mvirkkunen@gmail.com>
 Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby1.8-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
 Architecture: any all
 Standards-Version: 3.7.2
 Format: 1.0
 Directory: pool/main/t/thrift
 Files:
- 33985a814d3c11ea67dadeedcc495940 2086 thrift_1.0.0-dev+0ubuntu1~precise.dsc
- 607c35ec7c7857e23d71895a743e2702 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ 118da05f85b3795e8e82da4fa1000916 2082 thrift_1.0.0-dev+0ubuntu1~precise.dsc
+ e8db0a4a15706638bb00d9c61dc23998 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Homepage: http://thrift.apache.org/
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
 Vcs-Git: https://git-wip-us.apache.org/repos/asf/thrift.git
@@ -25,14 +25,14 @@ Package-List:
  ruby-thrift deb libs extra
  thrift-compiler deb devel extra
 Checksums-Sha1:
- 9b18894e7f034eb2f8610b25a17292627bf8ca96 2086 thrift_1.0.0-dev+0ubuntu1~precise.dsc
- 612f28cfc4b80889072607bca03d1a30da439b8d 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ 80f20baf7e1a4105c0d256f22aa73996cce36874 2082 thrift_1.0.0-dev+0ubuntu1~precise.dsc
+ 9af9c9e5e16a7410c05c04af2f63b8190a272dfd 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Checksums-Sha256:
- cfd8ab914f48220321911a98ea1478e51cb317d640bd072efb113e84dcb7a33f 2086 thrift_1.0.0-dev+0ubuntu1~precise.dsc
- d0da3ae6b0d695c28b0a133f00a95553dd883bd58bf05fbd593a203050e80d25 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ bd105bbb6fbdeb8911b98037ca170bef4433fada3c180f1106899b3a5ccb97fe 2082 thrift_1.0.0-dev+0ubuntu1~precise.dsc
+ d8fba870daebc2d7e2e947ceeab27f80f33dcb51f55bd7349bbb15af2b4b5d17 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 Checksums-Sha512:
- 7eec606e346136831c9fb49564f9086e826db6aa6e2dc84ad0eba6ef87a72f81f7b2d2b440b52e5112facbe9dac3b479cd28be9da01af80cf9daee2b122217bd 2086 thrift_1.0.0-dev+0ubuntu1~precise.dsc
- 978a637aa6da51ecca38bd11bb2f1917bfba3960f958e6c005a827c5cc1299455950e68226097898d6544073ac20694cd166d4d7481131a86e232301783445e7 12720846 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
+ d3a6bad78a68625f8f38278fa6b39b2b43f499d81a3aef56110891dbadf6777d7473efe3cb7a3862b3ada0c63ae9c215b6e084eef3f587f058d39edb1925e7f2 2082 thrift_1.0.0-dev+0ubuntu1~precise.dsc
+ 3b94e13b62b06196f3f138b1b7a404f3d584a28c78de44e5e9707e08e3c5cacadcd46589c20bf8e95285bb8b6f5873ac12368e1e03dd6876f224ee26f5808a43 17742524 thrift_1.0.0-dev+0ubuntu1~precise.tar.gz
 
 Package: purple-line
 Binary: purple-line, purple-line-dbg
@@ -44,7 +44,7 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/purple-line
 Files:
- 1820f438b01f7177fc4e1c6b5fabc846 1644 purple-line_0.1.1-ubuntu2~precise.dsc
+ 737fb9324dbe868c1498cec9227bdc52 1644 purple-line_0.1.1-ubuntu2~precise.dsc
  50cbfd009182185a92c2e813812d8426 290104 purple-line_0.1.1.orig.tar.xz
  46363f8c7ba6f867184c00dad421ffa4 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 Homepage: http://altrepo.eu/git/purple-line/
@@ -53,15 +53,15 @@ Package-List:
  purple-line deb contrib/net optional
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1:
- a6ec695f1f08a926327db636cb1ce893bd170e76 1644 purple-line_0.1.1-ubuntu2~precise.dsc
+ a291d7120b66442eade3665c69bdfcb25b3021c9 1644 purple-line_0.1.1-ubuntu2~precise.dsc
  e381267547b26a864455cbd09e73e302558e6f09 290104 purple-line_0.1.1.orig.tar.xz
  6339392e18eae92ac8561a1fca82a2eff5db8808 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 Checksums-Sha256:
- ba86fa81f30d47b72245622875590036db4f97c1205a8e83bfe56104e087a359 1644 purple-line_0.1.1-ubuntu2~precise.dsc
+ 792cb6e7836ee668369d6dcc0ca712d2b7d64660161261b8c7f7395ba6bf0c85 1644 purple-line_0.1.1-ubuntu2~precise.dsc
  f8dc645c8b84acee63cac835392493d087e5b14223c5a1b6e27f95e21115227c 290104 purple-line_0.1.1.orig.tar.xz
  97ad9e0126f2bc591ec1c90b93ca13d434e8f94b33217bfa39b0aa8073ef58c1 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 Checksums-Sha512:
- 73f1885fb8f07b600a587f10c71c7ac23d558fbf017ce7dd871745a19dadfa444089672b9156fe2a14936f5827009d61e8fcac09642cdb61142eb7a58250d463 1644 purple-line_0.1.1-ubuntu2~precise.dsc
+ 39d109e6597d3c7c69733f4894e6aae5235972ec2273fcc939591aebeb8d8b076ebace1a60ec6e7d293bed9ef4ff76217e0249bd1475ed30960f99653fa6c69b 1644 purple-line_0.1.1-ubuntu2~precise.dsc
  b22abce513d1e121738dcea9bf88f1eb9a15cdbf79b53473d44558c865cd393c5e2fd70e5274a1451fa7916156232f36cd1602dddaaf6dc422dd973e81d654a1 290104 purple-line_0.1.1.orig.tar.xz
  bc6ef45861545fe3582b78d838efefebc8aade647ebda8c11cf70bddf31c8e7bb089a86e8ba1e2b5ad1020559fc485f232da9cfaecb8acd1b72595231730260d 2785 purple-line_0.1.1-ubuntu2~precise.debian.tar.gz
 
@@ -75,23 +75,23 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/p/purple-line
 Files:
- 05bf1a8d6be09ce2f291cb0abb41423e 1644 purple-line_0.1.2-ubuntu2~precise.dsc
- 013f11ec51ddb9d0c61f465c71b8b0eb 290904 purple-line_0.1.2.orig.tar.xz
- 7fab3edfbc06e7a9e883fcb1fa8350a9 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ 8f21f696fca83003b465fc417f788f32 1644 purple-line_0.1.2-ubuntu2~precise.dsc
+ 6e90b63adc68136ee38cefd96e385a6f 301204 purple-line_0.1.2.orig.tar.xz
+ 94a7f40fed2b6774082ea84421383184 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
 Homepage: http://altrepo.eu/git/purple-line/
 Vcs-Git: http://altrepo.eu/git/purple-line.git
 Package-List:
  purple-line deb contrib/net optional
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1:
- ebc1bde782ff173bc3ce25b8b5a149357324ea0c 1644 purple-line_0.1.2-ubuntu2~precise.dsc
- 8df2153ff54e7fa102d84708694814520248b535 290904 purple-line_0.1.2.orig.tar.xz
- 626f50b84a18729d051413d98ac39475cf69f9ac 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ c85b1eb92272115b5c8fc8dcee92bca31bcffbc6 1644 purple-line_0.1.2-ubuntu2~precise.dsc
+ e0ce3e4c403a8e5c64a163cc11f54891a091f51b 301204 purple-line_0.1.2.orig.tar.xz
+ 75e69f67ffd05f71914077b35be982638909d816 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
 Checksums-Sha256:
- 1fa0eb7ab4f2432fab6e55f7a206d7ebaeddf71de4e2c2dbe52400bdfa4e0a8a 1644 purple-line_0.1.2-ubuntu2~precise.dsc
- 0d34bc8e94c3a34c4fc342d4a1eddc20779d8e38bf95ea5f436781d9b7bcd654 290904 purple-line_0.1.2.orig.tar.xz
- d156c2b5e54c25d10c2ce4c9d3c7d3adeae5adce6fd9a5ab9af9f76768ace34c 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ 48f1b8725f064d442136eb57d6fb9608a8b570859200927ce5dd17f06e176c5c 1644 purple-line_0.1.2-ubuntu2~precise.dsc
+ b65b28026fbba310cbfa4b73697c67c98d38b1fb13644ff52b8d8ac6fd590d1d 301204 purple-line_0.1.2.orig.tar.xz
+ a5480a9341e439816398f02f7f9b02a977beedbb22e48a0a1eb11bbdf7cb0e30 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
 Checksums-Sha512:
- e7a9ef83b9adb345b53b0ccc5accad72c25cc2cb85e86f30dc30d1240f0b7983d7c79deab32800383f3cf1d9daaa76f3eee5964c27dc931763e5d2b6d4dd1331 1644 purple-line_0.1.2-ubuntu2~precise.dsc
- c5926f56a961e2a12fd84cacf3646be3b1c6ece92c4df1610f6b38707a25ed5f69839d006326e21f33477b4f8e6099189e4161cfa1a19804ddd24f7518120c0d 290904 purple-line_0.1.2.orig.tar.xz
- 8b89a47846805ac600e3509a68ae3e2e5418addf88a4011662415765f733ac190b47626c5f59cb9a6c6493161c2ba4ba232b875882683104f2bffd56d1d0f701 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ 37300028c73ab45838e034ca854cbc10f4b93deec88aa9911e84fb055bb2b3ee8475102cbc20e9dd48ef95f7100d6e03d9f56314222626d9dbdd182102979c5b 1644 purple-line_0.1.2-ubuntu2~precise.dsc
+ 403018791c2c83f4957fdcf4c1462a020e97257ee433a4bebbf03212703110af5b784b94c2d2ac11ee72210c44e80ea85bcd486d995f89d9acead4fddbe03b0a 301204 purple-line_0.1.2.orig.tar.xz
+ 79166488e491d1c3bfd02db1e956a9f534fffee9f48bf69b4fa9251b805c57b58cf8470cf0f0898428d581b72d46af0d7804bbece7cf8a5829904806870c9a32 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz

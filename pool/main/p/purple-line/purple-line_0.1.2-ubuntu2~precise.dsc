@@ -15,23 +15,23 @@ Package-List:
  purple-line deb contrib/net optional
  purple-line-dbg deb contrib/debug extra
 Checksums-Sha1: 
- 8df2153ff54e7fa102d84708694814520248b535 290904 purple-line_0.1.2.orig.tar.xz
- 626f50b84a18729d051413d98ac39475cf69f9ac 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ e0ce3e4c403a8e5c64a163cc11f54891a091f51b 301204 purple-line_0.1.2.orig.tar.xz
+ 75e69f67ffd05f71914077b35be982638909d816 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
 Checksums-Sha256: 
- 0d34bc8e94c3a34c4fc342d4a1eddc20779d8e38bf95ea5f436781d9b7bcd654 290904 purple-line_0.1.2.orig.tar.xz
- d156c2b5e54c25d10c2ce4c9d3c7d3adeae5adce6fd9a5ab9af9f76768ace34c 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ b65b28026fbba310cbfa4b73697c67c98d38b1fb13644ff52b8d8ac6fd590d1d 301204 purple-line_0.1.2.orig.tar.xz
+ a5480a9341e439816398f02f7f9b02a977beedbb22e48a0a1eb11bbdf7cb0e30 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
 Files: 
- 013f11ec51ddb9d0c61f465c71b8b0eb 290904 purple-line_0.1.2.orig.tar.xz
- 7fab3edfbc06e7a9e883fcb1fa8350a9 2786 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
+ 6e90b63adc68136ee38cefd96e385a6f 301204 purple-line_0.1.2.orig.tar.xz
+ 94a7f40fed2b6774082ea84421383184 2770 purple-line_0.1.2-ubuntu2~precise.debian.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWM/4hAAoJEHoMIndj9+C7YEYIAJk56YCN5gAcpgwIkZR02R8J
-MHBvBFVesl61Ib+YPYGtEK3kGgbt8OlmyRB3sqatCc5dN3GmdLVEC33oW1Kq/qIj
-B6MJWcaWaFR+uDSfP8Fj0uKQShvyQ8ubpg1J3tgH9WVI/vtArF8vfspcdhzBUFXL
-clmoDG0od+VFnTUBSEaX7txl8uWMsWW8JynClditVfSFEg6ufczmhPCyjjnZd4sP
-V+DFaGPOuEfrgaDBF3fBr8HdzaOY7JSrtxXA9AfVhUf3i91TQy1wOIULbwTJex1D
-USyoggiyc2aFzmY4TkN2rpx05ohbPfAV89gN29td1NXjsc7GXxcNIkQ8KYJfPWc=
-=7TNe
+iQEcBAEBAgAGBQJWjJAiAAoJEHoMIndj9+C7BrIIALMj8+RO7NleZ7i6q16hB/Y/
+bYrWu2HcbPSc21yOlyzAa9RjUrBwYwD0Cb4t9cbXNheHvUYdtNVQUH4go6zhCTxs
+oPHHZ910QDvKJDDXIR7ocfEG/dRABiToxAhViW+UdVXrh30PRIlkDfFhR30QgBMy
++/WtBJ3EPpm3K3d5CaIK06NxF4V5Ewv3b5M1TycDPB0q0dRGYKsAlXK3wSZMmDHp
+MA3T4a2RdI6TOCBR/fbxwU+fGH30Z7wkfYbnxoFAAiURbWTMnrfKQYe4I3JuNhtO
+hKjnNWUB67/PeBGlDQEE0+EEVuETX1WtytMXdBdR1BG8fJTypkKAiXzVnn6K0VY=
+=Y+qt
 -----END PGP SIGNATURE-----

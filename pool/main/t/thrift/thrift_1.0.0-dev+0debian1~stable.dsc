@@ -11,7 +11,7 @@ Homepage: http://thrift.apache.org/
 Standards-Version: 3.7.2
 Vcs-Browser: https://git-wip-us.apache.org/repos/asf?p=thrift.git
 Vcs-Git: https://git-wip-us.apache.org/repos/asf/thrift.git
-Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.40-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.40-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
+Build-Depends: debhelper (>= 5), build-essential, mono-gmcs, python-dev, ant, mono-devel, libmono-system-web2.0-cil, erlang-base, ruby-dev | ruby1.9.1-dev, autoconf, automake, pkg-config, libtool, bison, flex, libboost-dev | libboost1.53-dev, python-all, python-all-dev, python-all-dbg, openjdk-6-jdk | java-sdk, libboost-test-dev | libboost-test1.53-dev, libevent-dev, perl (>= 5.8.0-7), php5, php5-dev, libglib2.0-dev, libqt4-dev
 Package-List:
  libthrift-cil deb libs extra arch=all
  libthrift-dev deb libdevel extra arch=any
@@ -24,20 +24,20 @@ Package-List:
  ruby-thrift deb libs extra arch=all
  thrift-compiler deb devel extra arch=any
 Checksums-Sha1:
- e4d8fd34bc544f26162eea90cc77c2e0662c1cb4 12695149 thrift_1.0.0-dev+0debian1~stable.tar.gz
+ 6ca22fc1155839cd66eda9aacde82e67d2edf616 13071120 thrift_1.0.0-dev+0debian1~stable.tar.gz
 Checksums-Sha256:
- 8d34858a17425baaf0a294b6d360f5277c39342de8e0807a057185b6876847ce 12695149 thrift_1.0.0-dev+0debian1~stable.tar.gz
+ 86c201943cb0a39f446beac3f209d98cb31fa2e561461da3bcbbf781006d29a5 13071120 thrift_1.0.0-dev+0debian1~stable.tar.gz
 Files:
- 66ca7a99921d4866575441704097a8c0 12695149 thrift_1.0.0-dev+0debian1~stable.tar.gz
+ 78ea3925516d373e9c92936a551c95fa 13071120 thrift_1.0.0-dev+0debian1~stable.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWNAMUAAoJEHoMIndj9+C704YIAILtU5qflOXUEdxxmfJS8fx1
-q+Sm1dDeakquEMIIMGxDTY8qk/9YzqlZQaeQ4HHB0AquIh7gJ8qaNB8pI+3b/wra
-1fRL1+OfRiiHyBieAiUx1g9LJbsFdr+muD6veu3+BP+ptC1Jb0d1mb/bsFzQcfH2
-nOKQsr0waN6TLxY5cRq2AVPhPMTw5JNgGzAiiY+dZPjJ64aTfvq10LFwqrTAUI0w
-XcII1yC981fpuQBuZW8A10ax797Ycgwqi5GyIC+JYd+wgQWP0diJcux22RANcv4b
-bsy6XaX1xPRhdXiLGOM3hF6iUt6JxXjryGVZQ1/frDBEYmU26kjlCoOA2+9j+Fo=
-=6n2a
+iQEcBAEBAgAGBQJWjcyoAAoJEHoMIndj9+C7r78H/jvyvDTORoNU8ZVmL/Oz/bVR
+OWZxUmAzAx8NFcEPR4x07IeIVTnjM75vsNaiRly2KOy+umlVYV9oZDLgSaGW6plN
+5PXFVd/VSDhBBejYmYVD3r6eosYfICySY24QPn2TQi5wow9CGrzJY+yjEOXA5/Ow
+yd+v/0uW0AyXBB8iWWOpPo3Vwvb8wsue93aK7WqYmw8lymAktl5TxhIGsm+WJoWf
+qHn1VA9/fAnPUbO4xRs/7Zxa9+qCJ4ZtBt3QayTe5jJMTk5SrngRSrKcpucYJ9CP
+E11tKmPSXJeP0BBHGlan8gJ6/zAHGvLGBMoz9OW4Y1e9laNzRFd0P6I1KP4PDCg=
+=CTen
 -----END PGP SIGNATURE-----

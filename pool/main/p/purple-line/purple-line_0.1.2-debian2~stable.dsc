@@ -15,23 +15,23 @@ Package-List:
  purple-line deb contrib/net optional arch=any
  purple-line-dbg deb contrib/debug extra arch=any
 Checksums-Sha1:
- 8df2153ff54e7fa102d84708694814520248b535 290904 purple-line_0.1.2.orig.tar.xz
- ad133d285010cb7cbff0b1e39977c60acd1e2aa4 2760 purple-line_0.1.2-debian2~stable.debian.tar.xz
+ e0ce3e4c403a8e5c64a163cc11f54891a091f51b 301204 purple-line_0.1.2.orig.tar.xz
+ 40a9687116f763f08621daa53ddb1de5a46438de 2736 purple-line_0.1.2-debian2~stable.debian.tar.xz
 Checksums-Sha256:
- 0d34bc8e94c3a34c4fc342d4a1eddc20779d8e38bf95ea5f436781d9b7bcd654 290904 purple-line_0.1.2.orig.tar.xz
- 58932c267db675cf1684bb8e72e8a9676678e4938113771aed757027508fece0 2760 purple-line_0.1.2-debian2~stable.debian.tar.xz
+ b65b28026fbba310cbfa4b73697c67c98d38b1fb13644ff52b8d8ac6fd590d1d 301204 purple-line_0.1.2.orig.tar.xz
+ 688a971abf2f3c9a13532b711f516f823080f6562d4480b5543aabf139b367c5 2736 purple-line_0.1.2-debian2~stable.debian.tar.xz
 Files:
- 013f11ec51ddb9d0c61f465c71b8b0eb 290904 purple-line_0.1.2.orig.tar.xz
- cc40571c151aa2df6075572114e21e1e 2760 purple-line_0.1.2-debian2~stable.debian.tar.xz
+ 6e90b63adc68136ee38cefd96e385a6f 301204 purple-line_0.1.2.orig.tar.xz
+ 3f94d3de8be7d21208cd97b3c9521f73 2736 purple-line_0.1.2-debian2~stable.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWNAMUAAoJEHoMIndj9+C7nQMH/R97I2DkwxUfRG8Vi21eI1My
-rCGvSkiQEie8aHEE9lzHSJa8HexwV3QLiA+KrJbpgSCcaKvUjlcBpTb4zYu+v3Gg
-q1s7fFtEnWfVKD32dAxIf8K7/F7jXUiw33tZCd7Bk79VCOw1gbpk4SZRwSQSyVMC
-DJPsrzpWNE9wqG4Q0srl0ePrGPm9kerh4Z3CGs9Y1bXVXAWNy60ttYJVjIm98EEw
-s2rtq1/MF7naD5pDROmo1QqJYjaaisRmdmaqwgqI8QLrqW4ViMKjDUo2Ej5v+NbR
-0Jdh+YKMlk4bDsbdPF/WCmtcCAYMKis/l3YWEgPHy0Vk5KloFID3JD9ea2ziRm4=
-=sOEF
+iQEcBAEBAgAGBQJWjcyoAAoJEHoMIndj9+C7RJgH/AqN+t0sKt6bc5Q/Fsvm/Wqv
+SqMaGOvJywn4XnXY3E8xv2Kaj90LnhYQB1sJg4LWcOEqBD1xZU2mxhUKQAEbFyrO
+p6KFMuewzLxhLvdWKXQg7q5cHkx5UcRfq4c/NhiYOyaWnx63jliny+d5wc6qdGMM
+9/q7onoMgCKUefcE/0siC3b37jro0TlgWtqQv0iz4QpQkdDs/f6S/af+WV3k7Krx
+iL4q/lDbKqGaiyeI3aUghjvs2S6emHEVVO8yZVjvdp5sBeRR/TutNsws5yX9aUib
+dlb8CGnrih1sXAxlYzOSOKhZZxIJVoW9tJtLasWmeuPHxIjsCCeHrFJxAxDWxj8=
+=1CCH
 -----END PGP SIGNATURE-----
